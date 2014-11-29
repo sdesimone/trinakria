@@ -11,6 +11,26 @@ get_header();
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
 	<h1>Oficinas de Trinakria Tours</h1>
 
+<div class="main container bgcolor">
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/oficinas/Oficina1.JPG" class="img-rounded img-responsive">
+	</div>
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/oficinas/Oficina2.JPG" class="img-rounded img-responsive">
+	</div>
+  </div>
+	<br/>
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/oficinas/Oficina3.JPG" class="img-rounded img-responsive">
+	</div>
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/oficinas/Oficina4.JPG" class="img-rounded img-responsive">
+	</div>
+  </div>
+</div>
+<p/>
 <p>Nuestras oficinas se encuentran en pleno corazón de Barcelona, en el barrio gótico de la ciudad, en el <em>Carrer de Bertrellans 4 Ppal 2ª.</em></p>
 
 <p>Siendo nosotros una Agencia de Viajes Online, hemos preferido no estar a pie de calle y hemos decidido ir en <strong>un espacio de trabajo compartido</strong>, donde pequeñas empresas como la nuestra trabajan, colaboran y comparten gastos y charlas cada día. Esta fórmula de trabajo se llama <a href="#">Coworking</a> y nos parece sea la mejor manera para poder estar en el centro histórico de una ciudad y tener una instalaciones grandes y modernas siendo nosotros una pequeña empresa.</p>

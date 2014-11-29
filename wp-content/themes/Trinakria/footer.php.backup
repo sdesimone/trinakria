@@ -37,22 +37,19 @@
     </div>
   </div>
   <div class="badges">
-<p class="pull-right">
-<br/>
-<small><strong>TRINAKRIA TOURS SL - B64429947</strong><br/>
+    <div class="container text-center text-muted">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES" target="_blank" title="Zágara Travel de Trinakria Tour está bajo una licencia Creative Commons."><img alt="Licencia de Creative Commons" style="border-width:0" src="<?php bloginfo('template_directory'); ?>/img/b-cc.png" /></a><p class="visible-xs">
+          <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">ZágaraTravel</span> <!--de <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.zagaratravel.com" property="cc:attributionName" rel="cc:attributionURL">Trinakria Tours</a> --> bajo una licencia <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons</a>. </p>
+	 <a href="http://www.acave.travel/es/node/8120" target="_blank" title="Trinakria Tours es miembro de ACAVE: asociación corporativa de agencias de viajes especializadas."><img src="<?php bloginfo('template_directory'); ?>/img/b-acav.png"><p class="visible-xs"> Agencia de Viajes miembro de ACAV</p></a>
+	<a href="http://www.lonelyplanet.es/" target="_blank" title="Web recomendada por Lonely Planet en la Guía de Sicilia. De 2008 en adelante."><img src="<?php bloginfo('template_directory'); ?>/img/b-lonely.png"> <p class="visible-xs">
+          Web recomendada por Lonely Planet</p></a> </div>
+
+<small class="pull-right hidden-xs">
+<strong>TRINAKRIA TOURS SL - B64429947</strong><br/>
 Licencia de Agencia de Viajes: GC 1441<br/>
 Reg. Mercantil BCN: Tomo 39243, <br/>
 Folio 0106, Hoja/Dup 342825<br/>
-</small> </p>
-
-    <div class="container text-center text-muted">
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES" target="_blank" title="Zágara Travel de Trinakria Tour está bajo una licencia Creative Commons."><img alt="Licencia de Creative Commons" style="border-width:0" src="<?php bloginfo('template_directory'); ?>/img/b-cc.png" /></a><p class="visible-xs">
-          <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">ZágaraTravel</span> bajo una licencia <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons</a>. </p>
-	 <a href="http://www.acave.travel/es/node/8120" target="_blank" title="Trinakria Tours es miembro de ACAVE: asociación corporativa de agencias de viajes especializadas."><img src="<?php bloginfo('template_directory'); ?>/img/b-acav.png"><p class="visible-xs"> Agencia de Viajes miembro de ACAV</p></a>
-	<a href="http://www.lonelyplanet.es/" target="_blank" title="Web recomendada por Lonely Planet en la Guía de Sicilia. De 2008 en adelante."><img src="<?php bloginfo('template_directory'); ?>/img/b-lonely.png"> <p class="visible-xs">
-          Web recomendada por Lonely Planet</p></a>
-
-</div>
+</small>
   </div>
   <div class="bottom">
     <div class="container text-muted">
