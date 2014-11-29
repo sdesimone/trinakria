@@ -97,7 +97,7 @@ get_header();
 <!--      <img src="<?php bloginfo('template_directory'); ?>/img/f-mapa.jpg" class="img-responsive"> -->
 <img src="<?php bloginfo('template_directory'); ?>/img/f-mapa.jpg" class="img-responsive">
 
-	<p>Conoce más a fondo nuestros destinos leyendo las <strong>guías de viaje</strong> que hemos elaborado. Estas te permitirán sumergirte en cada maravilloso lugar que tenemos en nuestro catálogo de viajes. Descubre historia, cultura, eventos y mira la manera más rápida de llegar a <a href="<?php echo site_url(); ?>/sicilia/">Sicilia</a>, <a href="<?php echo site_url(); ?>/cerdeña/">Cerdeña</a>, <a href="<?php echo site_url(); ?>/puglia/">Puglia</a>, <a href="<?php echo site_url(); ?>/creta/">Creta</a> y <a href="<?php echo site_url(); ?>/malta/">Malta</a> desde los aeropuertos españoles.</p>
+	<p>Conoce más a fondo nuestros destinos leyendo las <strong>guías de viaje</strong> que hemos elaborado. Estas te permitirán sumergirte en cada maravilloso lugar que tenemos en nuestro catálogo de viajes. Descubre historia, cultura, eventos y mira la manera más rápida de llegar a <a href="<?php echo site_url(); ?>/sicilia/">Sicilia</a>, <a href="<?php echo site_url(); ?>/cerdeña/">Cerdeña</a>, <a href="<?php echo site_url(); ?>/puglia/">Puglia</a>, <a href="<?php echo site_url(); ?>/creta/">Creta</a> y <a href="<?php echo site_url(); ?>/malta/">Malta</a> desde los aeropuertos españoles. Disfruta y elige el viaje a tu medida y que más se ajusta a tus deseos. Viajar en el Mediterráneo es pasión!</p>
     </div>
   </div>
 </div>

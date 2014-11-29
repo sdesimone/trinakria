@@ -1,0 +1,26 @@
+/img/nuestroEquipo/Aitor.png
+/img/nuestroEquipo/Antonio e Giovanna_Al Sakali.JPG
+/img/nuestroEquipo/Carmelo.JPG
+/img/nuestroEquipo/Cesare.png
+/img/nuestroEquipo/Enric.jpg
+/img/nuestroEquipo/Giacomo.JPG
+/img/nuestroEquipo/Mario y Marian.JPG
+/img/nuestroEquipo/Piero.JPG
+/img/nuestroEquipo/1-Boris/1-Boris_Trinakria Tours.jpg
+/img/nuestroEquipo/1-Boris/2-Boris_Trinakria Tours.jpg
+/img/nuestroEquipo/1-Boris/3-Boris_Trinakria Tours.png
+/img/nuestroEquipo/1-Boris/4-Boris_Trinakria Tours.JPG
+/img/nuestroEquipo/1-Boris/5-Boris_Trinakria Tours.JPG
+/img/nuestroEquipo/1-Boris/6-Boris_Trinakria Tours.JPG
+/img/nuestroEquipo/2-Gianni/1-Gianni_Trinakria Tours.JPG
+/img/nuestroEquipo/2-Gianni/2-Gianni_Trinakria Tours.JPG
+/img/nuestroEquipo/2-Gianni/3-Gianni_Trinakria Tours.jpg
+/img/nuestroEquipo/2-Gianni/4-Gianni_Trinakria Tours.jpg
+/img/nuestroEquipo/2-Gianni/5-Gianni_Trinakria Tours.jpg
+/img/nuestroEquipo/3-Maria/1-Maria.JPG
+/img/nuestroEquipo/3-Maria/2-Maria.JPG
+/img/nuestroEquipo/3-Maria/3-Maria.jpg
+/img/nuestroEquipo/4-Marta/1-Marta.JPG
+/img/nuestroEquipo/4-Marta/2-Marta.JPG
+/img/nuestroEquipo/4-Marta/3-Marta.JPG
+/img/nuestroEquipo/4-Marta/4-Marta.JPG
