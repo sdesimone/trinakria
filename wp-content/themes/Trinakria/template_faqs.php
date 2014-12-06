@@ -121,7 +121,14 @@ $faq_answers=array(
         <p>Todas las preguntas más frecuentes</p>
   
         <div class="panel-group faqs" id="accordion">
-          <?php for ($nfaq = 1; $nfaq <= 10; $nfaq++) { ?>
+	  <?php 
+		$page = $_GET['page'];
+		if( $page == '') {
+			$page = 1;
+		}
+		$total_pages=count($faq)/10+1;
+		for ($nfaq = ($page-1)*10+1; $nfaq <= $page*10; $nfaq++) { ?>
+
           <div class="panel">
             <div class="panel-heading">
               <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#collapse<?php echo $nfaq; ?>"><span class="num label label-warning"><?php echo $nfaq; ?></span> <span class="caret"></span><?php echo $faq[$nfaq]; ?> </a> </h4>
@@ -133,7 +140,28 @@ $faq_answers=array(
           <?php } ?>
         </div>
         <p>&nbsp;</p>
-        <?php include_once (TEMPLATEPATH . '/inc/pagination.php' );?>
+<!--          
+	<?php //include_once (TEMPLATEPATH . '/inc/pagination.php' );?>
+-->
+
+<div class="col-md-12 text-center">
+<ul class="pagination">
+  <li><a href="/faqs">«</a> </li>
+<?php 
+	$site_root = site_url();
+	for( $i = 1; $i<= $total_pages; $i++) {
+		echo "<li ";
+		if ($i == $page) { 
+			echo "class='active'><a href='#'>$i</a></li>\n";
+		} else {
+			echo "><a href='$site_root/faqs?page=$i'>$i</a></li>\n";
+		} 
+	}
+?>
+  <li><a href="/faqs?page=4">»</a> </li>
+</ul>
+<div>
+
       </main>
       
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar" >

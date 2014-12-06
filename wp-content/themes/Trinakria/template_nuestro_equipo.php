@@ -69,8 +69,6 @@ get_header();
   </div>
 </div>
 
-
-
 <p>Trinakria Tours es mucho más que el equipo de la oficina. <em>Trinakria Tours es gente, propietarios de hoteles en el Mediterráneo y colaboradores de todo tipo. </em><br/>
 Somos <strong>una grande familia</strong> y nuestros tours funcionan sobre todo gracias a toda esta gente y mucha mucha más:</p>
 
@@ -83,6 +81,39 @@ Carmelo de <a href="#">EtnaTao</a><br/>
 Giacomo de <a href="#">NablaStudio</a><br/>
 Antonio y Giovanna de Al Sakali<br/>
 </p>
+
+
+<div class="container bgcolor">
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Aitor.png"  class="img-rounded img-responsive"/></div>
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Antonio e Giovanna_Al Sakali.JPG"  class="img-rounded img-responsive"/></div>
+  </div>
+  <br/>
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Carmelo.JPG"  class="img-rounded img-responsive"/></div>
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Cesare.png"  class="img-rounded img-responsive"/></div>
+  </div>
+  <br/>
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Enric.jpg"  class="img-rounded img-responsive"/></div>
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Giacomo.JPG"  class="img-rounded img-responsive"/></div>
+  </div>
+  <br/>
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Mario y Marian.JPG"  class="img-rounded img-responsive"/></div>
+	<div class="col-md-4 col-sm-4">
+          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Piero.JPG"  class="img-rounded img-responsive"/></div>
+  </div>
+</div>
+  <br/>
+
 
 <p>Esto es lo que piensan nuestros clientes del network que hemos creado:<br/>
 <em>"Lo más increíble de todo, es que cuando hablas con los amigos, etc...ves como muchos de ellos han intentado viajar a Sicilia pero con el típico tour operador, o por su cuenta, no se si por precios o porque la oferta o itinerario que ofrecen es muy cara o no acaba de convencer, muchos de ellos se han echado para atrás y finalmente no han viajado a esta isla...desde luego les estoy pasando tu web para que puedan descubrir que lo tenéis muy bien montado y que notas que realmente esto es vuestro negocio..pero que no todo es business sino un proyecto para que la gente conozca vuestra tierra y se le pueda dar una vuelta a los tópicos de siempre, <strong>hay un ambiente entre todos vosotros de amistad y de ilusión en un proyecto común</strong> y eso no se ve todos los días, y menos cuando hablamos de turismo" (Manoli, Tarragona)</em>

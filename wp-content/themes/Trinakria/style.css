@@ -574,4 +574,19 @@ a.button-xs {
 	height: 160px;
 	overflow-y: scroll;
 }
+
+/*style for clickable map*/
+#medit { 
+	position: relative;
+	width: 100%; 
+	padding-bottom: 77%;
+	vertical-align: middle; 
+	margin: 0; 
+	overflow: hidden; 
+}
+#medit svg { 
+	display: inline-block;
+	position: absolute; 
+	top: 0; left: 0; 
+}
 }

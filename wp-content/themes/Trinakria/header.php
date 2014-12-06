@@ -8,7 +8,7 @@
 <meta name="author" content="xarop.com">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/favicon.png">
 <link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/img/apple-touch-icon.png">
-<title>Sicilia : Zágara Travel</title>
+<title>Zágara Travel</title>
 <link href="<?php bloginfo('template_directory'); ?>/js/fotorama/fotorama.css" rel="stylesheet">
 <!--<link href="<?php bloginfo('template_directory'); ?>/js/datepicker/css/datepicker.css" rel="stylesheet"> -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
       <div class="pull-left hidden-xs"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/favicon.png" height="24"> ZágaraTravel</a> es un proyecto <a href="#">Trinakria Tours</a> especialista en viajes mediterraneos y artesanos. </div>
       <ul class="list-inline pull-right">
         <li class="hidden-xs"><a href="<?php echo site_url(); ?>/faqs/"><span class="visible-sm">FAQs</span><span class="hidden-sm">Preguntas frecuentes</span></a> </li>
-        <li class="visible-xs"><strong><a href="<?php echo site_url(); ?>/contactar/">Contactar</a></strong></li>
+        <li class="visible-xs"><a href="<?php echo site_url(); ?>/contactar/">Contactar</a></li>
         
       </ul>
     </div>

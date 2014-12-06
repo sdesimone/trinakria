@@ -58,7 +58,6 @@ else {$parent = get_post( $post )->post_name;}
   </ul>
   <ul class="nav navbar-nav navbar-right">
     <li> <a href="<?php echo site_url(); ?>/blog/">Blog</a> </li>
-    <!--<li><a href="<?php echo site_url(); ?>/faqs/">FAQs</a> </li> -->
-    <li><strong><a href="<?php echo site_url(); ?>/contactar/">Contactar</a></strong></li>
+    <li><a href="<?php echo site_url(); ?>/contactar/"><strong>Contactar</strong></a></li>
   </ul>
 </nav>

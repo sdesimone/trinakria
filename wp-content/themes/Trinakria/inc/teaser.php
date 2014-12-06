@@ -13,6 +13,11 @@
         </div>
       </form>
     </div>
+
+<!-- 
+<?php //wp_mail( $to, $subject, $message, $headers, $attachments ); ?> 
+-->
+
     <div class="col-md-4 col-sm-4 text-center">
        <small>Llámanos (de 10 a 18h de lunes a viernes)</small><br><strong><a href="tel:+34 935147831" class="button-xs"><span class="text-muted">+34</span> 935 147 831</a></strong><br>
        <a href="mailto:info@zagaratravel.com" class="text-muted button-xs"> <i class="glyphicon glyphicon-envelope"></i> info@zagaratravel.com</a>
