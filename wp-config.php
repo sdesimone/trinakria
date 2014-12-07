@@ -25,7 +25,7 @@ define('DB_USER', 'adminpXMZk98');
 define('DB_PASSWORD', 'qvgKi3btPlUF');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'OPENSHIFT_MYSQL_DB_HOST');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
