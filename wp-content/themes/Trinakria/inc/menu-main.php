@@ -11,7 +11,7 @@ else {$parent = get_post( $post )->post_name;}
     <li class="<?php if (is_home()){ echo 'active'; }?>"><a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/favicon.png"  height="24" class="visible-affix"> Inicio</a> </li>
     <li class="dropdown"> <a href="<?php echo site_url(); ?>/quienes-somos/" class="dropdown-toggle disabled" data-toggle="dropdown">Quienes somos <b class="caret"></b></a>
       <ul class="dropdown-menu">
-        <li><a href="<?php echo site_url(); ?>/quienes-somos/">¡Nosotros!</a></li>
+        <li><a href="<?php echo site_url(); ?>/nuestro-equipo/">Nuestro Equipo</a></li>
         <li><a href="<?php echo site_url(); ?>/filosofia/">Filosofia</a></li>
         <li><a href="<?php echo site_url(); ?>/porque/">Porqué ZÁGARA</a></li>
         <li><a href="<?php echo site_url(); ?>/testimonios/">Nuestros Clientes dicen...</a></li>

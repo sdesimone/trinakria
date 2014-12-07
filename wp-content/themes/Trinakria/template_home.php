@@ -11,10 +11,18 @@ get_header();
   
   <!-- Fotorama -->
   <div class="fotorama dots" data-loop="true" data-allowfullscreen="true" data-autoplay="true"> 
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/1-Bici-Mediterranea_JLH.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/1-Bici-Mediterranea.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/2-Marsala_molino+atardecer.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/3-Scopello_tonnara.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/4-SEGESTA.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/5-mariposa+cerdeña.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/6-Pastores.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/7-Viajeros_Trinakria+Tours_25.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/8-Alicudi+y+Filicudi+desde+Salina_1.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/9-particular+barco+maltés.jpg" data-caption="">
 	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/10-Playa+de+la+pelosa.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/11-Etna_fila+di+persone_RM.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/12-Piazza+Duomo+Ragusa+Ibla_RL.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/11-Etna_fila+di+persone.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/12-Piazza+Duomo+Ragusa+Ibla.jpg" data-caption="">
 	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/13-meana+sardo+domos+antigas+376.jpg" data-caption="">
 	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/14-riserva+dello+zingaro.jpg" data-caption="">
 	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/15-Rinella-Salina.JPG" data-caption="">
@@ -22,19 +30,11 @@ get_header();
 	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/17-Strombolicchio2.jpg" data-caption="">
 	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/18-Lavadero+-+Cefalu.jpg" data-caption="">
 	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/19-Iglesia+de+San+Francesco_Alghero.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/2-Marsala_molino+atardecer_RM.jpg" data-caption="">
 	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/20-a+Vela+verso+Marettimo.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/21+CATANIA+la+pescheria_JLH.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/21+CATANIA+la+pescheria.jpg" data-caption="">
 	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/22-Cala+Luna_Cerdeña.jpg" data-caption="">
 	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/23-Viajeros_Trinakria+Tours_23.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/24-Souvenirs_JLH.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/3-Scopello_tonnara_RM.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/4-SEGESTA_JLH.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/5-mariposa+cerdeña.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/6-Pastores.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/7-Viajeros_Trinakria+Tours_25.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/8-Alicudi+y+Filicudi+desde+Salina_1.jpg" data-caption="">
-	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/9-particular+barco+maltés.jpg" data-caption="">
+	<img src="<?php bloginfo('template_directory'); ?>/img/fotorama/24-Souvenirs.jpg" data-caption="">
   </div>
   <!-- /.fotorama -->
 

@@ -16,10 +16,10 @@
       <div class="col-md-4 col-sm-4">
         <h3>Conócenos mejor</h3>
         <ul class="widget">
-          <li><a href="<?php echo site_url(); ?>/nosotros/">Nosotros</a> </li>
+          <li><a href="<?php echo site_url(); ?>/quienes-somos/">Trinakria Tours</a> </li>
+          <li><a href="<?php echo site_url(); ?>/nuestro-equipo/">Nuestro Equipo</a> </li>
           <li><a href="<?php echo site_url(); ?>/filosofia/">Filosofia</a> </li>
-          <li><a href="<?php echo site_url(); ?>/porque/">¿Porqué Zagara?</a></li>
-          <li><a href="<?php echo site_url(); ?>/testimonios/">Nuestros clientes dicen</a></li>
+          <li><a href="<?php echo site_url(); ?>/testimonios/">Nuestros clientes dicen...</a></li>
           <li><a href="<?php echo site_url(); ?>/faqs/">Preguntas frecuentes</a></li>
         </ul>
       </div>
@@ -29,22 +29,14 @@
           <li><a href="<?php echo site_url(); ?>/contactar/">Formulario de contacto</a> </li>
           <li><a href="<?php echo site_url(); ?>/oficinas/">Oficinas</a> </li>
           <li><a href="http://www.facebook.com/trinakriatours/" target="_blank">Facebook</a></li>
-          <li><a href="http://twitter.com/trinakriatours/" target="_blank">Twitter</a></li>
-          <li><a href="http://www.youtube.com/trinakriatours/"  target="_blank">Youtube</a></li>
+          <li><a href="https://plus.google.com/+TrinakriaToursBarcelona"  target="_blank">Google+</a></li>
+          <li><a href="https://twitter.com/hashtag/Pasi%C3%B3nMediterr%C3%A1nea" target="_blank">#passiónmediterránea</a></li>
           <!--<li><a href="mailto:info@zagaratravel.com">info@zagaratravel.com</a></li> -->
         </ul>
       </div>
     </div>
   </div>
   <div class="badges">
-<p class="pull-right">
-<br/>
-<small><strong>TRINAKRIA TOURS SL - B64429947</strong><br/>
-Licencia de Agencia de Viajes: GC 1441<br/>
-Reg. Mercantil BCN: Tomo 39243, <br/>
-Folio 0106, Hoja/Dup 342825<br/>
-</small> </p>
-
     <div class="container text-center text-muted">
       <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES" target="_blank" title="Zágara Travel de Trinakria Tour está bajo una licencia Creative Commons."><img alt="Licencia de Creative Commons" style="border-width:0" src="<?php bloginfo('template_directory'); ?>/img/b-cc.png" /></a><p class="visible-xs">
           <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">ZágaraTravel</span> bajo una licencia <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons</a>. </p>

@@ -122,12 +122,15 @@ $faq_answers=array(
   
         <div class="panel-group faqs" id="accordion">
 	  <?php 
-		$page = $_GET['page'];
-		if( $page == '') {
-			$page = 1;
+		global $wp_query;
+		if (isset($wp_query->query_vars['page'])) {
+			$page = $wp_query->query_vars['page'];
 		}
+		if ($page == 0)
+			$page = 1;
+
 		$total_pages=count($faq)/10+1;
-		for ($nfaq = ($page-1)*10+1; $nfaq <= $page*10; $nfaq++) { ?>
+		for ($nfaq = ($page-1)*10+1; $nfaq <= $page*10 && $nfaq < count($faq); $nfaq++) { ?>
 
           <div class="panel">
             <div class="panel-heading">
