@@ -1,6 +1,6 @@
 <?php include_once (TEMPLATEPATH . '/inc/_data.php' );?>
 <?php 
-/* Template Name: Ruta Cerdena 3 */
+/* Template Name: Ruta Cerdena 1 */
 get_header();
 $destino='Cerdeña';
 ?>
@@ -12,33 +12,38 @@ $destino='Cerdeña';
     <div class="row">
       <?php $submenu=1; include_once (TEMPLATEPATH . '/inc/menu-sub.php' );?>
       <main class="main main-left col-md-6 col-sm-6 col-xs-12">
-        <h1><?php echo $ruta; ?></h1>
+	<h1>Cerdeña con encanto </h1>
+	<small>Ideal Luna de miel y viaje romántico a Cerdeña</small><br/>
         <div class="bs-example bs-example-tabs">
           <ul id="myTab" class="nav nav-tabs strong">
             <li class="active"><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-            <li><a href="#precios" data-toggle="tab">Precios</a></li>
-            <li><a href="#reserva" data-toggle="tab">Reserva</a></li>
+            <li><a href="#ficha-tecnica" data-toggle="tab">Ficha Técnica</a></li>
+            <li><a href="#reserva" data-toggle="tab">Solicitar Viaje</a></li>
             <li><a href="#amigo" data-toggle="tab">Díselo a un amigo</a></li>
-            <!--<li class="dropdown hidden-xs"> <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">Mas <b class="caret"></b></a>
-              <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
-                <li><a href="#dropdown2" tabindex="-1" data-toggle="tab">Díselo a un amigo</a></li>
-              </ul>
-            </li> -->
           </ul>
           <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade in active" id="descripcion">
-              <p class="text-muted"><small>Un viaje a tu medida</small></p>
               <div class="scrolly-xs">
-                <p>Viajar por <?php echo $destino; ?> descubriéndola desde sus costas hasta el misterioso y montañoso interior! Esta que os proponemos es una ruta completa de la isla que os ayudará a enamoraros de sus paisajes, sus habitantes y su maravillosa gastronomía. Viajar alojándose en B&amp;Bs quiere decir entrar a contacto directo con la gente del lugar que según nuestra manera de entender el turismo es a veces más importante del lugar en sí mismo.</p>
-                <p>Los Bed and Breakfast han sido seleccionados por los guías de Trinakria Tours para saborear <?php echo $destino; ?> de manera sencilla y agradable. Esta ruta garantiza una atmósfera familiar y un ritmo calmado.</p>
-                <h2>Bed &amp; Breakfast de la ruta</h2>
-                <p class="text-muted">Julio y Agosto mín. 3 días por B&amp;B*:</p>
+<p>Cerdeña con encanto es una ruta particular, muy sugestiva y que os permitirá descubrir las costas de la isla desde la más virgen a la más famosas y glamour. Los alojamientos, algunos antiguos y otros modernos, han sido restaurados de manera muy atenta y elegante para que sus huéspedes se encuentren lo más cómodos y confortables posible. Es una de las mejores selecciones de hoteles con encanto de Cerdeña.</p>
+
+<p>En nuestra concepción de turismo el ‘lujo’ no es el de los grandes hoteles a 5 estrellas sino el de las pequeñas casas históricas donde el cuidado del detalle es sorprendente así como la recepción, cálida pero discreta y atenta a las exigencias de los huéspedes. Los Boutiques Hotels de Cerdeña te ofrecen esta atmósfera única.</p>
+ 
+<p>Todos los pequeños hoteles de esta ruta han sido escogido personalmente por <strong>Trinakria Tours</strong> para saborear Cerdeña y al mismo tiempo gozar de las comodidades de alojamientos de un nivel alto.</p>
+
+<p><strong><a href="#">Ver los precios de la ruta</a></strong></p>
+
+<p><strong>Importante:</strong> Esta ruta con encanto por Cerdeña está estudiada para una <em>estancia de 15 días</em>, si vais a viajar menos o más días podemos confeccionaros <strong>un viaje hecho a medida</strong> para vosotros</p>
+
+                <h2>Pequeños Hoteles de la ruta</h2>
+                <p class="text-muted"><strong>Julio y Agosto mínimo 3 noches por Hotel*:</strong></p>
                 <ol>
-                <?php  $nn=0; foreach ($data[$destino]['fichas'] as $value) { $nn++; ?>
-                  <li><a href="#b<?php echo $nn; ?>" class="smooth">B&amp;B “<?php echo $value; ?>” <small>Santa Venerina, Catania</small></a></li>
-                  <?php } ?> 
+		  <li><a href="#" class="smooth">Wine Resort "Leda d’Ittiri"</a> <small class="text-muted">Alghero </small></a></li>
+		  <li><a href="#" class="smooth">Hotel "Lucrezia" Riola Sardo</a>, <small class="text-muted">Oristano </small></a></li>
+		  <li><a href="#" class="smooth">Hotel Relais "Villa del Borgo" Pula</a>, <small class="text-muted">Cagliari </small></a></li>
+		  <li><a href="#" class="smooth">Hotel "Antico Palathos" Orosei</a>, <small class="text-muted">Nuoro </small></a></li>
+		  <li><a href="#" class="smooth">Hotel "Stazzo Lu Ciaccaru"</a> <small class="text-muted">Arzachena Olbia-Tempio </small></a></li>
                 </ol>
-                <p class="spacer"> <small>*Este tour está estudiado considerando que llegáis y salís desde el aeropuerto de Catania. Es posible invertir el sentido del tour en caso de llegada y salida desde el aeropuerto de Palermo o bien adaptarlo en caso de llegada en otro aeropuerto.</small></p>
+		<p class="spacer"> <small>*Este tour está estudiado considerando que llegáis y salís desde el aeropuerto de ALGHERO. Es posible invertir el sentido del tour en caso de llegada y salida a o desde el aeropuerto de Cagliari o bien adaptarlo en caso de llegada en otro aeropuerto.</small></p>
                 
                 
                 <?php  $nn=0; foreach ($data[$destino]['fichas'] as $value) { $nn++; ?>
@@ -53,74 +58,126 @@ $destino='Cerdeña';
                 </div>
                  <?php } ?>
                 
-                <div class="spacer"></div>
-                <p> <small>*Este tour está estudiado considerando que llegáis y salís desde el aeropuerto de Catania. Es posible invertir el sentido del tour en caso de llegada y salida desde el aeropuerto de Palermo o bien adaptarlo en caso de llegada en otro aeropuerto.</small></p>
               </div>
             </div>
-            <div class="tab-pane fade" id="precios">
+            <div class="tab-pane fade" id="ficha-tecnica">
+<h3>Tipo de Alojamiento:</h3>
+<p>Boutiques Hotels y Relais. Todas las habitaciones tienen baño privado dentro de la habitación.</p>
+
+<h3>Precios de la ruta:</h3>
+<p class="text-muted"><strong>Desde 740,00 € por persona </strong></p>
+<strong><a href="#">Ver los precios de la ruta</a></strong>
+
+<h3>Número de días:</h3>
+<p>Mínimo 8 (Para visitar bien la isla aconsejamos elegir la opción TOUR 15 días)</p>
+<p class="text-muted"><small>Aconsejamos elegir la combinación de 15 días que es un tiempo razonable para visitar la isla con calma.</small></p>
+
+<h3>Mejores temporadas para este tipo de tour:</h3>
+<p>Semana Santa - Primavera (Abr-Jun) - Septiembre - Octubre</p>
+<p>La <u>Reservas para Agosto</u> serán tramitadas hasta máximo el mes de Mayo.</p>
+<p>No aconsejamos planear el viaje desde el 5 hasta el 24 de Agosto porque es la única temporada en la que la isla se llena totalmente y no es agradable viajar y visitar lugares y playas. Consideramos mucho más ‘sostenible’ elegir meses como Junio o Septiembre</p>
+
+<h3>El Precio incluye:</h3>
+<p>Alojamiento en Habitación doble estándar, Desayuno, Coche de alquiler categoría B (i), Gastos administrativos, gastos de administración paquete vacacional, IVA e impuestos.</p>
+<h3>El Precio NO incluye:</h3>
+<p>vuelos (ii), seguro de viaje (iii), comidas, cenas y otros gastos personales.</p>
+
+<ol>
+<li>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a Todo Riesgo para daños y hurto. (<a href="#">Condiciones de alquiler de coche</a>)</li>
+<li>(ii) No tramitamos vuelos porque la mayoría de compañías que vuelan a Cerdeña son de bajo coste y entendemos que es más económico si los compráis online vosotros mismos. Aquí aconsejamos sobre <a href="#">como llegar a Cerdeña</a>.</li>
+<li>(iii) Bajo petición Tramitamos Seguros de Anulación y de Asistencia sanitaria. Nuestro proveedor de seguros habitual es AXA.</li>
+</ol>
+
+<h3>Opciones y Extras:</h3>
+<p>Por separado es posible contratar actividades, experiencias, excursiones o cenas</p>
+
+<p>IMPORTANTE: Para que todo quede claro no olvides de leer detenidamente nuestras <a href="#">condiciones de contratación</a> aunque es la parte más aburrida del contenido de esta página Web.</p>
+
+
+<p> Trinakria Tours - Precios "CERDEÑA CON ENCANTO" </p>
+<p> Los precios (*) están expresados en Euros y son <strong>precios por persona</strong> - reserva mínima: 2 personas</p>
+
               <table class="table">
                 <thead>
+		  <tr>
+		    <th colspan='3'> Cerdeña con encanto</th>
+		  </tr>
                   <tr>
-                    <th>Desde</th>
-                    <th>Hasta</th>
-                    <th align="right"><strong>A partir de:</strong></th>
+                    <th align='left'></th>
+                    <th>Baja</th>
+                    <th>Alta</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>01/01/2014</td>
-                    <td>04/04/2014</td>
-                    <td align="right"><strong>60,00€</strong></td>
+                    <td align='left'>7 noches</td>
+                    <td>740 €</td>
+                    <td>1.034 €</td>
                   </tr>
                   <tr>
-                    <td>05/04/2014</td>
-                    <td>02/11/2014</td>
-                    <td align="right"><strong>80,00€</strong></td>
+                    <td align='left'>8 noches</td>
+                    <td>845 €</td>
+                    <td>1.182 €</td>
                   </tr>
                   <tr>
-                    <td>03/11/2014</td>
-                    <td>31/12/2014</td>
-                    <td align="right"><strong>70,00€</strong></td>
+                    <td align='left'>9 noches</td>
+                    <td>951 €</td>
+                    <td>1.329 €</td>
+                  </tr>
+                  <tr>
+                    <td align='left'>10 noches</td>
+                    <td>1.057 €</td>
+                    <td>1.477 €</td>
+                  </tr>
+                  <tr>
+                    <td align='left'>11 noches</td>
+                    <td>1.162 €</td>
+                    <td>1.625 €</td>
+                  </tr>
+                  <tr>
+                    <td align='left'>12 noches</td>
+                    <td>1.268 €</td>
+                    <td>1.773 €</td>
+                  </tr>
+                  <tr>
+                    <td align='left'>13 noches</td>
+                    <td>1.374 €</td>
+                    <td>1.920 €</td>
+                  </tr>
+                  <tr>
+                    <td align='left'>14 noches</td>
+                    <td>1.480 €</td>
+                    <td>2.068 €</td>
                   </tr>
                 </tbody>
               </table>
-              <small>* Precios por persona/noche en habitación doble.<br>
-              Todos los precios <u>incluyen</u>: habitación con baño privado y desayuno, gastos administrativos de reserva, IVA e impuestos.<br>
-              <em>Precios en habitaciones triples, cuádruples y precios para niños hasta 8 años a consultar</em></small>
+
+<small><p>(*) - Los precios presentes en esta tabla son el promedio de los precios de los alojamientos de nuestros catalogo, el precio final dependerá de los alojamientos que estarán presentes en vuestra propuesta de viaje y del tipo de habitación que elegireis.</p>
+
+<p><em>
+(i) Temporada Alta: Julio - Agosto - Semana Santa - Navidad - Fiestas Nacionales<br/>
+(ii) Temporada Baja: Todos los demás meses del año</em></p>
+
+<p>
+El Precio incluye:<br/>
+Alojamiento en Habitación doble estándar, Desayuno, Coche de alquiler categoría B (i), Gastos administrativos, gastos de administración paquete vacacional, IVA e impuestos.</p>
+<p>
+El Precio NO incluye:<br/>
+vuelos (ii), seguro de viaje (iii), comidas, cenas y otros gastos personales.
+</p>
+
+<p>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a Todo Riesgo para daños y hurto. </p>
+<p>(ii) No tramitamos vuelos porque la mayoría de compañías que vuelan a Cerdeña son de bajo coste y entendemos que es más económico si los compráis online vosotros mismos. </p>
+<p>(iii) Bajo petición Tramitamos Seguros de Anulación y de Asistencia sanitaria. Nuestro proveedor de seguros habitual es AXA.</p>
               <p>&nbsp;</p>
-              <h3>Tipo de Alojamiento:</h3>
-              <p>Bed and Breakfast en pueblos o aldeas.</p>
-              <h3>Precio B&amp;B:</h3>
-              <p> Desde 540,00 € por persona (mín. 2 personas)</p>
-              <h3>Días: </h3>
-              <p>Mínimo 8 (Ideal TOUR 15 días)</p>
-              <p class="small">Aconsejamos elegir la combinación de 15 días que es un tiempo razonable para visitar la isla con calma.</p>
-              <h3>Meses Aconsejados:</h3>
-              <p>Marzo, Abril, Mayo, Junio, Julio (1ª mitad), Agosto (desde el 25), Septiembre, Octubre, Noviembre, Diciembre.</p>
-              <p>La Reservas para Agosto serán tramitadas hasta máximo el mes de Mayo del2014</p>
-              <p>No aconsejamos planear el viaje desde el 5 hasta el 24 de Agosto porqué es la única temporada en la que la isla se llena totalmente y no es agradable viajar y visitar lugares y playas. Consideramos mucho más ‘sostenible’ elegir meses como Junio o Septiembre</p>
-              <h3>El Precio incluye:</h3>
-              <p>Alojamiento en habitación doble, Desayuno, Coche de alquiler categoría B (i), Gastos administrativos, management fee, IVA e impuestos.</p>
-              <h3>El Precio NO incluye:</h3>
-              <p>vuelos (ii), seguro de viaje (ii), comidas, cenas y otros gastos personales.</p>
-              <p>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye el Seguro a Todo Riesgo y de REEMBOLSO FRANQUICIA tramitado a través nuestro broker de autos</p>
-              <p>(ii) Bajo petición de los clientes es posible tramitar vuelos y seguros de cancelación y/o asistencia en cuanto disponemos de buenos acuerdos con algunas de las mejores compañías del sector.</p>
-              <h3>Opciones y Extras:</h3>
-              <p>Es posible contratar por separado algunas de las actividades (excursiones, etc...) que proponemos cuando estas estén hechas en las proximidades de uno de los alojamientos sugeridos.</p>
-              <p><strong>IMPORTANTE: </strong><br>
-                Para que todo quede claro no olvides de leer detenidamente nuestras condiciones de contratación aunque es la parte más aburrida del contenido de esta página Web.</p>
+</small>
             </div>
+
             <div class="tab-pane fade in" id="reserva">
               <?php include_once (TEMPLATEPATH . '/inc/order.php' );?>
             </div>
             <div class="tab-pane fade in" id="amigo">
               <?php include_once (TEMPLATEPATH . '/inc/amigo.php' );?>
-            </div>
-            <div class="tab-pane fade" id="dropdown1">
-              <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
-            </div>
-            <div class="tab-pane fade" id="dropdown2">
-              <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
             </div>
           </div>
         </div>
@@ -130,24 +187,34 @@ $destino='Cerdeña';
           <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps/ms?msa=0&amp;msid=215173641100353389040.0004b92da726a752cf11d&amp;ie=UTF8&amp;ll=37.587412,14.078637&amp;spn=1.033786,2.530289&amp;t=m&amp;output=embed"></iframe>
         </div>
         
-        <!-- Slider Fotorama --> 
-        <!--<div class="fotorama" data-max-width="100%" data-nav="thumbs" data-allowfullscreen="true" data-loop="true"> <img src="http://gnaziu.shinesicily.com/Media/Agenzia_2/Strutture/Struttura_178/Images/Normal/80.jpg" data-caption="Foto 1 descripcion"> <img src="http://gnaziu.shinesicily.com/Media/Agenzia_2/Strutture/Struttura_178/Images/Normal/internolume.jpg" data-caption="Foto 2 descripcion"> <img src="http://gnaziu.shinesicily.com/Media/Agenzia_2/Strutture/Struttura_178/Images/Normal/cameralume2.jpg" data-caption="Foto 5 descripcion"> <img src="http://gnaziu.shinesicily.com/Media/Agenzia_2/Strutture/Struttura_178/Images/Normal/colazionealume.jpg" data-caption="Foto 7 descripcion"> <img src="http://gnaziu.shinesicily.com/Media/Agenzia_2/Strutture/Struttura_178/Images/Normal/bagnolume.jpg" data-caption="Foto 8 descripcion"> <img src="http://gnaziu.shinesicily.com/Media/Agenzia_2/Strutture/Struttura_178/Images/Normal/cameralume.jpg" data-caption="Foto 9 descripcion"> <img src="http://gnaziu.shinesicily.com/Media/Agenzia_2/Strutture/Struttura_178/Images/Normal/61.jpg" data-caption="Foto 10 descripcion"> </div> --> 
-        <!-- /.slider -->
-        
         <div class="sidebar">
           
-          <h3>Otras rutas por <?php echo $destino; ?></h3>
-          <?php foreach ($data[$destino]['rutas'] as $value) { ?>
-          <div class="row list linkable">
-            <div class="col-md-2 col-sm-2 col-xs-2 offset-0"><img src="http://www.shinesicily.com/images/<?php echo $destino; ?>-a-tu-aire.jpg"  class="img-rounded img-responsive"></div>
-            <div class="col-md-10 col-sm-10 col-xs10 description">
-              <h2><a href="/trinakria/ruta/?ruta=<?php echo $value; ?>"><?php echo $value; ?></a></h2>
-              <span class="text-muted">Un viaje a tu medida</span> </div>
-          </div>
-          <?php } ?>
-          <div class="spacer"></div>
-          <a class="btn btn-warning" data-spy="affix" data-offset-top="700" href="/trinakria/rutas/">&laquo; Rutas por <?php echo $destino; ?></a>
+          <h3>Otras rutas por Cerdeña</h3>
           
+          <div class="row list linkable">
+	  <div class="col-md-2 col-sm-2 col-xs-2 offset-0"><img src="<?php bloginfo('template_directory')?>/img/cerdena/rutas/cerdena-a-tu-aire.jpg" class="img-rounded img-responsive"></div>
+            <div class="col-md-10 col-sm-10 col-xs10 description">
+	      <h2><a href="<?php echo site_url()?>/cerdena/rutas/cerdena-a-tu-aire">Cerdeña a tu aire</a></h2>
+              </div>
+          </div>
+          <div class="row list linkable">
+	  <div class="col-md-2 col-sm-2 col-xs-2 offset-0"><img src="<?php bloginfo('template_directory')?>/img/cerdena/rutas/cerdena-rural.jpg"
+		class="img-rounded img-responsive"></div>
+            <div class="col-md-10 col-sm-10 col-xs10 description">
+	      <h2><a href="<?php echo site_url()?>/cerdena/rutas/cerdena-rural">Cerdeña Rural</a></h2>
+              </div>
+          </div>
+          <div class="row list linkable">
+	  <div class="col-md-2 col-sm-2 col-xs-2 offset-0"><img src="<?php bloginfo('template_directory')?>/img/cerdena/rutas/cerdena-con-encanto.jpg"
+		class="img-rounded img-responsive"></div>
+            <div class="col-md-10 col-sm-10 col-xs10 description">
+	      <h2><a href="<?php echo site_url()?>/cerdena/rutas/cerdena-con-encanto">Cerdeña con encanto</a></h2>
+              </div>
+          </div>
+
+
+          <div class="spacer"></div>
+	  <a class="btn btn-warning" data-spy="affix" data-offset-top="700" href="<?php echo site_url()?>/cerdena/rutas/">&laquo; Rutas por Cerdeña</a>
           
           
         </div>

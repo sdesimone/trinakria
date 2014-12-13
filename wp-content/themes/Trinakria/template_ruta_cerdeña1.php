@@ -22,7 +22,6 @@ $destino='Cerdeña';
           </ul>
           <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade in active" id="descripcion">
-              <p class="text-muted"><small>Un viaje a tu medida</small></p>
               <div class="scrolly-xs">
                 <p> Viajar a Cerdeña descubriéndola a tu aire desde sus costas vírgenes hasta el misterioso y montañoso interior! Esta que os proponemos es una ruta completa de la isla que os ayudará a enamoraros de sus paisajes, sus habitantes y su maravillosa gastronomía. Viajar alojándose en Bed &amp; Breakfast quiere decir entrar a contacto directo con la gente del lugar que, según nuestra manera de entender el turismo, es a veces más importante del mismo lugar que se visita.</p>
 
@@ -32,15 +31,15 @@ $destino='Cerdeña';
 
 <p><strong><a href="#">Ver los precios de la ruta</a></strong></p>
 
-<p><strong>Importante:</strong> Nuestras propuestas son ejemplos de Tours de Cerdeña de 15 días, pero organizando nosotros solo viajes a medida es posible adaptarlas a menos o más días, cambiar tipo de alojamiento, lugares y número de noches en cada uno)</p>
+<p><strong>Importante:</strong> Nuestras propuestas son ejemplos de <em>Tours de Cerdeña de 15 días</em>, pero organizando nosotros solo <strong>viajes a medida</strong> es posible adaptarlas a menos o más días, cambiar tipo de alojamiento, lugares y número de noches en cada uno)</p>
                 <h2>Bed &amp; Breakfast de la ruta</h2>
                 <p class="text-muted"><strong>Julio y Agosto mín. 3 noches por B&amp;B*:</strong></p>
                 <ol>
-		  <li><a href="#" class="smooth">Agriturismo "S’Omu" Baratili San Pietro, Oristano</small></a></li>
-		  <li><a href="#" class="smooth">B&amp;B "Casa Anedda" Sinnai, Cagliari</small></a></li>
-		  <li><a href="#" class="smooth">Albergo Diffuso "Mannois" Orosei, Nuoro</small></a></li>
-		  <li><a href="#" class="smooth">B&amp;B "Lu Pastruccialeddu" Arzachena, Olbia-Tempio</small></a></li>
-		  <li><a href="#" class="smooth">B&amp;B "Piazza San Pantaleo" Sorso, Sassari</small></a></li>
+		  <li><a href="#" class="smooth">Agriturismo "S’Omu"</a><small class="text-muted"> Baratili San Pietro, Oristano</small></a></li>
+		  <li><a href="#" class="smooth">B&amp;B "Casa Anedda"</a><small class="text-muted"> Sinnai, Cagliari</small></a></li>
+		  <li><a href="#" class="smooth">Albergo Diffuso "Mannois"</a><small class="text-muted"> Orosei, Nuoro</small></a></li>
+		  <li><a href="#" class="smooth">B&amp;B "Lu Pastruccialeddu"</a><small class="text-muted"> Arzachena, Olbia-Tempio</small></a></li>
+		  <li><a href="#" class="smooth">B&amp;B "Piazza San Pantaleo"</a><small class="text-muted"> Sorso, Sassari</small></a></li>
                 </ol>
 		<p class="spacer"> <small>*Este tour está estudiado considerando que llegáis y salís desde el aeropuerto de ALGHERO. Es posible invertir el sentido del tour en caso de llegada y salida a o desde el aeropuerto de Cagliari o bien adaptarlo en caso de llegada en otro aeropuerto.</small></p>
                 
@@ -93,36 +92,83 @@ $destino='Cerdeña';
 <p>IMPORTANTE: Para que todo quede claro no olvides de leer detenidamente nuestras <a href="#">condiciones de contratación</a> aunque es la parte más aburrida del contenido de esta página Web.</p>
 
 
+<p> Trinakria Tours - Precios "CERDEÑA A TU AIRE" </p>
+<p> Los precios (*) están expresados en Euros y son <strong>precios por persona</strong> - reserva mínima: 2 personas</p>
+
               <table class="table">
                 <thead>
+		  <tr>
+		    <th colspan='3'> Cerdeña a tu aire</th>
+		  </tr>
                   <tr>
-                    <th>Desde</th>
-                    <th>Hasta</th>
-                    <th align="right"><strong>A partir de:</strong></th>
+                    <th align='left'></th>
+                    <th>Baja</th>
+                    <th>Alta</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>01/01/2014</td>
-                    <td>04/04/2014</td>
-                    <td align="right"><strong>60,00€</strong></td>
+                    <td align='left'>7 noches</td>
+                    <td>480 €</td>
+                    <td>570 €</td>
                   </tr>
                   <tr>
-                    <td>05/04/2014</td>
-                    <td>02/11/2014</td>
-                    <td align="right"><strong>80,00€</strong></td>
+                    <td align='left'>8 noches</td>
+                    <td>549 €</td>
+                    <td>651 €</td>
                   </tr>
                   <tr>
-                    <td>03/11/2014</td>
-                    <td>31/12/2014</td>
-                    <td align="right"><strong>70,00€</strong></td>
+                    <td align='left'>9 noches</td>
+                    <td>617 €</td>
+                    <td>733 €</td>
+                  </tr>
+                  <tr>
+                    <td align='left'>10 noches</td>
+                    <td>686 €</td>
+                    <td>814 €</td>
+                  </tr>
+                  <tr>
+                    <td align='left'>11 noches</td>
+                    <td>754 €</td>
+                    <td>896 €</td>
+                  </tr>
+                  <tr>
+                    <td align='left'>12 noches</td>
+                    <td>823 €</td>
+                    <td>977 €</td>
+                  </tr>
+                  <tr>
+                    <td align='left'>13 noches</td>
+                    <td>891 €</td>
+                    <td>1.059 €</td>
+                  </tr>
+                  <tr>
+                    <td align='left'>14 noches</td>
+                    <td>960 €</td>
+                    <td>1.140 €</td>
                   </tr>
                 </tbody>
               </table>
-              <small>* Precios por persona/noche en habitación doble.<br>
-              Todos los precios <u>incluyen</u>: habitación con baño privado y desayuno, gastos administrativos de reserva, IVA e impuestos.<br>
-              <em>Precios en habitaciones triples, cuádruples y precios para niños hasta 8 años a consultar</em></small>
+
+<small><p>(*) - Los precios presentes en esta tabla son el promedio de los precios de los alojamientos de nuestros catalogo, el precio final dependerá de los alojamientos que estarán presentes en vuestra propuesta de viaje y del tipo de habitación que elegireis.</p>
+
+<p><em>
+(i) Temporada Alta: Julio - Agosto - Semana Santa - Navidad - Fiestas Nacionales<br/>
+(ii) Temporada Baja: Todos los demás meses del año</em></p>
+
+<p>
+El Precio incluye:<br/>
+Alojamiento en Habitación doble estándar, Desayuno, Coche de alquiler categoría B (i), Gastos administrativos, gastos de administración paquete vacacional, IVA e impuestos.</p>
+<p>
+El Precio NO incluye:<br/>
+vuelos (ii), seguro de viaje (iii), comidas, cenas y otros gastos personales.
+</p>
+
+<p>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a Todo Riesgo para daños y hurto. </p>
+<p>(ii) No tramitamos vuelos porque la mayoría de compañías que vuelan a Cerdeña son de bajo coste y entendemos que es más económico si los compráis online vosotros mismos. </p>
+<p>(iii) Bajo petición Tramitamos Seguros de Anulación y de Asistencia sanitaria. Nuestro proveedor de seguros habitual es AXA.</p>
               <p>&nbsp;</p>
+</small>
             </div>
 
             <div class="tab-pane fade in" id="reserva">
@@ -147,21 +193,21 @@ $destino='Cerdeña';
 	  <div class="col-md-2 col-sm-2 col-xs-2 offset-0"><img src="<?php bloginfo('template_directory')?>/img/cerdena/rutas/cerdena-a-tu-aire.jpg" class="img-rounded img-responsive"></div>
             <div class="col-md-10 col-sm-10 col-xs10 description">
 	      <h2><a href="<?php echo site_url()?>/cerdena/rutas/cerdena-a-tu-aire">Cerdeña a tu aire</a></h2>
-              <span class="text-muted">Un viaje a tu medida</span> </div>
+              </div>
           </div>
           <div class="row list linkable">
 	  <div class="col-md-2 col-sm-2 col-xs-2 offset-0"><img src="<?php bloginfo('template_directory')?>/img/cerdena/rutas/cerdena-rural.jpg"
 		class="img-rounded img-responsive"></div>
             <div class="col-md-10 col-sm-10 col-xs10 description">
 	      <h2><a href="<?php echo site_url()?>/cerdena/rutas/cerdena-rural">Cerdeña Rural</a></h2>
-              <span class="text-muted">Un viaje a tu medida</span> </div>
+              </div>
           </div>
           <div class="row list linkable">
 	  <div class="col-md-2 col-sm-2 col-xs-2 offset-0"><img src="<?php bloginfo('template_directory')?>/img/cerdena/rutas/cerdena-con-encanto.jpg"
 		class="img-rounded img-responsive"></div>
             <div class="col-md-10 col-sm-10 col-xs10 description">
 	      <h2><a href="<?php echo site_url()?>/cerdena/rutas/cerdena-con-encanto">Cerdeña con encanto</a></h2>
-              <span class="text-muted">Un viaje a tu medida</span> </div>
+              </div>
           </div>
 
 
