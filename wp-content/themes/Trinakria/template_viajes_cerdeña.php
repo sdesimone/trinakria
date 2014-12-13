@@ -44,19 +44,19 @@ $destino='Cerdeña';
       
 
 		<div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
-			<div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/Cerdeña/1-Rutas por Cerdeña.JPG" class="img-rounded img-responsive"></a>
+			<div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/cerdena/1-Rutas por Cerdeña.JPG" class="img-rounded img-responsive"></a>
 				<div class="caption"><center>Rutas por Cerdeña</center></div>
 			</div>
 		</div>
 		<div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
 		<div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
-			<div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/Cerdeña/2-Alojamientos.jpg" class="img-rounded img-responsive"></a>
+			<div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/cerdena/2-Alojamientos.jpg" class="img-rounded img-responsive"></a>
 				<div class="caption"><center>Alojamientos</center></div>
 		
 		</div>
 		<div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
 		<div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
-			<div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/Cerdeña/3-Guia de Viaje.jpg" class="img-rounded img-responsive"></a>
+			<div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/cerdena/3-Guia de Viaje.jpg" class="img-rounded img-responsive"></a>
 				<div class="caption"><center>Guía de viaje</center></div>
 		</div>
 		<div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
