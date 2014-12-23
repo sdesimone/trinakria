@@ -9,7 +9,7 @@ $destino="Cerdeña";
   <!-- Main -->
   <div class="container shadow">
     <div class="row">
-      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub.php' );?>
+      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
         <h1>La historia de Cerdeña</h1>
 <p>Para preparar un viaje a Cerdeña es importante descubrir un poco de su historia y cultura así como los tratos más peculiares de su cocina, el tipo de territorio que tiene o el tiempo que hace durante el año. Aquí hemos preparado una pequeña guía de viaje de Cerdeña que esperamos os sirva para entrar un poco más a contacto con en este destino turístico durante la preparación de vuestro viaje.</p>

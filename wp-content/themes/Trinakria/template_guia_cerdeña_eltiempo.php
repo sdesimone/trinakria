@@ -9,10 +9,13 @@ $destino="Cerdeña";
   <!-- Main -->
   <div class="container shadow">
     <div class="row">
-      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub.php' );?>
+      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
         <h1>El tiempo en Cerdeña</h1>
 <p>El clima de Cerdeña es el típico de las regiones del mediterráneo. La temperatura media, entre máximas y mínimas, a lo largo de todo el año es de 17º. Dependiendo de la estación del año en la costa va de 10º a 32º y en el interior, entre 4º y 22º. En el otoño y en la primavera, Cerdeña cuenta con estaciones particularmente agradables e ideales para hacer un viaje, mientras que en el verano las temperaturas pueden subir mucho sobre todo entre mediados de Julio y mediados de Agosto.</p>
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/4-Eltiempo/0-Promedio_de_temperaturas_en_Cerdeña.png" class="img-rounded img-responsive"/>
+
       </main>
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar" >
         <div class="row">

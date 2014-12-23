@@ -9,9 +9,11 @@ $destino="Cerdeña";
   <!-- Main -->
   <div class="container shadow">
     <div class="row">
-      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub.php' );?>
+      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
         <h1>Geografía de Cerdeña</h1>
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/2-Geografia/0-Mapa_Geografía_Cerdeña.png" class="img-rounded img-responsive"/>
 <p>Cerdeña tiene forma de huella de pie y por eso, los griegos antes y los romanos después, la llamaron "Ichnusa" que significa "forma de pie".</p>
 
 <p>La capital de Cerdeña es Cagliari. La región tiene ocho provincias: <a href="#">Cagliari</a>, <a href="#">Sassari</a>, <a href="#">Nuoro</a>, <a href="#">Oristano</a>, <a href="#">Olbia-Tempio</a>, <a href="#">Ogliastra</a>, <a href="#">Carbonia-Iglesias</a> y <a href="#">Medio Campidano</a>. </p> 

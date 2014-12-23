@@ -9,7 +9,7 @@ $destino="Cerdeña";
   <!-- Main -->
   <div class="container shadow">
     <div class="row">
-      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub.php' );?>
+      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
         <h1>La Cocina de Cerdeña</h1>
 <p>Cerdeña: la isla de los perfumes, olores y colores de una tierra que vive y siente con orgullo todas sus tradiciones; una tierra en la cual el pasado se mezcla con el presente mirando al futuro, el amor por las cosas sencillas de la vida se refleja también en la comida, el momento que nos une a todos: comer, beber, cantar y compartir risas, celebrar la vida, como una familia…los ingredientes de esta cocina vuelven a evocar las tradiciones agro-pastoriles de la isla y celebran el fuerte ligazón que hay entre el hombre y la tierra, algo tan profundo que os marcará para siempre, empezando por los sabores!</p>

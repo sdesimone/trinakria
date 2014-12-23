@@ -9,7 +9,7 @@ $destino="Cerdeña";
   <!-- Main -->
   <div class="container shadow">
     <div class="row">
-      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub.php' );?>
+      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
         <h1>Eventos y fiestas en Cerdeña</h1>
 <p>Conocer los eventos más destacados y las fiestas tradicionales más importantes de Cerdeña hará que tu viaje sea una experiencia irrepetible. <a href="#">Organiza tu viaje</a> a Cerdeña teniendo en cuenta la programación cultural y popular de la isla.</p>

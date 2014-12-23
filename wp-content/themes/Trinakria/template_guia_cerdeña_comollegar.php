@@ -9,7 +9,7 @@ $destino="Cerdeña";
   <!-- Main -->
   <div class="container shadow">
     <div class="row">
-      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub.php' );?>
+      <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
         <h1>Como llegar a Cerdeña</h1>
 <p>Afortunadamente llegar a Cerdeña desde los aeropuertos españoles no es difícil, en los últimos años la conexiones han crecido bastante, sobre todo gracias a la llegada de la varias compañías de bajo y medio coste.</p>

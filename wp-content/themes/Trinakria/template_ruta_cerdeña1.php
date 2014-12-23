@@ -10,7 +10,7 @@ $destino='Cerdeña';
   <!-- Main -->
   <div class="container shadow">
     <div class="row">
-      <?php $submenu=1; include_once (TEMPLATEPATH . '/inc/menu-sub.php' );?>
+      <?php $submenu=1; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
       <main class="main main-left col-md-6 col-sm-6 col-xs-12">
         <h1>Cerdeña a tu aire <small>un tour por libre y a medida por Cerdeña</small></h1>
         <div class="bs-example bs-example-tabs">
@@ -29,7 +29,9 @@ $destino='Cerdeña';
 
 <p>Los B&amp;B de esta ruta han sido seleccionados personalmente por los guías de <strong>Trinakria Tours</strong> para saborear Cerdeña de manera sencilla y agradable. Esta ruta garantiza alojamientos familiares y un ritmo de viaje calmado.</p>
 
-<p><strong><a href="#">Ver los precios de la ruta</a></strong></p>
+<p><strong><a href="<?php bloginfo('template_directory'); ?>/inc/precios/cerdena-a-tu-aire.php" 
+onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/precios/cerdena-a-tu-aire.php','popup','width=500,height=500,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">
+Ver los precios de la ruta</a></strong></p>
 
 <p><strong>Importante:</strong> Nuestras propuestas son ejemplos de <em>Tours de Cerdeña de 15 días</em>, pero organizando nosotros solo <strong>viajes a medida</strong> es posible adaptarlas a menos o más días, cambiar tipo de alojamiento, lugares y número de noches en cada uno)</p>
                 <h2>Bed &amp; Breakfast de la ruta</h2>
@@ -64,7 +66,9 @@ $destino='Cerdeña';
 
 <h3>Precios de la ruta:</h3>
 <p class="text-muted"><strong>Desde 480,00 € por persona </strong></p>
-<strong><a href="#">Ver los precios de la ruta</a></strong>
+<strong><a href="<?php bloginfo('template_directory'); ?>/inc/precios/cerdena-a-tu-aire.php" 
+onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/precios/cerdena-a-tu-aire.php','popup','width=500,height=500,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">
+Ver los precios de la ruta</a></strong>
 
 <h3>Número de días:</h3>
 <p>Mínimo 8 (Para visitar bien la isla aconsejamos elegir la opción TOUR 15 días)</p>
@@ -92,99 +96,13 @@ $destino='Cerdeña';
 <p>IMPORTANTE: Para que todo quede claro no olvides de leer detenidamente nuestras <a href="#">condiciones de contratación</a> aunque es la parte más aburrida del contenido de esta página Web.</p>
 
 
-<p> Trinakria Tours - Precios "CERDEÑA A TU AIRE" </p>
-<p> Los precios (*) están expresados en Euros y son <strong>precios por persona</strong> - reserva mínima: 2 personas</p>
-
-              <table class="table">
-                <thead>
-		  <tr>
-		    <th colspan='3'> Cerdeña a tu aire</th>
-		  </tr>
-                  <tr>
-                    <th align='left'></th>
-                    <th>Baja</th>
-                    <th>Alta</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td align='left'>7 noches</td>
-                    <td>480 €</td>
-                    <td>570 €</td>
-                  </tr>
-                  <tr>
-                    <td align='left'>8 noches</td>
-                    <td>549 €</td>
-                    <td>651 €</td>
-                  </tr>
-                  <tr>
-                    <td align='left'>9 noches</td>
-                    <td>617 €</td>
-                    <td>733 €</td>
-                  </tr>
-                  <tr>
-                    <td align='left'>10 noches</td>
-                    <td>686 €</td>
-                    <td>814 €</td>
-                  </tr>
-                  <tr>
-                    <td align='left'>11 noches</td>
-                    <td>754 €</td>
-                    <td>896 €</td>
-                  </tr>
-                  <tr>
-                    <td align='left'>12 noches</td>
-                    <td>823 €</td>
-                    <td>977 €</td>
-                  </tr>
-                  <tr>
-                    <td align='left'>13 noches</td>
-                    <td>891 €</td>
-                    <td>1.059 €</td>
-                  </tr>
-                  <tr>
-                    <td align='left'>14 noches</td>
-                    <td>960 €</td>
-                    <td>1.140 €</td>
-                  </tr>
-                </tbody>
-              </table>
-
-<small><p>(*) - Los precios presentes en esta tabla son el promedio de los precios de los alojamientos de nuestros catalogo, el precio final dependerá de los alojamientos que estarán presentes en vuestra propuesta de viaje y del tipo de habitación que elegireis.</p>
-
-<p><em>
-(i) Temporada Alta: Julio - Agosto - Semana Santa - Navidad - Fiestas Nacionales<br/>
-(ii) Temporada Baja: Todos los demás meses del año</em></p>
-
-<p>
-El Precio incluye:<br/>
-Alojamiento en Habitación doble estándar, Desayuno, Coche de alquiler categoría B (i), Gastos administrativos, gastos de administración paquete vacacional, IVA e impuestos.</p>
-<p>
-El Precio NO incluye:<br/>
-vuelos (ii), seguro de viaje (iii), comidas, cenas y otros gastos personales.
-</p>
-
-<p>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a Todo Riesgo para daños y hurto. </p>
-<p>(ii) No tramitamos vuelos porque la mayoría de compañías que vuelan a Cerdeña son de bajo coste y entendemos que es más económico si los compráis online vosotros mismos. </p>
-<p>(iii) Bajo petición Tramitamos Seguros de Anulación y de Asistencia sanitaria. Nuestro proveedor de seguros habitual es AXA.</p>
-              <p>&nbsp;</p>
-</small>
-            </div>
-
-            <div class="tab-pane fade in" id="reserva">
-              <?php include_once (TEMPLATEPATH . '/inc/order.php' );?>
-            </div>
-            <div class="tab-pane fade in" id="amigo">
-              <?php include_once (TEMPLATEPATH . '/inc/amigo.php' );?>
-            </div>
-          </div>
         </div>
       </main>
+
       <div class="col-md-6 col-sm-6 col-xs-12 sidebar text-muted" >
-        <div class="map">
-          <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps/ms?msa=0&amp;msid=215173641100353389040.0004b92da726a752cf11d&amp;ie=UTF8&amp;ll=37.587412,14.078637&amp;spn=1.033786,2.530289&amp;t=m&amp;output=embed"></iframe>
-        </div>
-        
+	<div class="map"><img src="<?php bloginfo('template_directory'); ?>/img/cerdena/rutas/cerdena-a-tu-aire/Mapa_Cerdeña_a_tu_aire.png" class="img-rounded img-responsive"/>
+	</div>
+
         <div class="sidebar">
           
           <h3>Otras rutas por Cerdeña</h3>
