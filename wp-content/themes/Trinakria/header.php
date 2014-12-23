@@ -39,7 +39,7 @@
   
 
     <div class="row hidden-xs">
-      <div class="col-md-8 col-sm-8"><a href="<?php echo site_url(); ?>/"><img src="<?php bloginfo('template_directory'); ?>/img/logo.png" class="logo img-responsive"></a></div>
+      <div class="col-md-8 col-sm-8"><a href="<?php echo site_url(); ?>/"><img src="<?php bloginfo('template_directory'); ?>/img/logo.jpg" class="logo img-responsive"></a></div>
       <div class="col-md-4 col-sm-4 text-right">
         <form class="navbar-form search" role="search">
           <div class="input-group">
