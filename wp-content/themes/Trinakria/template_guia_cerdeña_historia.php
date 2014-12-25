@@ -48,26 +48,26 @@ La prehistoria de Cerdeña comienza en torno a 14.000 años antes de Cristo, fec
 <p> Cerdeña fue piemontesa hasta la Unidad de Italia en el 1861. No fueron años memorables para los sardos, porque las medidas aplicadas a la isla no se adaptan bien a la vida de sus ciudadanos que así, con casi quince años de anticipación, experimentaron la difícil relación Norte-Sur que todavía está presente en la vida del país italiano.</p>
 
       </main>
-      <div class="col-md-3 col-sm-3 col-xs-12 sidebar" >
+      <div class="col-md-3 col-sm-3 col-xs-12 sidebar text-muted" >
         <div class="row">
 	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
 		<h3>Secciones destacadas</h3>
 
 		<ul class="widget">
-			  <li class="active"><a href="#">Conoce a Trinakria Tours</a></li>
-			  <li class="active"><a href="#">Nuestro Equipo</a></li>
-			  <li class="active"><a href="#">Preguntas Frecuentes</a></li>
-			  <li class="active"><a href="#">Nuestros Clientes dicen…</a></li>
-			  <li class="active"><a href="#">Como llegar a Cerdeña</a></li>
+			  <li class="linkable"><a href="#">Conoce a Trinakria Tours</a></li>
+			  <li class="linkable"><a href="#">Nuestro Equipo</a></li>
+			  <li class="linkable"><a href="#">Preguntas Frecuentes</a></li>
+			  <li class="linkable"><a href="#">Nuestros Clientes dicen…</a></li>
+			  <li class="linkable"><a href="#">Como llegar a Cerdeña</a></li>
 		</ul>
 	   </div>
           <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs">
 		<h3>Nuestros Tours a Cerdeña</h3>
 
 		<ul class="widget">
-			  <li class="active"><a href="#">Cerdeña a tu aire</a></li>
-			  <li class="active"><a href="#">Cerdeña Rural</a></li>
-			  <li class="active"><a href="#">Cerdeña con Encanto</a></li>
+			  <li class="linkable"><a href="#">Cerdeña a tu aire</a></li>
+			  <li class="linkable"><a href="#">Cerdeña Rural</a></li>
+			  <li class="linkable"><a href="#">Cerdeña con Encanto</a></li>
 		</ul>
           </div>
         </div>
