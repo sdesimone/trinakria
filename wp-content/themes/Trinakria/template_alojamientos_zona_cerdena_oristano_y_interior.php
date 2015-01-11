@@ -1,7 +1,9 @@
 <?php include_once (TEMPLATEPATH . '/inc/_data.php' );?>
+<?php include_once (TEMPLATEPATH . '/utils.php' );?>
 <?php 
 /* Template Name: Alojamientos Zona Cerdeña Oristano*/
 get_header();
+$xml_zona='Zona Oristano'; // String de zona, como aparece en el XML del Backoffice
 ?>
 
 <div class="container nopadding shadow"> 
@@ -18,18 +20,21 @@ get_header();
 
 	<p class="spacer">Oristano está en el centro oeste de Cerdeña y es una ciudadela pequeña y hermosa. Durante el carnaval, la ciudad ofrece uno de los más espectaculares juegos a caballo del mundo: Sa Sartiglia. La oferta turística de Oristano incluye la península del Sinis con sus lindas playas de cuarzo y la ruinas romanas de Tharros. Nuestra selección de alojamientos en Oristano va de la clásica casa rural familiar a un exclusivo Boutique Hotel.</p>
 
-        <?php foreach ($data['Sicilia']['fichas'] as $value) {  ?>
+
+	<?php 
+		$fichas = lista_alojamientos_zona($xml_zona);
+		foreach ($fichas as $ficha) {  ?>
+
         <div class="row list linkable">
-          <div class="col-md-2 col-sm-2 col-xs-4 offset-0"> <a href="/trinakria/ficha/?ficha=<?php echo $value; ?>"><img src="http://gnaziu.shinesicily.com/Media/Agenzia_2/Strutture/Struttura_178/Images/Normal/80.jpg"  class="img-rounded img-responsive"></a> </div>
+	<div class="col-md-2 col-sm-2 col-xs-4 offset-0"> <a href="/trinakria/ficha/?ficha=<?php echo $ficha['id']; ?>"><img src="<?php echo $ficha['photo']?>"  class="img-rounded img-responsive"></a> </div>
           <div class="col-md-8 col-sm-8 col-xs-8 description">
-            <h2><a href="/trinakria/ficha/?ficha=<?php echo $value; ?>"><?php echo $value; ?></a></h2>
-            <span class="text-muted">Paceco Trapani</span>
-            <p class="hidden-xs">La casa ha sido recientemente reformada y decorada con muebles de época para crear una atmósfera única.</p>
+            <h2><a href="/trinakria/ficha/?ficha=<?php echo $ficha['id']; ?>"><?php echo $ficha['name']; ?></a></h2>
+	    <span class="text-muted"><?php echo $ficha['locality']?></span>
+	    <p class="hidden-xs"><?php echo $ficha['description']?></p>
           </div>
-          <div class="col-md-2 col-sm-2 hidden-xs offset-0"> <a href="#"><img src="http://maps.google.com/maps/api/staticmap?center=37.9878583333333,12.5783083333333&zoom=6&size=120x90&markers=color:orange|37.9878583333333,12.5783083333333&sensor=false&key=ABQIAAAAMODomaaa8tP-qfkUyBEOJRQ3scZ6SVrhgLe-YKthzIvFUUaJMBQeYrU5KKfF8g70UdAii8s6bupyBQ" class="img-rounded img-responsive"></a> </div>
+	  <div class="col-md-2 col-sm-2 hidden-xs offset-0"> <a href="#"><img src="http://maps.google.com/maps/api/staticmap?center=<?php echo $ficha['lat']?>,<?php echo $ficha['lon']?>&zoom=6&size=120x90&markers=color:orange|<?php echo $ficha['lat']?>,<?php echo $ficha['lon']?>&sensor=false&key=ABQIAAAAMODomaaa8tP-qfkUyBEOJRQ3scZ6SVrhgLe-YKthzIvFUUaJMBQeYrU5KKfF8g70UdAii8s6bupyBQ" class="img-rounded img-responsive"></a> </div>
         </div>
         <?php } ?>
-        <?php include_once (TEMPLATEPATH . '/inc/pagination.php' );?>
       </main>
 
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar text-muted" >

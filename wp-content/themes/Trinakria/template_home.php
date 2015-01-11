@@ -78,7 +78,7 @@ get_header();
       
       <!-- Slider Fotorama -->
       <div class="fotorama thumbnail" data-max-width="100%" data-nav="thumbs" data-allowfullscreen="true" data-loop="true"> 
-      <img src="<?php bloginfo('template_directory'); ?>/img/f-s1.jpg" data-caption="Foto 1 descripcion"> 
+      <img src="<?php bloginfo('template_directory'); ?>/img/f-s1.jpg" data-caption="Foto 1 descripcion">
       <img src="<?php bloginfo('template_directory'); ?>/img/f-s2.jpg" data-caption="Foto 2 descripcion"> 
       <img src="<?php bloginfo('template_directory'); ?>/img/f-s3.jpg" data-caption="Foto 3 descripcion"> 
       <img src="<?php bloginfo('template_directory'); ?>/img/f-s4.jpg" data-caption="Foto 4 descripcion"> 

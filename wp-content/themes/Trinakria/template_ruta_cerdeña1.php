@@ -6,7 +6,6 @@ $destino='Cerdeña';
 ?>
 
 <div class="container nopadding shadow"> 
-  
   <!-- Main -->
   <div class="container shadow">
     <div class="row">
@@ -34,17 +33,16 @@ onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/precios/cerde
 Ver los precios de la ruta</a></strong></p>
 
 <p><strong>Importante:</strong> Nuestras propuestas son ejemplos de <em>Tours de Cerdeña de 15 días</em>, pero organizando nosotros solo <strong>viajes a medida</strong> es posible adaptarlas a menos o más días, cambiar tipo de alojamiento, lugares y número de noches en cada uno)</p>
-                <h2>Bed &amp; Breakfast de la ruta</h2>
-                <p class="text-muted"><strong>Julio y Agosto mín. 3 noches por B&amp;B*:</strong></p>
-                <ol>
-		  <li><a href="#" class="smooth">Agriturismo "S’Omu"</a><small class="text-muted"> Baratili San Pietro, Oristano</small></a></li>
-		  <li><a href="#" class="smooth">B&amp;B "Casa Anedda"</a><small class="text-muted"> Sinnai, Cagliari</small></a></li>
-		  <li><a href="#" class="smooth">Albergo Diffuso "Mannois"</a><small class="text-muted"> Orosei, Nuoro</small></a></li>
-		  <li><a href="#" class="smooth">B&amp;B "Lu Pastruccialeddu"</a><small class="text-muted"> Arzachena, Olbia-Tempio</small></a></li>
-		  <li><a href="#" class="smooth">B&amp;B "Piazza San Pantaleo"</a><small class="text-muted"> Sorso, Sassari</small></a></li>
-                </ol>
-		<p class="spacer"> <small>*Este tour está estudiado considerando que llegáis y salís desde el aeropuerto de ALGHERO. Es posible invertir el sentido del tour en caso de llegada y salida a o desde el aeropuerto de Cagliari o bien adaptarlo en caso de llegada en otro aeropuerto.</small></p>
-                
+	<h2>Bed &amp; Breakfast de la ruta</h2>
+	<p class="text-muted"><strong>Julio y Agosto mín. 3 noches por B&amp;B*:</strong></p>
+	<ol>
+	  <li><a href="#" class="smooth">Agriturismo "S’Omu"</a><small class="text-muted"> Baratili San Pietro, Oristano</small></a></li>
+	  <li><a href="#" class="smooth">B&amp;B "Casa Anedda"</a><small class="text-muted"> Sinnai, Cagliari</small></a></li>
+	  <li><a href="#" class="smooth">Albergo Diffuso "Mannois"</a><small class="text-muted"> Orosei, Nuoro</small></a></li>
+	  <li><a href="#" class="smooth">B&amp;B "Lu Pastruccialeddu"</a><small class="text-muted"> Arzachena, Olbia-Tempio</small></a></li>
+	  <li><a href="#" class="smooth">B&amp;B "Piazza San Pantaleo"</a><small class="text-muted"> Sorso, Sassari</small></a></li>
+	</ol>
+	<p class="spacer"> <small>*Este tour está estudiado considerando que llegáis y salís desde el aeropuerto de ALGHERO. Es posible invertir el sentido del tour en caso de llegada y salida a o desde el aeropuerto de Cagliari o bien adaptarlo en caso de llegada en otro aeropuerto.</small></p>
                 
                 <?php  $nn=0; foreach ($data[$destino]['fichas'] as $value) { $nn++; ?>
                 <span class="anchor" id="b<?php echo $nn; ?>"></span>
@@ -57,9 +55,9 @@ Ver los precios de la ruta</a></strong></p>
                   </div>
                 </div>
                  <?php } ?>
-                
               </div>
             </div>
+
             <div class="tab-pane fade" id="ficha-tecnica">
 <h3>Tipo de Alojamiento:</h3>
 <p>Bed and Breakfast en pueblos o aldeas. Todas las habitaciones tienen baño privado dentro de la habitación.</p>
@@ -94,9 +92,11 @@ Ver los precios de la ruta</a></strong>
 <p>Por separado es posible contratar actividades, experiencias, excursiones o cenas</p>
 
 <p>IMPORTANTE: Para que todo quede claro no olvides de leer detenidamente nuestras <a href="#">condiciones de contratación</a> aunque es la parte más aburrida del contenido de esta página Web.</p>
+</div>
 
+</div>
+</div>
 
-        </div>
       </main>
 
       <div class="col-md-6 col-sm-6 col-xs-12 sidebar text-muted" >
