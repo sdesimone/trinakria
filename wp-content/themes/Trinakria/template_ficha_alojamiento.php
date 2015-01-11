@@ -136,6 +136,7 @@ get_header();
 	<?php foreach($aloj['photos'] as $photo) { ?>
 		<img src="<?php echo $photo?>" data-caption=""> 
 	<?php } ?>
+	</div>
         <!-- /.slider -->
         
         <div class="map">
