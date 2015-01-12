@@ -45,34 +45,12 @@ get_header();
               <div class="scrolly-xs">
 	      <p><?php echo $aloj['description'];?> </p>
 
-<!-- Cannot match XML fields with the following sections
-
-                <h3>Lugares de interés cercanos </h3>
-                <ul>
-                  <li><strong>Palermo (62 Km en autopista)</strong> – Capital de <?php echo $destino; ?></li>
-                  <li><strong>Agrigento (140 Km)</strong> <strong>Valle de los Templos</strong> griegos IV siglo a.C , Erice (50 Km) – Ciudad Medieval </li>
-                  <li><strong>Parque Natural de lo Zingaro</strong> (18 Km.) – Parque natural sobre el mar</li>
-                  <li><strong>San Vito Lo Capo</strong> (42 Km) – Pueblo marinero patria del Cous Cous a la <?php echo $destino; ?>na</li>
-                  <li><strong>Segesta</strong> (18 Km) – Templo y Anfiteatro Griego</li>
-                  <li><strong>Marsala</strong> y sus salinas y sus maravillosas bodegas de vino. </li>
-                </ul>
-                <p>Otra opción es perderse por las vírgenes <strong>islas Egadi (Levanzo, Marettimo y Favignana)</strong> que se encuentran delante de Trapani.</p>
-                <h3>Categoría </h3>
-                <p>B&amp;B de gestión familiar (Ambiente Rural cerca del Pueblo) </p>
-                <ul>
-                  <li><strong>Habitaciones con Baño Privado</strong>: 4 </li>
-                  <li><strong>Servicios en la habitación</strong>: Toallas, Calefacción, Aire Acondicionado, Cambio de las sábanas cada 3 días </li>
-                  <li><strong>Servicios Comunes</strong>: WiFi, Parking, Jardín y Piscina.</li>
-                </ul>
-                <h3>A destacar</h3>
-                <p>Maravillosos desayunos, Jardín muy bien cuidado, hospitalidad y simpatía de los propietarios, casa del campo en una carretera secundaria pero fácil de encontrar y bastante cerca desde el centro de Trapani y de la autopista (15 minutos de coche), ideal para parejas y pequeños grupos de amigos.</p>
--->
                 <h3>Servicios</h3>
                 <ul class="widget text-muted">
 		<?php foreach($aloj['servicios'] as $servicio){ 
 		         if( $servicio['value'] != ''){ ?>
 				<li class="col-md-6"><span class="glyphicon <?php echo $servicio['icon'];?>"></span><?php echo $servicio['text'] ?></li>
-		<?php    } 
+		<?php   } 
 		      } ?>
 
                 </ul>
@@ -125,8 +103,8 @@ get_header();
         
         <?php if ($ruta){?>
           
-          <div class=""><a class="btn btn-warning  pull-right spacer" href="/trinakria/ruta/?ruta=<?php echo $ruta;?>">Ruta <?php echo $ruta;?></a>
-          </div>
+<!--          <div class=""><a class="btn btn-warning  pull-right spacer" href="/trinakria/ruta/?ruta=<?php echo $ruta;?>">Ruta <?php echo $ruta;?></a>
+          </div>-->
 	
           
 		  <?php  }?>
@@ -140,7 +118,8 @@ get_header();
         <!-- /.slider -->
         
         <div class="map">
-          <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=ca&amp;geocode=&amp;q=la+lume+de+candele+<?php echo $destino; ?>&amp;aq=&amp;sll=46.528635,8.129883&amp;sspn=21.259619,53.569336&amp;t=m&amp;ie=UTF8&amp;hq=la+lume+de+candele&amp;hnear=Sic%C3%ADlia,+It%C3%A0lia&amp;ll=37.980983,12.578301&amp;spn=0.190161,0.41851&amp;z=12&amp;iwloc=A&amp;cid=9427955807918848652&amp;output=embed"></iframe>
+<!--          <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=ca&amp;geocode=&amp;q=la+lume+de+candele+<?php echo $destino; ?>&amp;aq=&amp;sll=46.528635,8.129883&amp;sspn=21.259619,53.569336&amp;t=m&amp;ie=UTF8&amp;hq=la+lume+de+candele&amp;hnear=Sic%C3%ADlia,+It%C3%A0lia&amp;ll=37.980983,12.578301&amp;spn=0.190161,0.41851&amp;z=12&amp;iwloc=A&amp;cid=9427955807918848652&amp;output=embed"></iframe>-->
+<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=ca&amp;geocode=&amp;q=<?php echo $aloj[name]?>+<?php echo $aloj['isla']?>&amp;aq=&amp;z=12&amp;output=embed"></iframe>
         </div>
         <div class="sidebar">
           <!--<h3>Otros alojamientos en la zona</h3>
@@ -159,7 +138,7 @@ get_header();
           
           <?php if ($ruta){?>
           
-          <a class="btn btn-warning" data-spy="affix" data-offset-top="850" href="/trinakria/ruta/?ruta=<?php echo $ruta;?>">&laquo; Volver Ruta <?php echo $ruta;?></a>
+<!--          <a class="btn btn-warning" data-spy="affix" data-offset-top="850" href="/trinakria/ruta/?ruta=<?php echo $ruta;?>">&laquo; Volver Ruta <?php echo $ruta;?></a>-->
           
 		  <?php  } else {?>
     <a class="btn btn-warning" data-spy="affix" data-offset-top="850" href="/trinakria/alojamientos/">&laquo; Alojamientos en <?php echo $destino; ?></a>
