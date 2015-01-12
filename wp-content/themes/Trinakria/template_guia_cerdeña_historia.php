@@ -10,7 +10,41 @@ $destino="Cerdeña";
   <div class="container shadow">
     <div class="row">
       <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
-      <main class="main main-left col-md-9 col-sm-9 col-xs-12">
+      <div class="sidebar col-md-2 col-sm-2 col-xs-2">
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/historia/AlgheroDalPorto.jpg" class="img-rounded img-responsive"/>
+	<br/>
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/historia/AlgheroDeNoche.jpg" class="img-rounded img-responsive"/>
+	<br/>
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/historia/atardecerEnNora.jpg" class="img-rounded img-responsive"/>
+	<br/>
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/historia/Bosa_caseEbarca.jpg" class="img-rounded img-responsive"/>
+	<br/>
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/historia/Bosa_dettaglioColori.jpg" class="img-rounded img-responsive"/>
+	<br/>
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/historia/Bosa.jpg " class="img-rounded img-responsive"/>
+	<br/>
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/historia/Castelsardo_ZagaraTravel.jpg" class="img-rounded img-responsive"/>
+	<br/>
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/historia/mosaico_Nora_Cerdeña.jpg" class="img-rounded img-responsive"/>
+	<br/>
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/historia/nuraghe_Santa Sabina.jpg" class="img-rounded img-responsive"/>
+	<br/>
+
+	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/historia/Pula_Cerdeña.JPG" class="img-rounded img-responsive"/>
+	<br/>
+
+	</div>
+      <main class="main main-left col-md-7 col-sm-7 col-xs-10">
+      <!--<main class="main main-left col-md-9 col-sm-9 col-xs-12">-->
         <h1>La historia de Cerdeña</h1>
 <p>Para preparar un viaje a Cerdeña es importante descubrir un poco de su historia y cultura así como los tratos más peculiares de su cocina, el tipo de territorio que tiene o el tiempo que hace durante el año. Aquí hemos preparado una pequeña guía de viaje de Cerdeña que esperamos os sirva para entrar un poco más a contacto con en este destino turístico durante la preparación de vuestro viaje.</p>
 

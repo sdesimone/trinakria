@@ -10,7 +10,7 @@ $destino="Cerdeña";
   <div class="container shadow">
     <div class="row">
       <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
-      <main class="main main-left col-md-9 col-sm-9 col-xs-12">
+      <main class="main main-left col-md-7 col-sm-7 col-xs-12">
         <h1>Eventos y fiestas en Cerdeña</h1>
 <p>Conocer los eventos más destacados y las fiestas tradicionales más importantes de Cerdeña hará que tu viaje sea una experiencia irrepetible. <a href="#">Organiza tu viaje</a> a Cerdeña teniendo en cuenta la programación cultural y popular de la isla.</p>
 
@@ -76,6 +76,28 @@ En el norte de Cerdeña, en el bonito pueblo costero de <strong>Castelsardo</str
 <p>Sanluri, San Martino-11/11: manifestación religiosa y también conciertos, espectáculos y degustación de productos locales.</p>
 
       </main>
+      <div class="sidebar col-md-2 col-sm-2 col-xs-2">
+
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/eventos/Sartiglia_Cerdeña_Carnaval.jpg" class="img-rounded img-responsive"/>
+<br/>
+
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/eventos/nureci_olimpiadi_della_sardegna055.jpg" class="img-rounded img-responsive"/>
+<br/>
+
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/eventos/Muravera_ sagra_degli_agrumi_249.jpg" class="img-rounded img-responsive"/>
+<br/>
+
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/eventos/mascara Mamoiada_Cerdeña.jpg" class="img-rounded img-responsive"/>
+<br/>
+
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/eventos/Mamuthones_Cerdeña_Carnaval3.jpg" class="img-rounded img-responsive"/>
+<br/>
+
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/eventos/Sartiglia_Cerdeña.jpg" class="img-rounded img-responsive"/>
+<br/>
+
+	</div>
+
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar text-muted" >
         <div class="row">
 	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 

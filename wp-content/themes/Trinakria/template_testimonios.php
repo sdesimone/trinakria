@@ -61,7 +61,8 @@ Os aconsejamos leer detenidamente las opiniones sobre Trinakria Tours ya que cre
       </main>
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar" >
         <div class="row">
-<div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> <img src="<?php bloginfo('template_directory'); ?>/img/testimonios/Viajeros_Trinakria Tours_1.JPG" class="img-rounded img-responsive"> </div>
+<div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
+<img src="<?php bloginfo('template_directory'); ?>/img/testimonios/Viajeros_Trinakria Tours_1.JPG" class="img-rounded img-responsive"> </div>
 <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> <p/></div>
 <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> <img src="<?php bloginfo('template_directory'); ?>/img/testimonios/Viajeros_Trinakria Tours_10.jpg" class="img-rounded img-responsive"> </div>
 <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> <p/></div>

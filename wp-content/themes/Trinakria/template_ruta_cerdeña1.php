@@ -93,10 +93,16 @@ Ver los precios de la ruta</a></strong>
 
 <p>IMPORTANTE: Para que todo quede claro no olvides de leer detenidamente nuestras <a href="#">condiciones de contratación</a> aunque es la parte más aburrida del contenido de esta página Web.</p>
 </div>
-
+            <div class="tab-pane fade in" id="reserva">
+              <?php include_once (TEMPLATEPATH . '/inc/order.php' );?>
+            </div>
+            <div class="tab-pane fade in" id="amigo">
+              <?php include_once (TEMPLATEPATH . '/inc/amigo.php' );?>
+            </div>
 </div>
 </div>
 
+          
       </main>
 
       <div class="col-md-6 col-sm-6 col-xs-12 sidebar text-muted" >

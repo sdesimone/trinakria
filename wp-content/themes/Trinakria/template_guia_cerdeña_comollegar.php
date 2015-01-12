@@ -10,7 +10,23 @@ $destino="Cerdeña";
   <div class="container shadow">
     <div class="row">
       <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
-      <main class="main main-left col-md-9 col-sm-9 col-xs-12">
+      <div class="sidebar col-md-2 col-sm-2 col-xs-2">
+
+<br/>
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/comollegar/bicicleta_galtelli_cerdeña.jpg" class="img-rounded img-responsive"/>
+<br/>
+
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/comollegar/comoLlegar2.jpg" class="img-rounded img-responsive"/>
+<br/>
+
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/comollegar/comoLlegar.jpg" class="img-rounded img-responsive"/>
+<br/>
+
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/comollegar/perdiquaperdila.jpg" class="img-rounded img-responsive"/>
+<br/>
+	</div>
+
+      <main class="main main-left col-md-7 col-sm-7 col-xs-12">
         <h1>Como llegar a Cerdeña</h1>
 <p>Afortunadamente llegar a Cerdeña desde los aeropuertos españoles no es difícil, en los últimos años la conexiones han crecido bastante, sobre todo gracias a la llegada de la varias compañías de bajo y medio coste.</p>
 
