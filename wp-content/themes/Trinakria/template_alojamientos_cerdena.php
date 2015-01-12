@@ -62,18 +62,18 @@ get_header();
         
 		<h3>Secciones destacadas</h3>
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Preguntas Frecuentes</a></li>
-			  <li class="linkable"><a href="#">Nuestros Clientes dicen…</a></li>
-			  <li class="linkable"><a href="#">Como llegar a Cerdeña</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/faqs">Preguntas Frecuentes</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/testimonios">Nuestros Clientes dicen…</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/guia/como-llegar">Como llegar a Cerdeña</a></li>
 		</ul>
 
           <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs">
 		<h3>Nuestros Tours a Cerdeña</h3>
 
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Cerdeña a tu aire</a></li>
-			  <li class="linkable"><a href="#">Cerdeña Rural</a></li>
-			  <li class="linkable"><a href="#">Cerdeña con Encanto</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-a-tu-aire">Cerdeña a tu aire</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-rural">Cerdeña Rural</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-con-encanto">Cerdeña con Encanto</a></li>
 		</ul>
           </div>
 
