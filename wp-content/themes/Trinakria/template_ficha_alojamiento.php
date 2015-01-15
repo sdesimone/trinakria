@@ -10,11 +10,7 @@ get_header();
   <!-- Main -->
   <div class="container shadow">
   
-  
-  
-  
     <div class="row">
-	
 	<?php 
 	global $wp_query;
 	if (isset($wp_query->query_vars['page'])) {
@@ -49,11 +45,11 @@ get_header();
                 <ul class="widget text-muted">
 		<?php foreach($aloj['servicios'] as $servicio){ 
 		         if( $servicio['value'] != ''){ ?>
-				<li class="col-md-6"><span class="glyphicon <?php echo $servicio['icon'];?>"></span><?php echo $servicio['text'] ?></li>
+				<li class="col-md-6"><span class="glyphicon <?php echo $servicio['icon'];?>"></span>&nbsp;&nbsp;<?php echo $servicio['text'] ?></li>
 		<?php   } 
 		      } ?>
-
                 </ul>
+
                 <br/>
                 <br/>
                 <br/>
@@ -79,11 +75,13 @@ get_header();
 		<?php } ?>
                 </tbody>
               </table>
-              <small>* Precios por persona/noche en habitación doble.<br>
+<strong>* Precios por persona/noche en habitación doble.<br>
               Todos los precios <u>incluyen</u>: habitación con baño privado y desayuno, gastos administrativos de reserva, IVA e impuestos.<br>
-              <em>Precios en habitaciones triples, cuádruples y precios para niños hasta 8 años a consultar</em></small>
+	      <em>Precios en habitaciones triples, cuádruples y precios para niños hasta 8 años a consultar</em>
+</strong>
               <p>&nbsp;</p>
             </div>
+
             <div class="tab-pane fade in" id="reserva">
               <?php include_once (TEMPLATEPATH . '/inc/order.php' );?>
             </div>

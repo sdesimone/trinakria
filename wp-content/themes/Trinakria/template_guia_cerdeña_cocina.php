@@ -10,8 +10,9 @@ $destino="Cerdeña";
   <div class="container shadow">
     <div class="row">
       <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
-      <div class="sidebar col-md-2 col-sm-2 col-xs-2">
 
+<!--
+      <div class="sidebar col-md-2 col-sm-2 col-xs-2">
 <img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/comida_tradicional_cerdeña.jpg" class="img-rounded img-responsive"/>
 <br/>
 
@@ -23,9 +24,11 @@ $destino="Cerdeña";
 
 <img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/ogliastra_porceddu.jpg" class="img-rounded img-responsive"/>
 <br/>
-
 	</div>
-      <main class="main main-left col-md-7 col-sm-7 col-xs-12">
+-->
+
+
+      <main class="main main-left col-md-9 col-sm-9 col-xs-12">
         <h1>La Cocina de Cerdeña</h1>
 <p>Cerdeña: la isla de los perfumes, olores y colores de una tierra que vive y siente con orgullo todas sus tradiciones; una tierra en la cual el pasado se mezcla con el presente mirando al futuro, el amor por las cosas sencillas de la vida se refleja también en la comida, el momento que nos une a todos: comer, beber, cantar y compartir risas, celebrar la vida, como una familia…los ingredientes de esta cocina vuelven a evocar las tradiciones agro-pastoriles de la isla y celebran el fuerte ligazón que hay entre el hombre y la tierra, algo tan profundo que os marcará para siempre, empezando por los sabores!</p>
 
@@ -62,7 +65,30 @@ $destino="Cerdeña";
 <h4>VINO</h4>
 <p>Aunque Cerdeña tiene una tradición vinícola milenaria, sólo en los últimos años ha elevado la calidad de su vino a buenos niveles en el ámbito nacional; entre ellos, seguramente los más famosos son el <strong>CANNONAU</strong> y el <strong>VERMENTINO</strong>.</p>
 
+<br/>
+<br/>
 
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/comida_tradicional_cerdeña.jpg" class="img-rounded img-responsive"/>
+	</div>
+
+	<div class="col-md-4 col-sm-4">
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/Malloreddus_alla_campidanese.jpg" class="img-rounded img-responsive"/>
+	</div>
+
+  </div>
+
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/natura_morta.jpg" class="img-rounded img-responsive"/>
+	</div>
+
+	<div class="col-md-4 col-sm-4">
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/ogliastra_porceddu.jpg" class="img-rounded img-responsive"/>
+	</div>
+  </div>
+<div class="spacer"/>
       </main>
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar text-muted" >
         <div class="row">

@@ -10,14 +10,14 @@ $destino="Cerdeña";
   <div class="container shadow">
     <div class="row">
       <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
-      <div class="sidebar col-md-2 col-sm-2 col-xs-2">
 
+<!--
+      <div class="sidebar col-md-2 col-sm-2 col-xs-2">
 <img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/geografia/Nuraghe_ovejas_Cerdeña.jpg" class="img-rounded img-responsive"/>
 <br/>
 
 <img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/geografia/ginepro_secco.JPG" class="img-rounded img-responsive"/>
 <br/>
-
 
 <img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/geografia/DunasDeArenaEn TeuladaCagliari.jpg" class="img-rounded img-responsive"/>
 <br/>
@@ -26,7 +26,10 @@ $destino="Cerdeña";
 <br/>
 
 	</div>
-      <main class="main main-left col-md-7 col-sm-7 col-xs-12">
+-->
+
+
+      <main class="main main-left col-md-9 col-sm-9 col-xs-12">
         <h1>Geografía de Cerdeña</h1>
 
 	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/geografia/0-Mapa_Geografía Cerdeña.png" class="img-rounded img-responsive"/>
@@ -43,6 +46,28 @@ $destino="Cerdeña";
 <p>La mayor característica de sus costas es la grande presencia de golfos que la rinden variada e muy diferente de un lado al otro. Los más emblemáticos son el de la Asinara al norte, el golfo de Orosei al este, el de Cagliari al sur, y de Oristano (la península del Sinis) al oeste. </p>
 
 <p>La isla de Cerdeña está rodeada por muchas islas e islotes. Merece la pena visitar por lo menos una de estas: Asinara, San Pietro, Sant’Antioco, Tavolara, y el archipiélago de la Magdalena, con Caprera.</p>
+<br/>
+
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/geografia/Nuraghe_ovejas_Cerdeña.jpg" class="img-rounded img-responsive"/>
+	</div>
+
+	<div class="col-md-4 col-sm-4">
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/geografia/ginepro_secco.JPG" class="img-rounded img-responsive"/>
+	</div>
+	</div>
+
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/geografia/DunasDeArenaEn TeuladaCagliari.jpg" class="img-rounded img-responsive"/>
+	</div>
+
+	<div class="col-md-4 col-sm-4">
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/geografia/Cala Luna_Cerdeña.jpg" class="img-rounded img-responsive"/>
+	</div>
+
+<div class="spacer"></div>
 
       </main>
 

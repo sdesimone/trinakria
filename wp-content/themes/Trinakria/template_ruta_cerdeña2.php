@@ -12,8 +12,10 @@ $destino='Cerdeña';
     <div class="row">
       <?php $submenu=1; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
       <main class="main main-left col-md-6 col-sm-6 col-xs-12">
-	<h1>Cerdeña rural</h1>
-	<p><small>un Viaje a Cerdeña apto para las Familias y grupos de amigos</small></p>
+
+	<h1>Cerdeña rural <small><small>un Viaje a Cerdeña apto para las Familias y grupos de amigos</small></small></h1>
+	<p/>
+
         <div class="bs-example bs-example-tabs">
           <ul id="myTab" class="nav nav-tabs strong">
             <li class="active"><a href="#descripcion" data-toggle="tab">Descripción</a></li>

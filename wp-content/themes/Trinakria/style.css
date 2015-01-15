@@ -368,6 +368,18 @@ margin-right: 0px;
 	padding: 4px;
 	margin: 0;
 }
+.thumbnail .captionlarge {
+	position: relative;
+	bottom: 40px;
+	height: 26px;
+	margin-bottom: -26px;
+	color: #fff;
+	padding: 2px 8px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight: 300;
+	z-index: 3;
+	width: 100%;
+}
 .thumbnail .caption {
 	position: relative;
 	bottom: 26px;

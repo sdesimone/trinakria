@@ -9,12 +9,12 @@ $destino='Cerdeña';
   
   <!-- Main -->
   <div class="container shadow">
-    <div class="row">
+<!--    <div class="row"> -->
     
     <?php $submenu=1; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
     
     
-      <main class="main main-left col-md-9 col-sm-9 col-xs-12">
+      <main class="main main-left col-md-12 col-sm-12 col-xs-12">
         <h1>Rutas por <?php echo $destino; ?></h1>
         <p>Si prefieres <em>viajar en total libertad</em>, nosotros te proporcionamos <strong>los alojamientos y el coche</strong> y después que prime tu actitud viajera y tu curiosidad!!</p>
 
@@ -59,11 +59,13 @@ Cerdeña Rural es un tour que quiere ofrecer una Cerdeña no solo de mar sino ta
 
         <div class="spacer"></div>
       </main>
+<!--
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar text-muted" >
         <div class="row">
         </div>
       </div>
     </div>
+-->
   </div>
 </div>
 <?php include_once (TEMPLATEPATH . '/inc/teaser.php' );?>
