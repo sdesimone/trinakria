@@ -80,6 +80,7 @@ $destino="Cerdeña";
 	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/comollegar/comoLlegar2.jpg" class="img-rounded img-responsive"/>
 	</div>
   </div>
+<br/>
   <div class="row">
 	<div class="col-md-4 col-sm-4">
 	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/comollegar/comoLlegar.jpg" class="img-rounded img-responsive"/>

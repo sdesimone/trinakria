@@ -42,7 +42,18 @@ function lista_alojamientos_zona($zona){
 			} else {
 				$photo = $sruttura->Immagini->Immagine[0]->Url->Thumb;
 			}            
-			$description = $sruttura->Descrizioni->Descrizione->Espagnol->p;
+
+			$full_description = explode(" ", $sruttura->Descrizioni->Descrizione->Espagnol->p);
+			$i = 0;
+			$max_words = 30;
+			//$total_words = count($full_description);
+			//$max_words = ($total_words > $max_words)? $max_words: $total_words);
+			$description="";
+			for($i = 0; $i < $max_words; $i++){
+				$description = $description.$full_description[$i]." ";
+			}
+			if( count($full_description) > 1 )
+				$description = $description."...&nbsp;&nbsp;<small>Leer más</small>";
 
 			$lat = $sruttura->Anagrafica->Latitudine;
 			$lat = DSMtoDEC($lat);
@@ -91,28 +102,28 @@ function datos_alojamiento($id){
         // services
 //        $servicios[0] = ['value' => $sruttura->SchedaTecnica->DatiGenerali->Parcheggio, 'icon' => 'glyphicons-car', 'text' => 'Pakring en hotel'];
         $servicios[0] = array($sruttura->SchedaTecnica->DatiGenerali->Parcheggio, 'glyphicons-car', 'Parking en hotel');
-        $servicios[1] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Area_verde, 'icon' => 'glyphicon-tree-conifer', 'text' => 'Jardín');
-        $servicios[2] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Piscina, 'icon' => 'glyphicon-pool', 'text' => 'Piscina');
-        $servicios[3] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->AreaBambini, 'icon' => 'glyphicon-baby', 'text' => 'Área infantil');
-        $servicios[4] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Barbecue, 'icon' => 'glyphicon-kiosk-light', 'text' => 'Barbacoa');
-        $servicios[5] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Jacuzzi, 'icon' => 'glyphicon-bath-bathtub', 'text' => 'Jacuzzi');
-        $servicios[6] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->CaniAmmesi, 'icon' => 'glyphicon-dog', 'text' => 'Mascotas admitidas');
-        $servicios[7] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Ristorante, 'icon' => 'glyphicon-dining-set', 'text' => 'Restaurante');
-        $servicios[8] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Biciclette, 'icon' => 'glyphicon-bicycle', 'text' => 'Alquiler de bicicletas');
-        $servicios[9] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->SedieASdraio, 'icon' => 'glyphicon-beach-umbrella', 'text' => 'Área relax');
-        $servicios[10] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->CucinaPerOspiti, 'icon' => 'glyphicon-pot', 'text' => 'Uso de cocina');
-        $servicios[11] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->Televisione, 'icon' => 'glyphicon-tv', 'text' => 'Televisión');            
-        $servicios[12] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->AriaCondizionata, 'icon' => 'glyphicon-snowflake', 'text' => 'Aire Acondicionado');
-        $servicios[13] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->Riscaldamento, 'icon' => 'glyphicon-sun', 'text' => 'Calefacción');
-	$servicios[14] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->Vendilatore, 'icon' => 'glyphicon-car-wheel', 'text' => 'Ventilador');
-        $servicios[15] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->CassaForte, 'icon' => 'glyphicon-lock', 'text' => 'Caja fuerte ');
-        $servicios[16] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->Asciugamani, 'icon' => 'glyphicon-server', 'text' => 'Toallas');
-        $servicios[17] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->Sapone, 'icon' => 'glyphicon-shower', 'text' => 'Gel de baño');
-        $servicios[18] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->FrigoBar, 'icon' => 'glyphicon-glass', 'text' => 'Mini-Bar o Nevera');
-        $servicios[19] = array('value' => $sruttura->SchedaTecnica->Altro->InternetWiFi, 'icon' => 'glyphicon-wifi', 'text' => 'Zona Internet / Wi-Fi');
-        $servicios[20] = array('value' => $sruttura->SchedaTecnica->Altro->Camino, 'icon' => 'glyphicon-fire', 'text' => 'Chimenea');
-        $servicios[21] = array('value' => $sruttura->SchedaTecnica->Altro->Lavatrice, 'icon' => 'glyphicon-coat-hanger', 'text' => 'Lavadora');
-        $servicios[22] = array('value' => $sruttura->SchedaTecnica->Altro->AccessoDisabili, 'icon' => 'glyphicon-person-wheelchair', 'text' => 'Acceso para discapacitados');
+        $servicios[1] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Area_verde, 'icon' => 'glyphicons-tree-conifer', 'text' => 'Jardín');
+        $servicios[2] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Piscina, 'icon' => 'glyphicons-pool', 'text' => 'Piscina');
+        $servicios[3] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->AreaBambini, 'icon' => 'glyphicons-baby-formula', 'text' => 'Área infantil');
+        $servicios[4] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Barbecue, 'icon' => 'glyphicons-kiosk-light', 'text' => 'Barbacoa');
+        $servicios[5] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Jacuzzi, 'icon' => 'glyphicons-bath-bathtub', 'text' => 'Jacuzzi');
+        $servicios[6] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->CaniAmmesi, 'icon' => 'glyphicons-dog', 'text' => 'Mascotas admitidas');
+        $servicios[7] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Ristorante, 'icon' => 'glyphicons-dining-set', 'text' => 'Restaurante');
+        $servicios[8] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Biciclette, 'icon' => 'glyphicons-bicycle', 'text' => 'Alquiler de bicicletas');
+        $servicios[9] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->SedieASdraio, 'icon' => 'glyphicons-beach-umbrella', 'text' => 'Área relax');
+        $servicios[10] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->CucinaPerOspiti, 'icon' => 'glyphicons-pot', 'text' => 'Uso de cocina');
+        $servicios[11] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->Televisione, 'icon' => 'glyphicons-tv', 'text' => 'Televisión');            
+        $servicios[12] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->AriaCondizionata, 'icon' => 'glyphicons-snowflake', 'text' => 'Aire Acondicionado');
+        $servicios[13] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->Riscaldamento, 'icon' => 'glyphicons-sun', 'text' => 'Calefacción');
+	$servicios[14] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->Vendilatore, 'icon' => 'glyphicons-car-wheel', 'text' => 'Ventilador');
+        $servicios[15] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->CassaForte, 'icon' => 'glyphicons-lock', 'text' => 'Caja fuerte ');
+        $servicios[16] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->Asciugamani, 'icon' => 'glyphicons-server', 'text' => 'Toallas');
+        $servicios[17] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->Sapone, 'icon' => 'glyphicons-shower', 'text' => 'Gel de baño');
+        $servicios[18] = array('value' => $sruttura->SchedaTecnica->DatiTecniciStanze->FrigoBar, 'icon' => 'glyphicons-glass', 'text' => 'Mini-Bar o Nevera');
+        $servicios[19] = array('value' => $sruttura->SchedaTecnica->Altro->InternetWiFi, 'icon' => 'glyphicons-wifi', 'text' => 'Zona Internet / Wi-Fi');
+        $servicios[20] = array('value' => $sruttura->SchedaTecnica->Altro->Camino, 'icon' => 'glyphicons-fire', 'text' => 'Chimenea');
+        $servicios[21] = array('value' => $sruttura->SchedaTecnica->Altro->Lavatrice, 'icon' => 'glyphicons-coat-hanger', 'text' => 'Lavadora');
+        $servicios[22] = array('value' => $sruttura->SchedaTecnica->Altro->AccessoDisabili, 'icon' => 'glyphicons-person-wheelchair', 'text' => 'Acceso para discapacitados');
 
         
         // photos

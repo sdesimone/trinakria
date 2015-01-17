@@ -58,6 +58,8 @@ $destino="Cerdeña";
 	</div>
 	</div>
 
+<br/>
+
   <div class="row">
 	<div class="col-md-4 col-sm-4">
 <img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/geografia/DunasDeArenaEn TeuladaCagliari.jpg" class="img-rounded img-responsive"/>

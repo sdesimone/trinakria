@@ -13,6 +13,8 @@
 <!--<link href="<?php bloginfo('template_directory'); ?>/js/datepicker/css/datepicker.css" rel="stylesheet"> -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="<?php bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
+<link href="<?php bloginfo('template_directory'); ?>/css/glyphicons.css" rel="stylesheet">
+<link href="<?php bloginfo('template_directory'); ?>/css/glyphicons-boot-strap.css" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>

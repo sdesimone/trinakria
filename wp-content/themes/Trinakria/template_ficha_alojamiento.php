@@ -45,7 +45,7 @@ get_header();
                 <ul class="widget text-muted">
 		<?php foreach($aloj['servicios'] as $servicio){ 
 		         if( $servicio['value'] != ''){ ?>
-				<li class="col-md-6"><span class="glyphicon <?php echo $servicio['icon'];?>"></span>&nbsp;&nbsp;<?php echo $servicio['text'] ?></li>
+				<li class="col-md-6"><span class="glyphicons <?php echo $servicio['icon'];?>"></span>&nbsp;&nbsp;<?php echo $servicio['text'] ?></li>
 		<?php   } 
 		      } ?>
                 </ul>

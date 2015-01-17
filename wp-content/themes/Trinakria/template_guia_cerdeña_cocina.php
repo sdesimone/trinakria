@@ -68,26 +68,27 @@ $destino="Cerdeña";
 <br/>
 <br/>
 
+<center>
   <div class="row">
 	<div class="col-md-4 col-sm-4">
 <img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/comida_tradicional_cerdeña.jpg" class="img-rounded img-responsive"/>
 	</div>
 
 	<div class="col-md-4 col-sm-4">
-<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/Malloreddus_alla_campidanese.jpg" class="img-rounded img-responsive"/>
-	</div>
-
-  </div>
-
-  <div class="row">
-	<div class="col-md-4 col-sm-4">
 <img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/natura_morta.jpg" class="img-rounded img-responsive"/>
 	</div>
+  </div>
 
+<br/>
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/Malloreddus_alla_campidanese.jpg" class="img-rounded img-responsive"/>
+	</div>
 	<div class="col-md-4 col-sm-4">
 <img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/ogliastra_porceddu.jpg" class="img-rounded img-responsive"/>
 	</div>
   </div>
+</center>
 <div class="spacer"/>
       </main>
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar text-muted" >
