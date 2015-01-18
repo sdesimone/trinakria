@@ -53,7 +53,7 @@ function lista_alojamientos_zona($zona){
 				$description = $description.$full_description[$i]." ";
 			}
 			if( count($full_description) > 1 )
-				$description = $description."...&nbsp;&nbsp;<small>Leer más</small>";
+				$description = $description."...";
 
 			$lat = $sruttura->Anagrafica->Latitudine;
 			$lat = DSMtoDEC($lat);

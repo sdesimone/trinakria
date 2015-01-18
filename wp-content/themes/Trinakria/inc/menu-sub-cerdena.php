@@ -35,17 +35,17 @@
     
     <li class="dropdown"> <a href="<?php echo site_url(); ?>/cerdena/alojamientos/" class="dropdown-toggle disabled <?php if($submenu==2) echo 'active';?>" data-toggle="dropdown">Alojamientos en Cerdeña<b class="caret"></b></a>
       <ul class="dropdown-menu" style="width:220px;">
-	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-alghero">Alghero<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-alghero">Alghero<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Alghero']['position'] ?>"></i></a></li>
 
-	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-oristano-y-interior">Oristano<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-oristano-y-interior">Oristano<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Oristano']['position'] ?>"></i></a></li>
 
-	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-sulcis-iglesiente">Sulcis-Iglesiente<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-sulcis-iglesiente">Sulcis-Iglesiente<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Sulcis-Iglesiente']['position'] ?>"></i></a></li>
 
-	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-cagliari-y-interior">Cagliari<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-cagliari-y-interior">Cagliari<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Cagliari']['position'] ?>"></i></a></li>
 
-	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-nuoro-y-interior">Orosei<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-nuoro-y-interior">Orosei<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Orosei']['position'] ?>"></i></a></li>
 
-	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-gallura">Gallura/C. Esmeralda<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+	<li><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-gallura">Gallura/C. Esmeralda<i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Gallura y C. Esmeralda']['position'] ?>"></i></a></li>
 
       </ul>
     </li>

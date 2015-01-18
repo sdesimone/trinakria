@@ -32,17 +32,17 @@ get_header();
 
 	  <li class="linkable">
 <a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-alghero">
-<strong>Alghero </strong> <span class="text-muted">Noroeste, la catalana, arte y naturaleza en una mezcla ideal.  </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+<strong>Alghero </strong> <span class="text-muted">Noroeste, la catalana, arte y naturaleza en una mezcla ideal.  </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Alghero']['position'] ?>"></i></a></li>
 
-	  <li class="linkable"><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-oristano-y-interior"><strong>Oristano </strong> <span class="text-muted">Centro oeste, playas de cuarzo, buen pescado y Tharros. </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+	  <li class="linkable"><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-oristano-y-interior"><strong>Oristano </strong> <span class="text-muted">Centro oeste, playas de cuarzo, buen pescado y Tharros. </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Oristano']['position'] ?>"></i></a></li>
 
-	  <li class="linkable"><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-sulcis-iglesiente"><strong>Sulcis-Iglesiente </strong> <span class="text-muted">Sur oeste, la Cerdeña más salvaje y desconocida.  </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+	  <li class="linkable"><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-sulcis-iglesiente"><strong>Sulcis-Iglesiente </strong> <span class="text-muted">Sur oeste, la Cerdeña más salvaje y desconocida.  </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Sulcis-Iglesiente']['position'] ?>"></i></a></li>
 
-	  <li class="linkable"><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-cagliari-y-interior"><strong>Cagliari </strong> <span class="text-muted">Sur, la capital cultural de Cerdeña con un entorno precioso. </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+	  <li class="linkable"><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-cagliari-y-interior"><strong>Cagliari </strong> <span class="text-muted">Sur, la capital cultural de Cerdeña con un entorno precioso. </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Cagliari']['position'] ?>"></i></a></li>
 
-	  <li class="linkable"><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-nuoro-y-interior"><strong>Orosei </strong> <span class="text-muted">Centro este, el misterioso interior y el agua cristalina de sus calas.  </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+	  <li class="linkable"><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-nuoro-y-interior"><strong>Orosei </strong> <span class="text-muted">Centro este, el misterioso interior y el agua cristalina de sus calas.  </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Orosei']['position'] ?>"></i></a></li>
 
-	  <li class="linkable"><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-gallura"><strong>Gallura y Costa Esmeralda </strong> <span class="text-muted">Noreste, playas de ensueño y gastronomía excelente.  </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data[$value]['position'] ?>"></i></a></li>
+	  <li class="linkable"><a href="<?php echo site_url(); ?>/cerdena/alojamientos/zona-gallura"><strong>Gallura y Costa Esmeralda </strong> <span class="text-muted">Noreste, playas de ensueño y gastronomía excelente.  </span> <i class="fa fa-compass fa-2x pull-right rotate<?php echo $data['Gallura y C. Esmeralda']['position'] ?>"></i></a></li>
         </ul>
 
 	<div class="row">

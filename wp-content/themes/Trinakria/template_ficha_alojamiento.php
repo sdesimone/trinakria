@@ -70,7 +70,8 @@ get_header();
                   <tr>
 		  <td><?php echo $item['from']?></td>
 		  <td><?php echo $item['to']?></td>
-		  <td align="right"><strong><?php echo $item['price']?></strong></td>
+		  <td align="right"><strong>€ <?php echo $item['price']?></strong></td>
+
                   </tr>
 		<?php } ?>
                 </tbody>
@@ -112,13 +113,15 @@ get_header();
 	<?php foreach($aloj['photos'] as $photo) { ?>
 		<img src="<?php echo $photo?>" data-caption=""> 
 	<?php } ?>
+		<img src="http://maps.google.com/maps/api/staticmap?&zoom=7&size=595x400&markers=color:orange|<?php echo $aloj['lat'].",".$aloj['lon']; ?>&sensor=false&key=ABQIAAAAMODomaaa8tP-qfkUyBEOJRQ3scZ6SVrhgLe-YKthzIvFUUaJMBQeYrU5KKfF8g70UdAii8s6bupyBQ" data-caption=""> 
 	</div>
         <!-- /.slider -->
         
+<!--
         <div class="map">
-<!--          <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=ca&amp;geocode=&amp;q=la+lume+de+candele+<?php echo $destino; ?>&amp;aq=&amp;sll=46.528635,8.129883&amp;sspn=21.259619,53.569336&amp;t=m&amp;ie=UTF8&amp;hq=la+lume+de+candele&amp;hnear=Sic%C3%ADlia,+It%C3%A0lia&amp;ll=37.980983,12.578301&amp;spn=0.190161,0.41851&amp;z=12&amp;iwloc=A&amp;cid=9427955807918848652&amp;output=embed"></iframe>-->
 <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=ca&amp;geocode=&amp;q=<?php echo $aloj[name]?>+<?php echo $aloj['isla']?>&amp;aq=&amp;z=12&amp;output=embed"></iframe>
         </div>
+-->
         <div class="sidebar">
           <!--<h3>Otros alojamientos en la zona</h3>
           <?php for ($i = 1; $i <= 4; $i++) { ?>

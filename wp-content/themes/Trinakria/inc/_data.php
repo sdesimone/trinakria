@@ -30,7 +30,7 @@ $data['Cerdeña']['fichas']=array('La Casa di Pippinitto','Il Giardino di Sicili
 
 // positions
 $data['Alghero']['position']='NW';
-$data['Oristiano']['position']='W';
+$data['Oristano']['position']='W';
 $data['Sulcis-Iglesiente']['position']='SW';
 $data['Cagliari']['position']='S';
 $data['Orosei']['position']='E';

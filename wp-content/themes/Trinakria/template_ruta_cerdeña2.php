@@ -117,7 +117,11 @@ Ver los precios de la ruta</a></strong>
         
         <div class="sidebar">
           
-          <h3>Otras rutas por Cerdeña</h3>
+<br/>
+<strong>	  <a href="<?php echo site_url()?>/testimonios">Nuestros clientes dicen...</a></strong><br/>
+	  <strong><a href="<?php echo site_url()?>/cerdena/guia/como-llegar">Cómo llegar a Cerdeña<a></strong>
+
+          <h3>Todas nuestras rutas por Cerdeña</h3>
           
           <div class="row list linkable">
 	  <div class="col-md-2 col-sm-2 col-xs-2 offset-0"><img src="<?php bloginfo('template_directory')?>/img/cerdena/rutas/cerdena-a-tu-aire.jpg" class="img-rounded img-responsive"></div>
