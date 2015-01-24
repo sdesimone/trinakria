@@ -101,7 +101,7 @@ function datos_alojamiento($id){
         
         // services
 //        $servicios[0] = ['value' => $sruttura->SchedaTecnica->DatiGenerali->Parcheggio, 'icon' => 'glyphicons-car', 'text' => 'Pakring en hotel'];
-        $servicios[0] = array($sruttura->SchedaTecnica->DatiGenerali->Parcheggio, 'glyphicons-car', 'Parking en hotel');
+        $servicios[0] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Parcheggio, 'icon' => 'glyphicons-car', 'text' => 'Parking en hotel');
         $servicios[1] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Area_verde, 'icon' => 'glyphicons-tree-conifer', 'text' => 'Jardín');
         $servicios[2] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->Piscina, 'icon' => 'glyphicons-pool', 'text' => 'Piscina');
         $servicios[3] = array('value' => $sruttura->SchedaTecnica->DatiGenerali->AreaBambini, 'icon' => 'glyphicons-baby-formula', 'text' => 'Área infantil');

@@ -42,7 +42,7 @@ $xml_zona='Zona Alghero'; // String de zona, como aparece en el XML del Backoffi
 <div>
       </main>
 
-	<?php include_once (TEMPLATEPATH . '/inc/menu-right-alojamientos.php' );?>
+	<?php include_once (TEMPLATEPATH . '/inc/menu-right-alojamientos-cerdena.php' );?>
     </div>
   </div>
 </div>

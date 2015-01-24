@@ -52,12 +52,12 @@
 
     <li class="dropdown"> <a href="<?php echo site_url(); ?>/cerdena/guia/" class="dropdown-toggle disabled <?php if($submenu==3) echo 'active';?>" data-toggle="dropdown">Guía de Cerdeña<b class="caret"></b></a>
       <ul class="dropdown-menu">
-        <li><a href="<?php echo site_url(); ?>/cerdena/historia/">Historia</a></li>
-        <li><a href="<?php echo site_url(); ?>/cerdena/geografia/">Geografía</a></li>
-        <li><a href="<?php echo site_url(); ?>/cerdena/como-llegar/">Como llegar a Cerdeña</a></li>
-        <li><a href="<?php echo site_url(); ?>/cerdena/eltiempo/">El tiempo</a></li>
-        <li><a href="<?php echo site_url(); ?>/cerdena/cocina/">La Cocina en Cerdeña</a></li>
-        <li><a href="<?php echo site_url(); ?>/cerdena/eventos/">Eventos en Cerdeña</a></li>
+        <li><a href="<?php echo site_url(); ?>/cerdena/guia/historia/">Historia</a></li>
+        <li><a href="<?php echo site_url(); ?>/cerdena/guia/geografia/">Geografía</a></li>
+        <li><a href="<?php echo site_url(); ?>/cerdena/guia/como-llegar/">Como llegar a Cerdeña</a></li>
+        <li><a href="<?php echo site_url(); ?>/cerdena/guia/eltiempo/">El tiempo</a></li>
+        <li><a href="<?php echo site_url(); ?>/cerdena/guia/cocina/">La Cocina en Cerdeña</a></li>
+        <li><a href="<?php echo site_url(); ?>/cerdena/guia/eventos/">Eventos en Cerdeña</a></li>
       </ul>
     </li>
     

@@ -17,6 +17,13 @@ get_header();
 	      </div>
 	    </div>
 <p/>
+<?php 
+if (have_posts()) :
+   while (have_posts()) :
+      the_post();
+         the_content();
+   endwhile;
+endif;?>
 
 <p>Zágara Travel es la web y el proyecto de la Agencia de Viajes <strong><a href="#">Trinakria Tours</a></strong> que desde 2006 organiza <strong>viajes mediterráneos</strong>; nuestro primer destino fue la maravillosa isla de <a href="#">Sicilia</a> por el cual tenemos una web dedicada totalmente (<a href="#">ShineSicily.com</a>) y luego hemos desembarcado en <a href="#">Cerdeña</a>, <a href="#">Creta</a>, <a href="#">Malta</a> y <a href="#">Puglia</a> (Apulia, el tacón de Italia).</p>
 

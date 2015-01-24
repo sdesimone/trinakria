@@ -38,7 +38,7 @@ $xml_zona='Zona Gallura y Costa Esmeralda'; // String de zona, como aparece en e
 	<br/>
       </main>
 
-	<?php include_once (TEMPLATEPATH . '/inc/menu-right-alojamientos.php' );?>
+	<?php include_once (TEMPLATEPATH . '/inc/menu-right-alojamientos-cerdena.php' );?>
     </div>
   </div>
 </div>

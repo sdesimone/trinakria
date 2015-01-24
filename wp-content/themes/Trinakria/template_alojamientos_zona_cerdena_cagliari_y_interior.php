@@ -39,7 +39,7 @@ $xml_zona='Zona Cagliari'; // String de zona, como aparece en el XML del Backoff
 	<br/>
       </main>
 
-	<?php include_once (TEMPLATEPATH . '/inc/menu-right-alojamientos.php' );?>
+	<?php include_once (TEMPLATEPATH . '/inc/menu-right-alojamientos-cerdena.php' );?>
     </div>
   </div>
 </div>

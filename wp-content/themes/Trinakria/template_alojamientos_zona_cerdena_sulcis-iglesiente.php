@@ -39,7 +39,7 @@ $xml_zona='Zona Sulcis-Iglesiente'; // String de zona, como aparece en el XML de
 	<br/>
       </main>
 
-	<?php include_once (TEMPLATEPATH . '/inc/menu-right-alojamientos.php' );?>
+	<?php include_once (TEMPLATEPATH . '/inc/menu-right-alojamientos-cerdena.php' );?>
     </div>
   </div>
 </div>
