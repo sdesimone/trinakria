@@ -39,22 +39,28 @@ get_header();
           <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade in active" id="descripcion"> 
               <div class="scrolly-xs">
-	      <p><?php echo $aloj['description'];?> </p>
+
+		<p><?php echo $aloj['description'];?></p>
+
+		<h3>Estilo del Alojamiento</h3>
+		<p><?php echo $aloj['estilo'];?></p>
+
+		<h3>A destacar</h3>
+		<p><?php echo $aloj['destacar'];?></p>
 
                 <h3>Servicios</h3>
                 <ul class="widget text-muted">
 		<?php foreach($aloj['servicios'] as $servicio){ 
-		         if( $servicio['value'] != ''){ ?>
+		        if( $servicio['value'] != ""){ ?>
 				<li class="col-md-6"><span class="glyphicons <?php echo $servicio['icon'];?>"></span>&nbsp;&nbsp;<?php echo $servicio['text'] ?></li>
-		<?php   } 
+		 <?php  } 
 		      } ?>
                 </ul>
-
-                <br/>
-                <br/>
-                <br/>
+		<h3>Lugares de interés cercanos</h3>
+		<p><?php echo $aloj['lugares'];?></p>
               </div>
             </div>
+
             <div class="tab-pane fade" id="precios">
               <table class="table">
                 <thead>

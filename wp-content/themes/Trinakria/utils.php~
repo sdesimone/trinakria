@@ -1,0 +1,148 @@
+<?php
+
+/* converts longtidute/latitude: 
+ * from DMS format (found in XML from backoffice
+ * to decimal format (needed by google maps
+*/
+function DSMtoDEC($dsm){
+	$dsm = str_replace("°", ".", $dsm);
+	$deg = strtok($dsm, ".");
+	$min = strtok("'");
+	$sec = strtok("''");
+
+	return $deg+((($min*60)+($sec))/3600);
+}    
+
+
+/* Reads the XML list of available locations and returns a list with:
+ * id
+ * name
+ * locality
+ * description
+ * coordinates
+ * thmubnail image
+*/
+function datos_alojamiento($id){
+
+    $file = 'a.xml';
+    $xmlDoc = new DOMDocument();
+    
+    if (file_exists($file)) {
+        $xmlDoc->load($file);
+        $xml = $xmlDoc->documentElement;
+        $xpath = new DOMXPath($xmlDoc);
+        $strutture = $xpath->query("//Sruttura[Identificativo='$id']");
+        $sruttura = $strutture->item(0);
+        
+        $name = $xpath->query("//Sruttura[Identificativo='$id']/Anagrafica/Nome")->item(0)->nodeValue;
+        $isla = $xpath->query("//Sruttura[Identificativo='$id']/Anagrafica/Circuito")->item(0)->nodeValue;
+        
+        $description = $xpath->query("//Sruttura[Identificativo='$id']/Descrizioni/Descrizione/Espagnol/p")->item(0)->nodeValue;
+        $estilo = $xpath->query("//Sruttura[Identificativo='$id']/Descrizioni/Descrizione/Espagnol/p")->item(1)->nodeValue;
+        $destacar = $xpath->query("//Sruttura[Identificativo='$id']/Descrizioni/Descrizione/Espagnol/p")->item(2)->nodeValue;
+        $lugares = $xpath->query("//Sruttura[Identificativo='$id']/Descrizioni/Descrizione/Espagnol/p")->item(3)->nodeValue;
+        
+        // map        
+        $address = $xpath->query("//Sruttura[Identificativo='$id']/Anagrafica/Indirizzo")->item(0)->nodeValue;
+        $city = $xpath->query("//Sruttura[Identificativo='$id']/Anagrafica/Citta")->item(0)->nodeValue;
+        $zip_code = $xpath->query("//Sruttura[Identificativo='$id']/Anagrafica/Cap")->item(0)->nodeValue;
+        $lat = $xpath->query("//Sruttura[Identificativo='$id']/Anagrafica/Latitudine")->item(0)->nodeValue;
+        $lat = DSMtoDEC($lat);        
+        $lon = $xpath->query("//Sruttura[Identificativo='$id']/Anagrafica/Longitudine")->item(0)->nodeValue;
+        $lon = DSMtoDEC($lon);
+        
+        
+        echo $name.PHP_EOL;
+        echo $address.PHP_EOL;
+        echo $city.PHP_EOL;
+        echo $zip_code.PHP_EOL;
+        echo $lat.PHP_EOL;
+        echo $lon.PHP_EOL;
+  
+        // services
+        $Parcheggio=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiGenerali/Parcheggio")->item(0)->nodeValue;
+        $Area_verde=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiGenerali/Area_verde")->item(0)->nodeValue;
+        $Piscina=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiGenerali/Piscina")->item(0)->nodeValue;
+        $AreaBambini=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiGenerali/AreaBambini")->item(0)->nodeValue;
+        $Barbecue=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiGenerali/Barbecue")->item(0)->nodeValue;
+        $Jacuzzi=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiGenerali/Jacuzzi")->item(0)->nodeValue;
+        $CaniAmmesi=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiGenerali/CaniAmmesi")->item(0)->nodeValue;
+        $Ristorante=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiGenerali/Ristorante")->item(0)->nodeValue;
+        $Biciclette=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiGenerali/Biciclette")->item(0)->nodeValue;
+        $SedieASdraio=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiGenerali/SedieASdraio")->item(0)->nodeValue;
+        $CucinaPerOspiti=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiGenerali/CucinaPerOspiti")->item(0)->nodeValue;
+        $Televisione=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiTecniciStanze/Televisione")->item(0)->nodeValue;
+        $AriaCondizionata=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiTecniciStanze/AriaCondizionata")->item(0)->nodeValue;
+        $Riscaldamento=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiTecniciStanze/Riscaldamento")->item(0)->nodeValue;
+        $Vendilatore=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiTecniciStanze/Vendilatore")->item(0)->nodeValue;
+        $CassaForte=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiTecniciStanze/CassaForte")->item(0)->nodeValue;
+        $Asciugamani=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiTecniciStanze/Asciugamani")->item(0)->nodeValue;
+        $Sapone=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiTecniciStanze/Sapone")->item(0)->nodeValue;
+        $FrigoBar=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/DatiTecniciStanze/FrigoBar")->item(0)->nodeValue;
+        $InternetWiFi=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/Altro/InternetWiFi")->item(0)->nodeValue;
+        $Camino=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/Altro/Camino")->item(0)->nodeValue;
+        $Lavatrice=$xpath->query("//Sruttura[Identificativo='$id']/SchedaTecnica/Altro/Lavatrice")->item(0)->nodeValue;
+
+        $servicios[0] = array('value' => $Parcheggio, 'icon' => 'glyphicons-car', 'text' => 'Parking en hotel');
+        $servicios[1] = array('value' => $Area_verde, 'icon' => 'glyphicons-tree-conifer', 'text' => 'Jardín');
+        $servicios[2] = array('value' => $Piscina, 'icon' => 'glyphicons-pool', 'text' => 'Piscina');
+        $servicios[3] = array('value' => $AreaBambini, 'icon' => 'glyphicons-baby-formula', 'text' => 'Área infantil');
+        $servicios[4] = array('value' => $Barbecue, 'icon' => 'glyphicons-kiosk-light', 'text' => 'Barbacoa');
+        $servicios[5] = array('value' => $Jacuzzi, 'icon' => 'glyphicons-bath-bathtub', 'text' => 'Jacuzzi');
+        $servicios[6] = array('value' => $CaniAmmesi, 'icon' => 'glyphicons-dog', 'text' => 'Mascotas admitidas');
+        $servicios[7] = array('value' => $Ristorante, 'icon' => 'glyphicons-dining-set', 'text' => 'Restaurante');
+        $servicios[8] = array('value' => $Biciclette, 'icon' => 'glyphicons-bicycle', 'text' => 'Alquiler de bicicletas');
+        $servicios[9] = array('value' => $SedieASdraio, 'icon' => 'glyphicons-beach-umbrella', 'text' => 'Área relax');
+        $servicios[10] = array('value' => $CucinaPerOspiti, 'icon' => 'glyphicons-pot', 'text' => 'Uso de cocina');
+        $servicios[11] = array('value' => $Televisione, 'icon' => 'glyphicons-tv', 'text' => 'Televisión');            
+        $servicios[12] = array('value' => $AriaCondizionata, 'icon' => 'glyphicons-snowflake', 'text' => 'Aire Acondicionado');
+        $servicios[13] = array('value' => $Riscaldamento, 'icon' => 'glyphicons-sun', 'text' => 'Calefacción');
+        $servicios[14] = array('value' => $Vendilatore, 'icon' => 'glyphicons-car-wheel', 'text' => 'Ventilador');
+        $servicios[15] = array('value' => $CassaForte, 'icon' => 'glyphicons-lock', 'text' => 'Caja fuerte ');
+        $servicios[16] = array('value' => $Asciugamani, 'icon' => 'glyphicons-server', 'text' => 'Toallas');
+        $servicios[17] = array('value' => $Sapone, 'icon' => 'glyphicons-shower', 'text' => 'Gel de baño');
+        $servicios[18] = array('value' => $FrigoBar, 'icon' => 'glyphicons-glass', 'text' => 'Mini-Bar o Nevera');
+        $servicios[19] = array('value' => $InternetWiFi, 'icon' => 'glyphicons-wifi', 'text' => 'Zona Internet / Wi-Fi');
+        $servicios[20] = array('value' => $Camino, 'icon' => 'glyphicons-fire', 'text' => 'Chimenea');
+        $servicios[21] = array('value' => $Lavatrice, 'icon' => 'glyphicons-coat-hanger', 'text' => 'Lavadora');
+        $servicios[22] = array('value' => $AccessoDisabili, 'icon' => 'glyphicons-person-wheelchair', 'text' => 'Acceso para discapacitados');
+
+        // photos
+        $photos = array();
+        $i = 0;
+	$Imagine = $xpath->query("//Sruttura[Identificativo='$id']/Imagini/Imagine");
+        foreach($Immagine as $photo){
+            //$photos[$i++] = $photo->Url->Normal;    
+        }
+        // precios
+        $precios = array();
+        $i = 0;
+	$ListinoItem = $xpath->query("//Sruttura[Identificativo='$id']/Listino/Listino_Item");
+        foreach($sruttura->Listino->Listino_Item as $item){
+//            $from = $item->Data_Da;
+//            $to = $item->Data_A;
+//            $price = $item->Prezzo;
+        
+//            $precios[$i++] = array('from' => $from, 'to' => $to, 'price' => $price);
+//            $precios[$i++] = array('from' => $from, 'to' => $to, 'price' => $price);
+        }
+
+        $data = array( 'name' => $name,
+                    'isla' => $isla,
+                    'description' => $description,
+                    'estilo' => $estilo,
+                    'destacar' => $destacar, 
+                    'lugares' => $lugares, 
+                    'address' => $address,
+                    'city' => $city,
+                    'zip_code' => $zip_code,
+                    'lat' => $lat,
+                    'lon' => $lon,
+		    'servicios' => $servicios,
+                    'photos' => $photos,
+                    'precios' => $precios);
+    return $data;
+        
+    } 
+}
+?>

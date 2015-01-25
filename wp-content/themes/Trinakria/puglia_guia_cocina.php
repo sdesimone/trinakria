@@ -11,23 +11,6 @@ $destino="Puglia";
     <div class="row">
       <?php $submenu=3; include_once (TEMPLATEPATH . '/inc/menu-sub-puglia.php' );?>
 
-<!--
-      <div class="sidebar col-md-2 col-sm-2 col-xs-2">
-<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/comida_tradicional_cerdeña.jpg" class="img-rounded img-responsive"/>
-<br/>
-
-<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/Malloreddus_alla_campidanese.jpg" class="img-rounded img-responsive"/>
-<br/>
-
-<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/natura_morta.jpg" class="img-rounded img-responsive"/>
-<br/>
-
-<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/cocina/ogliastra_porceddu.jpg" class="img-rounded img-responsive"/>
-<br/>
-	</div>
--->
-
-
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
 	<h1>La Cocina en Puglia</h1>
 <p>Todo el mundo conoce la mozzarella pero quizás no muchos saben que la mejor mozzarella de Italia (y del mundo!) se encuentra propio en la Puglia! Solo por probar la <em>mozzarella pugliese</em> merece la pena hacer un viaje en esta maravillosa región del sur de Italia! </p>
@@ -62,7 +45,7 @@ Negroamaro del Salento<br/>
 Moscato di Trani<br/>
 </p>
 
-<center>
+<div class="main container bgcolor">
   <div class="row">
 	<div class="col-md-4 col-sm-4">
 <img src="<?php bloginfo('template_directory'); ?>/img/puglia/guia/cocina/Focaccia en Puglia.png" class="img-rounded img-responsive"/>
@@ -81,7 +64,8 @@ Moscato di Trani<br/>
 <img src="<?php bloginfo('template_directory'); ?>/img/puglia/guia/cocina/Riso patate e cozze Puglia.png" class="img-rounded img-responsive"/>
 	</div>
   </div>
-</center>
+</div>
+<br/>
 
 
 

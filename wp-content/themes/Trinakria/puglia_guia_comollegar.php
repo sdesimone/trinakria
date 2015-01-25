@@ -44,7 +44,8 @@ $destino="Puglia";
 <p>La mejor conexión es la BARCELONA-CIVITAVECCHIA con <a href="#">GRIMALDI</a>. Una vez llegado a Civitavecchia habrá unas 4 horas y media de coche hasta el primer pueblo de Puglia donde tenemos alojamientos.</p>
 <br/>
 	
-<center>
+
+<div class="main container bgcolor">
   <div class="row">
 	<div class="col-md-4 col-sm-4">
 <img src="<?php bloginfo('template_directory'); ?>/img/puglia/guia/comollegar/Ape_Salento.JPG" class="img-rounded img-responsive"/>
@@ -63,8 +64,9 @@ $destino="Puglia";
 <img src="<?php bloginfo('template_directory'); ?>/img/puglia/guia/comollegar/Vespa_Lecce_Trinakria Tours.JPG" class="img-rounded img-responsive"/>
 	</div>
   </div>
-</center>
+</div>
 
+<br/>
 
       </main>
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar text-muted" >

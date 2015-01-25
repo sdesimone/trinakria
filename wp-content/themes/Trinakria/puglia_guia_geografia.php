@@ -24,7 +24,7 @@ $destino="Puglia";
 
 <br/>
 
-<center>
+<div class="main container bgcolor">
   <div class="row">
 	<div class="col-md-4 col-sm-4">
 <img src="<?php bloginfo('template_directory'); ?>/img/puglia/guia/geografia/barco_polignano a mare.png" class="img-rounded img-responsive"/>
@@ -43,7 +43,9 @@ $destino="Puglia";
 <img src="<?php bloginfo('template_directory'); ?>/img/puglia/guia/geografia/Porto Selvaggio_Puglia_Trinakria Tours.JPG" class="img-rounded img-responsive"/>
 	</div>
   </div>
-</center>
+
+</div>
+<br/>
 
 
       </main>

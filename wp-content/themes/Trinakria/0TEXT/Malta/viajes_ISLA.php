@@ -50,13 +50,13 @@ $destino='Cerdeña';
 		<div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
 		<div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
 			<div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/cerdena/2-Alojamientos.jpg" class="img-rounded img-responsive"></a>
-				<div class="caption"><center><big>Alojamientos</big></center></div>
+				<div class="captionlarge"><center><big><big>Alojamientos</big></big></center></div>
 		
 		</div>
 		<div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
 		<div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
 			<div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/cerdena/3-Guia de Viaje.jpg" class="img-rounded img-responsive"></a>
-				<div class="caption"><center><big><big>Guía de viaje</big></big></center></div>
+				<div class="captionlarge"><center><big><big>Guía de viaje</big></big></center></div>
 		</div>
 		<div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
         </div>

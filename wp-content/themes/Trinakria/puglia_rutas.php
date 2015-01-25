@@ -25,7 +25,7 @@ $destino='Puglia';
 
 
         <div class="row list linkable">
-	<div class="col-md-4 col-sm-4 col-xs-4 offset-0"><img src="<?php bloginfo('template_directory'); ?>/img/puglia/rutas/1-Puglia_a_tu_aire.jpg"  class="img-rounded img-responsive"></div>
+	<div class="col-md-4 col-sm-4 col-xs-4 offset-0"><img width="70%" src="<?php bloginfo('template_directory'); ?>/img/puglia/rutas/1-Puglia_a_tu_aire.jpg"  class="img-rounded img-responsive"></div>
           <div class="col-md-6 col-sm-6 col-xs-8 description">
 	  <h2><a href="<?php echo site_url();?>/puglia/rutas/puglia-a-tu-aire">Puglia a tu aire</a></h2>
 	    <p class="text-muted visible-xs">Desde <strong class="price">550,00€</strong> <small>por persona</small></p>
@@ -38,7 +38,7 @@ Puglia a tu aire es un viaje fantástico que os llevará al descubrimiento de to
 
 
         <div class="row list linkable">
-	<div class="col-md-4 col-sm-4 col-xs-4 offset-0"><img src="<?php bloginfo('template_directory'); ?>/img/puglia/rutas/2-Puglia_Rural.jpg"  class="img-rounded img-responsive"></div>
+	<div class="col-md-4 col-sm-4 col-xs-4 offset-0"><img width="70%" src="<?php bloginfo('template_directory'); ?>/img/puglia/rutas/2-Puglia_Rural.jpg"  class="img-rounded img-responsive"></div>
           <div class="col-md-6 col-sm-6 col-xs-8 description">
 	  <h2><a href="<?php echo site_url();?>/puglia/rutas/puglia-rural">Puglia Rural</a></h2>
 	    <p class="text-muted visible-xs">Desde <strong class="price">570,00€</strong> <small>por persona</small></p>
@@ -50,7 +50,7 @@ Viajar en Agroturismo en Puglia es sin duda una gran elección, sobretodo para l
         </div>
 
         <div class="row list linkable">
-	<div class="col-md-4 col-sm-4 col-xs-4 offset-0"><img src="<?php bloginfo('template_directory'); ?>/img/puglia/rutas/3-Puglia_con_encanto.JPG"  class="img-rounded img-responsive"></div>
+	<div class="col-md-4 col-sm-4 col-xs-4 offset-0"><img width="70%" src="<?php bloginfo('template_directory'); ?>/img/puglia/rutas/3-Puglia_con_encanto.JPG"  class="img-rounded img-responsive"></div>
           <div class="col-md-6 col-sm-6 col-xs-8 description">
 	  <h2><a href="<?php echo site_url();?>/puglia/rutas/puglia-con-encanto">Puglia con encanto</a></h2>
 	    <p class="text-muted visible-xs">Desde <strong class="price">725,00€</strong> <small>por persona</small></p>
