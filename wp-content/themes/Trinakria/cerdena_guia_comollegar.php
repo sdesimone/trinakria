@@ -15,12 +15,12 @@ $destino="Cerdeña";
         <h1>Como llegar a Cerdeña</h1>
 <p>Afortunadamente llegar a Cerdeña desde los aeropuertos españoles no es difícil, en los últimos años la conexiones han crecido bastante, sobre todo gracias a la llegada de la varias compañías de bajo y medio coste.</p>
 
-<p>Nosotros por lo general no tramitamos vuelos porque somos una agencia de viajes especializada en servicios en destino pero os podemos aconsejar sobre de las mejores combinaciones de vuelos: <a href="#">envíanos un mail</a> y te ayudaremos en la búsqueda de vuelos a Cerdeña.</p>
+<p>Nosotros por lo general no tramitamos vuelos porque somos una agencia de viajes especializada en servicios en destino pero os podemos aconsejar sobre de las mejores combinaciones de vuelos: <a href="<?php echo site_url()?>/contactar">envíanos un mail</a> y te ayudaremos en la búsqueda de vuelos a Cerdeña.</p>
 
 
 <h4>Como llegar a Cerdeña en avión</h4>
 
-<p>Seguramente desde España las mejores ofertas de vuelos directos a Cerdeña las ofrece <a href="#">Ryanair</a></p>
+<p>Seguramente desde España las mejores ofertas de vuelos directos a Cerdeña las ofrece <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.ryanair.com%2F&sa=D&sntz=1&usg=AFQjCNHoiHDjo7YoufwrcwPjyrmyPQEvJw">Ryanair</a></p>
 
 <p>Estos son los vuelos que propone actualmente esta compañía:</p>
 
@@ -31,7 +31,7 @@ $destino="Cerdeña";
 <li>Girona-Cagliari</li>
 </ul></strong>
 
-<p>Otra Compañía que tiene enlaces aéreos directos con Cerdeña desde Barcelona es <a href="#">Vueling:</a></p>
+<p>Otra Compañía que tiene enlaces aéreos directos con Cerdeña desde Barcelona es <a href="http://www.vueling.com">Vueling:</a></p>
 
 <strong> <ul>
 <li>Barcelona-Olbia</li>
@@ -40,18 +40,18 @@ $destino="Cerdeña";
 
 <p>Además con Vueling es posible volar a Cerdeña desde casi todas las ciudades de España con escala en Barcelona y otra opción interesante que ofrece en su página es la de ‘múltiples destinos’ en donde se puede decidir de comprar todo junto un vuelo con llegada a Olbia y vuelta desde Cagliari o al revés.</p>
 
-<p>También otras compañías ofrecen billetes de avión a Cerdeña desde España (por ejemplo <a href="#">Iberia</a>, <a href="#">Alitalia</a> o <a href="#">Meridiana</a>) pero se trata de vuelos no directos, con una escala en alguna ciudad del norte de Italia; Nosotros aconsejamos sin duda elegir Ryanair  o Vueling para ir a Cerdeña. </p>
+<p>También otras compañías ofrecen billetes de avión a Cerdeña desde España (por ejemplo <a href="http://www.iberia.es/">Iberia</a>, <a href="http://www.alitalia.es/">Alitalia</a> o <a href="http://www.meridiana.es/">Meridiana</a>) pero se trata de vuelos no directos, con una escala en alguna ciudad del norte de Italia; Nosotros aconsejamos sin duda elegir Ryanair  o Vueling para ir a Cerdeña. </p>
 
 <p>Estos son las páginas oficiales de los aeropuertos de Cerdeña: </p>
 <ul>
-<li><a href="#">Aeropuerto de Alghero</a>
-<li><a href="#">Aeropuerto de Cagliari</a>
-<li><a href="#">Aeropuerto de Olbia</a>
+<li><a href="http://www.aeroportodialghero.it/">Aeropuerto de Alghero</a>
+<li><a href="http://www.sogaer.it/">Aeropuerto de Cagliari</a>
+<li><a href="http://www.geasar.com/">Aeropuerto de Olbia</a>
 </ul>
 
 <h4>Como llegar a Cerdeña en barco</h4>
 
-<p>Si quieres ir a Cerdeña con tu propio coche, te aconsejamos ir en Barco desde Barcelona (BARCELONA-PORTO TORRES) con <a href="#">Grimaldi Lines</a></p>
+<p>Si quieres ir a Cerdeña con tu propio coche, te aconsejamos ir en Barco desde Barcelona (BARCELONA-PORTO TORRES) con <a href="http://www.grimaldi-lines.com/spain/index.jsp?lan=ES&gclid=CN3vv7LOrZ4CFYmY2AodsUiblA">Grimaldi Lines</a></p>
 
 <br/>
 <div class="main container bgcolor">
@@ -80,22 +80,20 @@ $destino="Cerdeña";
         <div class="row">
 	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
 		<h3>Secciones destacadas</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Conoce a Trinakria Tours</a></li>
-			  <li class="linkable"><a href="#">Nuestro Equipo</a></li>
-			  <li class="linkable"><a href="#">Preguntas Frecuentes</a></li>
-			  <li class="linkable"><a href="#">Nuestros Clientes dicen…</a></li>
-			  <li class="linkable"><a href="#">Como llegar a Cerdeña</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/quienes-somos/">Conoce a Trinakria Tours</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/nuestro-equipo/">Nuestro Equipo</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/faq/">Preguntas Frecuentes</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/testimonios/">Nuestros Clientes dicen…</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/como-llegar/">Como llegar a Cerdeña</a></li>
 		</ul>
 	   </div>
           <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs">
 		<h3>Nuestros Tours a Cerdeña</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Cerdeña a tu aire</a></li>
-			  <li class="linkable"><a href="#">Cerdeña Rural</a></li>
-			  <li class="linkable"><a href="#">Cerdeña con Encanto</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-a-tu-aire/">Cerdeña a tu aire</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-rural/">Cerdeña Rural</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-con-encanto/">Cerdeña con Encanto</a></li>
 		</ul>
           </div>
         </div>

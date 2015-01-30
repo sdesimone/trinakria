@@ -75,23 +75,22 @@ Moscato di Trani<br/>
         <div class="row">
 	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
 		<h3>Secciones destacadas</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Conoce a Trinakria Tours</a></li>
-			  <li class="linkable"><a href="#">Nuestro Equipo</a></li>
-			  <li class="linkable"><a href="#">Preguntas Frecuentes</a></li>
-			  <li class="linkable"><a href="#">Nuestros Clientes dicen…</a></li>
-			  <li class="linkable"><a href="#">Como llegar a Puglia</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/quienes-somos/">Conoce a Trinakria Tours</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/nuestro-equipo/">Nuestro Equipo</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/faq/">Preguntas Frecuentes</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/testimonios/">Nuestros Clientes dicen…</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/puglia/como-llegar/">Como llegar a Puglia</a></li>
 		</ul>
 	   </div>
           <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs">
 		<h3>Nuestros Tours a Puglia</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Puglia a tu aire</a></li>
-			  <li class="linkable"><a href="#">Puglia Rural</a></li>
-			  <li class="linkable"><a href="#">Puglia con Encanto</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/puglia/rutas/puglia-a-tu-aire/">Puglia a tu aire</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/puglia/rutas/puglia-rural/">Puglia Rural</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/puglia/rutas/puglia-con-encanto/">Puglia con Encanto</a></li>
 		</ul>
+	   </div>
           </div>
         </div>
       </div>

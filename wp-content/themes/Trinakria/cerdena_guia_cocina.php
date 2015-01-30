@@ -83,22 +83,20 @@ $destino="Cerdeña";
         <div class="row">
 	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
 		<h3>Secciones destacadas</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Conoce a Trinakria Tours</a></li>
-			  <li class="linkable"><a href="#">Nuestro Equipo</a></li>
-			  <li class="linkable"><a href="#">Preguntas Frecuentes</a></li>
-			  <li class="linkable"><a href="#">Nuestros Clientes dicen…</a></li>
-			  <li class="linkable"><a href="#">Como llegar a Cerdeña</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/quienes-somos/">Conoce a Trinakria Tours</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/nuestro-equipo/">Nuestro Equipo</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/faq/">Preguntas Frecuentes</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/testimonios/">Nuestros Clientes dicen…</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/como-llegar/">Como llegar a Cerdeña</a></li>
 		</ul>
 	   </div>
           <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs">
 		<h3>Nuestros Tours a Cerdeña</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Cerdeña a tu aire</a></li>
-			  <li class="linkable"><a href="#">Cerdeña Rural</a></li>
-			  <li class="linkable"><a href="#">Cerdeña con Encanto</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-a-tu-aire/">Cerdeña a tu aire</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-rural/">Cerdeña Rural</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-con-encanto/">Cerdeña con Encanto</a></li>
 		</ul>
           </div>
         </div>

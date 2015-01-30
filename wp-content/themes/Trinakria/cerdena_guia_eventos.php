@@ -34,9 +34,9 @@ $destino="Cerdeña";
 	</div>
       <main class="main main-left col-md-7 col-sm-7 col-xs-12">
         <h1>Eventos y fiestas en Cerdeña</h1>
-<p>Conocer los eventos más destacados y las fiestas tradicionales más importantes de Cerdeña hará que tu viaje sea una experiencia irrepetible. <a href="#">Organiza tu viaje</a> a Cerdeña teniendo en cuenta la programación cultural y popular de la isla.</p>
+	<p>Conocer los eventos más destacados y las fiestas tradicionales más importantes de Cerdeña hará que tu viaje sea una experiencia irrepetible. <a href="<?php echo site_url();?>/cerdena">Organiza tu viaje</a> a Cerdeña teniendo en cuenta la programación cultural y popular de la isla.</p>
 
-<p>A seguir os presentamos una selección de fiestas tradicionales y eventos importantes que a lo largo del año se realizan en Cerdeña. Si conoces alguno interesante que no está en la lista, <a href="#">envíanos un mail</a> y lo añadiremos.</p>
+	<p>A seguir os presentamos una selección de fiestas tradicionales y eventos importantes que a lo largo del año se realizan en Cerdeña. Si conoces alguno interesante que no está en la lista, <a href="<?php echo site_url();?>/contactar">envíanos un mail</a> y lo añadiremos.</p>
 
 <p><strong>Febrero</strong><br/>
 <p>El Carnaval de Cerdeña es muy famoso en todo el mundo, muchas revistas de todo el mundo como el National Geographic han retratado varias veces los carnavales de los pueblos de Cerdeña. Se trata de tradiciones antiguas que la gente de Cerdeña sabe valorar y conservar de forma sabia, los más famosos son:</p>
@@ -44,7 +44,7 @@ $destino="Cerdeña";
 <p><a href="#">Sa Sartiglia</a>, Oristano: de origen medieval, este espectáculo es aún hoy, una manifestación ecuestre hecha para entretener y divertir al público. Se trata de un juego a caballo que tiene raíz en las muchas tradiciones españolas de juegos a caballo.<br/>
 <a href="#">Los Mamuthones</a>, Mamoiada: si bien no es posible todavía definir exactamente las orígenes de esta fiesta, seguramente las raíces se remontan a la época precristiana. El ritual se ha mantenido intacto a lo largo de siglos; gente con máscaras de madera y campanas en las espaldas, representan una técnica mágica para intervenir, en el paso de invierno a primavera, sobre las fuerzas productivas de la tierra. Ottana, “boes” y “merdules”: “boes” y “merdules” son máscaras de madera, típicas de este pueblo que representan a la vaca y su propietario. Se recitan escenas de un pasado no muy lejano, cuando la gente trabajaba en el campo. Otras fiestas de carnaval interesantes se celebran en Tempio Pausania y Fluminimaggiore.</p>
 
-<p>Un <a href="#">viaje a Cerdeña</a> en la época del carnaval es una experiencia única y una grande inmersión en la cultura popular y las tradiciones de la isla.</p>
+<p>Un <a href="<?php echo site_url()?>/cerdena">viaje a Cerdeña</a> en la época del carnaval es una experiencia única y una grande inmersión en la cultura popular y las tradiciones de la isla.</p>
 
 <p><strong>Marzo</strong><br/>
 <strong>Fiesta de las naranjas</strong> (sagra dell’agrume), Muravera: fiesta de los cítricos y de las naranjas, famosa por su reunión de grupos folclóricos vestidos con trajes típicos y que llegar a Muravera de todos los otros pueblos de Cerdeña para participar a la fiesta. </p>
@@ -103,22 +103,20 @@ En el norte de Cerdeña, en el bonito pueblo costero de <strong>Castelsardo</str
         <div class="row">
 	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
 		<h3>Secciones destacadas</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Conoce a Trinakria Tours</a></li>
-			  <li class="linkable"><a href="#">Nuestro Equipo</a></li>
-			  <li class="linkable"><a href="#">Preguntas Frecuentes</a></li>
-			  <li class="linkable"><a href="#">Nuestros Clientes dicen…</a></li>
-			  <li class="linkable"><a href="#">Como llegar a Cerdeña</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/quienes-somos/">Conoce a Trinakria Tours</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/nuestro-equipo/">Nuestro Equipo</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/faq/">Preguntas Frecuentes</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/testimonios/">Nuestros Clientes dicen…</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/como-llegar/">Como llegar a Cerdeña</a></li>
 		</ul>
 	   </div>
           <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs">
 		<h3>Nuestros Tours a Cerdeña</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Cerdeña a tu aire</a></li>
-			  <li class="linkable"><a href="#">Cerdeña Rural</a></li>
-			  <li class="linkable"><a href="#">Cerdeña con Encanto</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-a-tu-aire/">Cerdeña a tu aire</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-rural/">Cerdeña Rural</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-con-encanto/">Cerdeña con Encanto</a></li>
 		</ul>
           </div>
         </div>

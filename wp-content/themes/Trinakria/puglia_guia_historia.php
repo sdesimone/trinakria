@@ -41,11 +41,11 @@ $destino="Puglia";
       <!--<main class="main main-left col-md-9 col-sm-9 col-xs-12">-->
 	<h1>La historia de Puglia</h1>
 
-<p>El Sur de Italia y Puglia son lugares no muy conocidos comparados con otros destinos turísticos italianos más famosos pero no por esto menos fascinantes. De hecho <a href="#">viajar a Puglia</a> tiene la ventaja que no es tan explotada turísticamente como otros lugares y al mismo tiempo es una región que se está dirigiendo hacia un turismo de calidad exaltando sus punto fuertes como una excelente gastronomía o ciudades de arte muy valiosas. Hemos redactado una guía de viaje de Puglia para que conozcais un poco más este maravilloso destino. </p>
+	<p>El Sur de Italia y Puglia son lugares no muy conocidos comparados con otros destinos turísticos italianos más famosos pero no por esto menos fascinantes. De hecho <a href="<?php echo site_url();?>/puglia">viajar a Puglia</a> tiene la ventaja que no es tan explotada turísticamente como otros lugares y al mismo tiempo es una región que se está dirigiendo hacia un turismo de calidad exaltando sus punto fuertes como una excelente gastronomía o ciudades de arte muy valiosas. Hemos redactado una guía de viaje de Puglia para que conozcais un poco más este maravilloso destino. </p>
 
 <p>La Puglia es una región de Italia meridional, precisamente identificada con el tacón de la bota italiana. El nombre latín (y quizás más conocido a nivel internacional) es APULIA. Tiene unos 4 millones de habitantes y su capital es la ciudad de BARI aunque en la región hay otras ciudades muy importantes como TARANTO, LECCE, BRINDISI y FOGGIA. La Puglia es la región más oriental de Italia, estando a unos 80 km desde la costa albanesa y desde las más occidentales islas griegas.</p>
  
-<p>Para leer más ir a <a href="#">nuestro Blog</a> o en la página de <a href="#">Wikipedia</a>.</p>
+<p>Para leer más ir a <a href="<?php echo site_url();?>/blog">nuestro Blog</a> o en la página de <a href="http://es.wikipedia.org/wiki/Puglia">Wikipedia</a>.</p>
  
 <p class="text-muted"><strong>Prehistoria y época prerromana</strong></p>
 Algunos estudios han revelado que la parte sur de Puglia fue habitada ya en el Paleolítico medio (hace 80.000 mil años), la época del 'Homo neanderthalensis'. También hay testigos del 'Homo sapiens sapiens' (Paleolítico superior, hace 35.000 mil años) pero quizás el descubrimiento más interesante de los primeros habitantes de Apulia es DELIA: una mujer de hace 25.000 años descubierta en Ostuni y que tenía en el vientre los restos de un bebé. Esto la ha convertido en la primera madre de la historia encontrada por los arqueólogos. Otros descubrimientos importantes son las construcciones 'megalíticas', sobre todo en la parte sur, el Salento, unas especies de dolmen y menhir que en los siglos sucesivos fueron utilizadas como lugares del culto cristiano.</p>
@@ -78,22 +78,20 @@ Algunos estudios han revelado que la parte sur de Puglia fue habitada ya en el P
         <div class="row">
 	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
 		<h3>Secciones destacadas</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Conoce a Trinakria Tours</a></li>
-			  <li class="linkable"><a href="#">Nuestro Equipo</a></li>
-			  <li class="linkable"><a href="#">Preguntas Frecuentes</a></li>
-			  <li class="linkable"><a href="#">Nuestros Clientes dicen…</a></li>
-			  <li class="linkable"><a href="#">Como llegar a Puglia</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/quienes-somos/">Conoce a Trinakria Tours</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/nuestro-equipo/">Nuestro Equipo</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/faq/">Preguntas Frecuentes</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/testimonios/">Nuestros Clientes dicen…</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/puglia/como-llegar/">Como llegar a Puglia</a></li>
 		</ul>
 	   </div>
           <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs">
 		<h3>Nuestros Tours a Puglia</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Puglia a tu aire</a></li>
-			  <li class="linkable"><a href="#">Puglia Rural</a></li>
-			  <li class="linkable"><a href="#">Puglia con Encanto</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/puglia/rutas/puglia-a-tu-aire/">Puglia a tu aire</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/puglia/rutas/puglia-rural/">Puglia Rural</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/puglia/rutas/puglia-con-encanto/">Puglia con Encanto</a></li>
 		</ul>
           </div>
         </div>

@@ -17,7 +17,15 @@ $destino="Cerdeña";
 	<img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/geografia/0-Mapa_Geografía Cerdeña.png" class="img-rounded img-responsive"/>
 <p>Cerdeña tiene forma de huella de pie y por eso, los griegos antes y los romanos después, la llamaron "Ichnusa" que significa "forma de pie".</p>
 
-<p>La capital de Cerdeña es Cagliari. La región tiene ocho provincias: <a href="#">Cagliari</a>, <a href="#">Sassari</a>, <a href="#">Nuoro</a>, <a href="#">Oristano</a>, <a href="#">Olbia-Tempio</a>, <a href="#">Ogliastra</a>, <a href="#">Carbonia-Iglesias</a> y <a href="#">Medio Campidano</a>. </p> 
+<p>La capital de Cerdeña es Cagliari. La región tiene ocho provincias: 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Cagliari">Cagliari</a>, 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Sassari">Sassari</a>, 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Nuoro">Nuoro</a>, 
+<a href="http://www.google.com/url?q=http%3A%2F%2Fes.wikipedia.org%2Fwiki%2FProvincia_de_Orist%25C3%25A1n&sa=D&sntz=1&usg=AFQjCNEfkBwHBFvGrkyAU5jxLJldZytuog">Oristano</a>, 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Olbia-Tempio">Olbia-Tempio</a>, 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Ogliastra">Ogliastra</a>, 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Carbonia-Iglesias">Carbonia-Iglesias</a> y 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Medio_Campidano">Medio Campidano</a>. </p> 
 
 <p>Cerdeña es, por su extensión, la segunda isla más grande del Mediterráneo después de Sicilia.</p>
 
@@ -63,22 +71,20 @@ $destino="Cerdeña";
         <div class="row">
 	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
 		<h3>Secciones destacadas</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Conoce a Trinakria Tours</a></li>
-			  <li class="linkable"><a href="#">Nuestro Equipo</a></li>
-			  <li class="linkable"><a href="#">Preguntas Frecuentes</a></li>
-			  <li class="linkable"><a href="#">Nuestros Clientes dicen…</a></li>
-			  <li class="linkable"><a href="#">Como llegar a Cerdeña</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/quienes-somos/">Conoce a Trinakria Tours</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/nuestro-equipo/">Nuestro Equipo</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/faq/">Preguntas Frecuentes</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/testimonios/">Nuestros Clientes dicen…</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/como-llegar/">Como llegar a Cerdeña</a></li>
 		</ul>
 	   </div>
           <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs">
 		<h3>Nuestros Tours a Cerdeña</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Cerdeña a tu aire</a></li>
-			  <li class="linkable"><a href="#">Cerdeña Rural</a></li>
-			  <li class="linkable"><a href="#">Cerdeña con Encanto</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-a-tu-aire/">Cerdeña a tu aire</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-rural/">Cerdeña Rural</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-con-encanto/">Cerdeña con Encanto</a></li>
 		</ul>
           </div>
         </div>

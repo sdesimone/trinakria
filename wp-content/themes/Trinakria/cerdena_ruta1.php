@@ -39,7 +39,7 @@ Ver los precios de la ruta</a></strong></p>
 	<h2>Bed &amp; Breakfast de la ruta</h2>
 	<p class="text-muted"><strong>Julio y Agosto mín. 3 noches por B&amp;B*:</strong></p>
 	<ol>
-	  <li><a href="#" class="smooth">Agriturismo "S’Omu"</a><small class="text-muted"> Baratili San Pietro, Oristano</small></a></li>
+	  <li><a href="#" class="smooth">Agriturismo "S'Omu"</a><small class="text-muted"> Baratili San Pietro, Oristano</small></a></li>
 	  <li><a href="#" class="smooth">B&amp;B "Casa Anedda"</a><small class="text-muted"> Sinnai, Cagliari</small></a></li>
 	  <li><a href="#" class="smooth">Albergo Diffuso "Mannois"</a><small class="text-muted"> Orosei, Nuoro</small></a></li>
 	  <li><a href="#" class="smooth">B&amp;B "Lu Pastruccialeddu"</a><small class="text-muted"> Arzachena, Olbia-Tempio</small></a></li>

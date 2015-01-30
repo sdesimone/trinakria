@@ -46,11 +46,11 @@ $destino="Cerdeña";
       <main class="main main-left col-md-7 col-sm-7 col-xs-10">
       <!--<main class="main main-left col-md-9 col-sm-9 col-xs-12">-->
         <h1>La historia de Cerdeña</h1>
-<p>Para preparar un viaje a Cerdeña es importante descubrir un poco de su historia y cultura así como los tratos más peculiares de su cocina, el tipo de territorio que tiene o el tiempo que hace durante el año. Aquí hemos preparado una pequeña guía de viaje de Cerdeña que esperamos os sirva para entrar un poco más a contacto con en este destino turístico durante la preparación de vuestro viaje.</p>
+	<p>Para preparar un <a href="<?php echo site_url()?>/cerdena">viaje a Cerdeña</a> es importante descubrir un poco de su historia y cultura así como los tratos más peculiares de <a href="<?php echo site_url()?>/cerdena/guia/cocina">su cocina</a>, el tipo de <a href="<?php echo site_url()?>/cerdena/guia/geografia">territorio</a> que tiene o <a href="<?php echo site_url()?>/cerdena/guia/eltiempo">el tiempo</a> que hace durante el año. Aquí hemos preparado una pequeña guía de viaje de Cerdeña que esperamos os sirva para entrar un poco más a contacto con en este destino turístico durante la preparación de vuestro viaje.</p>
 
 <p>Cerdeña es, por su extensión, la segunda isla más grande del Mar Mediterráneo después de Sicilia y se encuentra entre Córcega al norte, Túnez al sur, Baleares al oeste e Italia del sur al este. Cualquier geólogo podrá afirmar que el subsuelo de las regiones de Sulcis-Iglesiente (el extremo sudoccidental) es la zona más antigua del territorio italiano, originada en el Cámbrico, hace entre 500 y 600 millones de años. Fue llamada "Shardan/Sherden" (o variantes similares) por los fenicios. El nombre de la isla fue "Ichnusa" (forma de huella de pie) por los griegos y "Sandalyon" por los romanos, que es la traducción del griego. En la actualidad viven alrededor de 1.600.000 habitantes (el equivalente de la población de una ciudad como Palermo), todos concentrados en grandes pueblos, así que la isla fuera de las urbanizaciones resulta muy virgen y llena de paisajes naturales de mar y montaña.</p>
 
-<p>Para leer más ir a nuestro <a href="#">Blog</a> o en la página de <a href="#">Wikipedia</a>.</p>
+<p>Para leer más ir a nuestro <a href="<?php echo site_url()?>/blog">Blog</a> o en la página de <a href="http://es.wikipedia.org/wiki/Cerdeña">Wikipedia</a>.</p>
 
 <p class="text-muted"><strong> Aquí os hemos preparado una pequeña y resumida cronología histórica de Cerdeña: </strong></p>
 
@@ -86,22 +86,20 @@ La prehistoria de Cerdeña comienza en torno a 14.000 años antes de Cristo, fec
         <div class="row">
 	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
 		<h3>Secciones destacadas</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Conoce a Trinakria Tours</a></li>
-			  <li class="linkable"><a href="#">Nuestro Equipo</a></li>
-			  <li class="linkable"><a href="#">Preguntas Frecuentes</a></li>
-			  <li class="linkable"><a href="#">Nuestros Clientes dicen…</a></li>
-			  <li class="linkable"><a href="#">Como llegar a Cerdeña</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/quienes-somos/">Conoce a Trinakria Tours</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/nuestro-equipo/">Nuestro Equipo</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/faq/">Preguntas Frecuentes</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/testimonios/">Nuestros Clientes dicen…</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/como-llegar/">Como llegar a Cerdeña</a></li>
 		</ul>
 	   </div>
           <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs">
 		<h3>Nuestros Tours a Cerdeña</h3>
-
 		<ul class="widget">
-			  <li class="linkable"><a href="#">Cerdeña a tu aire</a></li>
-			  <li class="linkable"><a href="#">Cerdeña Rural</a></li>
-			  <li class="linkable"><a href="#">Cerdeña con Encanto</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-a-tu-aire/">Cerdeña a tu aire</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-rural/">Cerdeña Rural</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/rutas/cerdena-con-encanto/">Cerdeña con Encanto</a></li>
 		</ul>
           </div>
         </div>
