@@ -46,25 +46,25 @@ get_header();
   <h3>Descubre nuestros tours<small class="pull-right hidden-xs">Ofertas de viajes en Sicilia, Cerdeña, Puglia y Creta</small></h3>
   <div class="row">
     <div class="col-md-3 col-sm-3 col-xs-6">
-      <div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/f-s1.jpg" class="img-rounded img-responsive"></a>
+      <div class="thumbnail shadow link"> <a href="<?php echo site_url();?>/sicilia"><img src="<?php bloginfo('template_directory'); ?>/img/f-s1.jpg" class="img-rounded img-responsive"></a>
         <div class="caption">Viajes Sicilia</div>
         <p>Rutas e itinerarios culturales en Sicilia. ¡Descubre la perla del Mediterráneo!</p>
       </div>
     </div>
     <div class="col-md-3 col-sm-3 col-xs-6">
-      <div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/f-s2.jpg" class="img-rounded img-responsive"></a>
+      <div class="thumbnail shadow link"> <a href="<?php echo site_url();?>/cerdena"><img src="<?php bloginfo('template_directory'); ?>/img/f-s2.jpg" class="img-rounded img-responsive"></a>
         <div class="caption">Viajes Cerdeña</div>
         <p>Un tour por Cerdeña es una gran experiencia sensorial, verde y azul intenso.</p>
       </div>
     </div>
     <div class="col-md-3 col-sm-3 col-xs-6">
-      <div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/f-s3.jpg" class="img-rounded img-responsive"></a>
+      <div class="thumbnail shadow link"> <a href="<?php echo site_url();?>/puglia"><img src="<?php bloginfo('template_directory'); ?>/img/f-s3.jpg" class="img-rounded img-responsive"></a>
         <div class="caption">Viajes Puglia</div>
         <p>El tacón de Italia, cruce de culturas mediterráneas. ¡Descubre Puglia con nosotros!</p>
       </div>
     </div>
     <div class="col-md-3 col-sm-3 col-xs-6">
-      <div class="thumbnail shadow"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/f-s4.jpg" class="img-rounded img-responsive"></a>
+      <div class="thumbnail shadow"> <a href="<?php echo site_url();?>/creta"><img src="<?php bloginfo('template_directory'); ?>/img/f-s4.jpg" class="img-rounded img-responsive"></a>
         <div class="caption">Viajes Creta</div>
         <p>Viaja a Creta y descubre el verde de sus olivos, sus flores multicolor y el azul de su mar.</p>
       </div>

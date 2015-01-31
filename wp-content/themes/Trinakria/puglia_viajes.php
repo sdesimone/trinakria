@@ -32,19 +32,19 @@ El Sur de Italia y Puglia sobre todo conserva lugares todavía vírgenes y una h
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar text-muted" >
         <div class="row">
 		<div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
-			<div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/puglia/1-Rutas por Puglia.JPG" class="img-rounded img-responsive"></a>
+			<div class="thumbnail shadow link"> <a href="<?php echo site_url();?>/puglia/rutas"><img src="<?php bloginfo('template_directory'); ?>/img/puglia/1-Rutas por Puglia.JPG" class="img-rounded img-responsive"></a>
 				<div class="captionlarge"><center><big><big>Rutas por Puglia</big></big></center></div>
 			</div>
 		</div>
 		<div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
 		<div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
-			<div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/puglia/2-Alojamientos.jpg" class="img-rounded img-responsive"></a>
+			<div class="thumbnail shadow link"> <a href="<?php echo site_url();?>/puglia/alojamientos"><img src="<?php bloginfo('template_directory'); ?>/img/puglia/2-Alojamientos.jpg" class="img-rounded img-responsive"></a>
 				<div class="captionlarge"><center><big><big>Alojamientos</big></big></center></div>
 		
 		</div>
 		<div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
 		<div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
-			<div class="thumbnail shadow link"> <a href="#"><img src="<?php bloginfo('template_directory'); ?>
+			<div class="thumbnail shadow link"> <a href="<?php echo site_url();?>/puglia/guia"><img src="<?php bloginfo('template_directory'); ?>
 /img/puglia/3-Guia de Viaje.jpg" class="img-rounded img-responsive"></a>
 		</div>
 				<div class="captionlarge"><center><big><big>Guía de viaje</big></big></center></div>
