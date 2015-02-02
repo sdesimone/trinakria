@@ -38,8 +38,6 @@ $xml_zona='Zona Salento'; // String de zona, como aparece en el XML del Backoffi
         <?php } ?>
 	<br/>
 
-  <li><a href="/faqs?page=4">»</a> </li>
-</ul>
 <div>
       </main>
 

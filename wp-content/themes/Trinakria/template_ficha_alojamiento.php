@@ -48,6 +48,9 @@ get_header();
 		<h3>A destacar</h3>
 		<p><?php echo $aloj['destacar'];?></p>
 
+		<h3>Lugares de interés cercanos</h3>
+		<p><?php echo $aloj['lugares'];?></p>
+
                 <h3>Servicios</h3>
                 <ul class="widget text-muted">
 		<?php foreach($aloj['servicios'] as $servicio){ 
@@ -56,8 +59,6 @@ get_header();
 		 <?php  } 
 		      } ?>
                 </ul>
-		<h3>Lugares de interés cercanos</h3>
-		<p><?php echo $aloj['lugares'];?></p>
               </div>
             </div>
 

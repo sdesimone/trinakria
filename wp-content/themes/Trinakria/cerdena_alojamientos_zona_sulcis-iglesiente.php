@@ -1,7 +1,7 @@
 <?php include_once (TEMPLATEPATH . '/inc/_data.php' );?>
 <?php include_once (TEMPLATEPATH . '/utils.php' );?>
 <?php 
-/* Template Name: Alojamientos Zona Cerdeña Oristano*/
+/* Template Name: Alojamientos Zona Cerdeña Sulcis*/
 get_header();
 $xml_zona='Zona Sulcis-Iglesiente'; // String de zona, como aparece en el XML del Backoffice
 ?>

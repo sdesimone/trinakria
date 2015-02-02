@@ -3,7 +3,7 @@
 <?php 
 /* Template Name: Alojamientos Zona Creta Rethymno*/
 get_header();
-$xml_zona='Zona Rethymno'; // String de zona, como aparece en el XML del Backoffice
+$xml_zona='Zona Rethimno'; // String de zona, como aparece en el XML del Backoffice
 ?>
 
 <div class="container nopadding shadow"> 

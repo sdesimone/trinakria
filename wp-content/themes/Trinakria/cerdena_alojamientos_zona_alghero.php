@@ -1,7 +1,7 @@
 <?php include_once (TEMPLATEPATH . '/inc/_data.php' );?>
 <?php include_once (TEMPLATEPATH . '/utils.php' );?>
 <?php 
-/* Template Name: Alojamientos Zona Cerdeña Oristano*/
+/* Template Name: Alojamientos Zona Cerdeña Alghero */
 get_header();
 $xml_zona='Zona Alghero'; // String de zona, como aparece en el XML del Backoffice
 ?>
@@ -37,8 +37,6 @@ $xml_zona='Zona Alghero'; // String de zona, como aparece en el XML del Backoffi
         <?php } ?>
 	<br/>
 
-  <li><a href="/faqs?page=4">»</a> </li>
-</ul>
 <div>
       </main>
 

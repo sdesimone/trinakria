@@ -3,7 +3,7 @@
 <?php 
 /* Template Name: Alojamientos Zona Puglia Valle d'Itria*/
 get_header();
-$xml_zona='Zona Valle dItria'; // String de zona, como aparece en el XML del Backoffice
+$xml_zona="Zona Valle d'Itria"; // String de zona, como aparece en el XML del Backoffice
 ?>
 
 <div class="container nopadding shadow"> 
@@ -39,8 +39,6 @@ El Valle d’Itria está al centro de Puglia y su territorio equidista de los do
         <?php } ?>
 	<br/>
 
-  <li><a href="/faqs?page=4">»</a> </li>
-</ul>
 <div>
       </main>
 

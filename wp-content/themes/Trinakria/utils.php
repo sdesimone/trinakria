@@ -28,7 +28,7 @@ function lista_alojamientos_zona($zona){
 	$data = array(array());
 	if (file_exists($file)) {
 		$xml = simplexml_load_file($file);
-		$srutturas = $xml->xpath("//Sruttura[Anagrafica/Zona='$zona']");
+		$srutturas = $xml->xpath('//Sruttura[Anagrafica/Zona="'.$zona.'"]');
 
 		$indx = 0;     
 		foreach($srutturas as $sruttura){

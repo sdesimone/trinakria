@@ -40,8 +40,6 @@ El Gargano es la parte norte de Puglia, la más montañosa y donde es posible re
         <?php } ?>
 	<br/>
 
-  <li><a href="/faqs?page=4">»</a> </li>
-</ul>
 <div>
       </main>
 

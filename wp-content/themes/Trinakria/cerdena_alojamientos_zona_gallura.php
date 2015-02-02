@@ -1,9 +1,9 @@
 <?php include_once (TEMPLATEPATH . '/inc/_data.php' );?>
 <?php include_once (TEMPLATEPATH . '/utils.php' );?>
 <?php 
-/* Template Name: Alojamientos Zona Creta Chania*/
+/* Template Name: Alojamientos Zona Cerdeña Gallura */
 get_header();
-$xml_zona='Zona Chania y Oeste'; // String de zona, como aparece en el XML del Backoffice
+$xml_zona='Zona Gallura y Costa Esmeralda';
 ?>
 
 <div class="container nopadding shadow"> 
@@ -12,14 +12,13 @@ $xml_zona='Zona Chania y Oeste'; // String de zona, como aparece en el XML del B
   <div class="container shadow">
     <div class="row">
     
-    <?php $submenu=2; include_once (TEMPLATEPATH . '/inc/menu-sub-creta.php' );?>
+    <?php $submenu=2; include_once (TEMPLATEPATH . '/inc/menu-sub-cerdena.php' );?>
     
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
-
-	<h1>Alojamientos en Chania
+	<h1>Alojamientos en Gallura y Costa Esmeralda
 	<i class="fa fa-compass pull-right rotate<?php echo $data[$zona]['position'] ?>"></i></h1>
 
-	<p class="spacer">Oeste de la isla, la ciudad de <strong>Chania</strong> (La Canea) y su precioso casco antiguo con baños turcos, minaretes, iglesias y palacetes venecianos. En el sur del distrito de Chania podréis descubrir la famosa playa de <strong>Elafonisi</strong> o las gargantas de <strong>Samaria</strong>. También muy cerca de la ciudad hay varias playas, no tan famosas como Elafonisi pero igual de bonitas. En la zona de chania hemos seleccionado hoteles con encanto sea en su casco antiguo e a los alrededores.</p>
+	<p class="spacer">La Gallura y la Costa Esmeralda se encuentran en el noreste de Cerdeña. El Glamour de la Costa Esmeralda viene equilibrado por los paisajes, a veces lunares, de la Gallura, su parte interior. Es una zona a visitar sobretodo en primavera para gozar de sus grandes paisajes, playas y una gastronomía que es la más refinada de toda la isla. Aquí veréis las mejores masias de toda Cerdeña, los famosos ‘stazzi’ y muchos de nuestros alojamientos son de este estilo.</p>
 
 	<?php 
 		$fichas = lista_alojamientos_zona($xml_zona);
@@ -37,9 +36,11 @@ $xml_zona='Zona Chania y Oeste'; // String de zona, como aparece en el XML del B
         </div>
         <?php } ?>
 	<br/>
+
+<div>
       </main>
 
-	<?php include_once (TEMPLATEPATH . '/inc/menu-right-alojamientos-creta.php' );?>
+	<?php include_once (TEMPLATEPATH . '/inc/menu-right-alojamientos-cerdena.php' );?>
     </div>
   </div>
 </div>

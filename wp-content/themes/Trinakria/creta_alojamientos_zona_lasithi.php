@@ -3,7 +3,7 @@
 <?php 
 /* Template Name: Alojamientos Zona Creta Lasithi*/
 get_header();
-$xml_zona='Zona Lasithi'; // String de zona, como aparece en el XML del Backoffice
+$xml_zona='Zona Lasithi (Este)'; // String de zona, como aparece en el XML del Backoffice
 ?>
 
 <div class="container nopadding shadow"> 

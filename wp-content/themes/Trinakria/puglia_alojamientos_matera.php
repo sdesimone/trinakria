@@ -39,8 +39,6 @@ Matera está al centro oeste de Puglia, capital de la vecina región de Basilica
         <?php } ?>
 	<br/>
 
-  <li><a href="/faqs?page=4">»</a> </li>
-</ul>
 <div>
       </main>
 

@@ -46,8 +46,8 @@ El Sur de Italia y Puglia sobre todo conserva lugares todavía vírgenes y una h
 		<div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
 			<div class="thumbnail shadow link"> <a href="<?php echo site_url();?>/puglia/guia"><img src="<?php bloginfo('template_directory'); ?>
 /img/puglia/3-Guia de Viaje.jpg" class="img-rounded img-responsive"></a>
-		</div>
 				<div class="captionlarge"><center><big><big>Guía de viaje</big></big></center></div>
+		</div>
 		<div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
         </div>
       </div>
