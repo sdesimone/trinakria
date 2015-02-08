@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="xarop.com">
-<title>Zágara Travel: Precios ruta Cerdeña</title>
+<title>Zágara Travel: Precios ruta Creta</title>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="../../style.css" rel="stylesheet">
 <style>
@@ -24,7 +24,7 @@ body{
 <table class="table">
 <thead>
   <tr>
-    <th colspan='3'> Cerdeña a tu aire</th>
+    <th colspan='3'> Creta a tu aire</th>
   </tr>
   <tr>
     <th align='left'></th>
@@ -91,7 +91,7 @@ vuelos (ii), seguro de viaje (iii), comidas, cenas y otros gastos personales.
 </p>
 
 <p>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a Todo Riesgo para daños y hurto. </p>
-<p>(ii) No tramitamos vuelos porque la mayoría de compañías que vuelan a Cerdeña son de bajo coste y entendemos que es más económico si los compráis online vosotros mismos. </p>
+<p>(ii) No tramitamos vuelos porque la mayoría de compañías que vuelan a Creta son de bajo coste y entendemos que es más económico si los compráis online vosotros mismos. </p>
 <p>(iii) Bajo petición Tramitamos Seguros de Anulación y de Asistencia sanitaria. Nuestro proveedor de seguros habitual es AXA.</p>
               <p>&nbsp;</p>
 </small>

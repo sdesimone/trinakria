@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="xarop.com">
-<title>Zágara Travel: Precios ruta Creta</title>
+<title>Zágara Travel: Precios ruta Malta</title>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="../../style.css" rel="stylesheet">
 <style>
@@ -17,13 +17,13 @@ body{
 </head>
 <body>
 
-<p> Trinakria Tours - Precios "CERDEÑA CON ENCANTO" </p>
+<p> Trinakria Tours - Precios "MALTA CON ENCANTO" </p>
 <p> Los precios (*) están expresados en Euros y son <strong>precios por persona</strong> - reserva mínima: 2 personas</p>
 
 <table class="table">
 <thead>
   <tr>
-    <th colspan='3'> Creta con encanto</th>
+    <th colspan='3'> Malta con encanto</th>
   </tr>
   <tr>
     <th align='left'></th>
@@ -34,43 +34,43 @@ body{
 <tbody>
   <tr>
     <td align='left'>7 noches</td>
-    <td>620 €</td>
-    <td>722 €</td>
+    <td>714 €</td>
+    <td>760 €</td>
   </tr>
   <tr>
     <td align='left'>8 noches</td>
-    <td>708 €</td>
-    <td>825 €</td>
+    <td>816 €</td>
+    <td>869 €</td>
   </tr>
   <tr>
     <td align='left'>9 noches</td>
-    <td>797 €</td>
-    <td>928 €</td>
+    <td>918 €</td>
+    <td>977 €</td>
   </tr>
   <tr>
     <td align='left'>10 noches</td>
-    <td>885 €</td>
-    <td>1.031 €</td>
+    <td>1.020 €</td>
+    <td>1.086 €</td>
   </tr>
   <tr>
     <td align='left'>11 noches</td>
-    <td>974 €</td>
-    <td>1.135 €</td>
+    <td>1.122 €</td>
+    <td>1.194 €</td>
   </tr>
   <tr>
     <td align='left'>12 noches</td>
-    <td>1.062 €</td>
-    <td>1.238 €</td>
+    <td>1.224 €</td>
+    <td>1.303 €</td>
   </tr>
   <tr>
     <td align='left'>13 noches</td>
-    <td>1.151 €</td>
-    <td>1.341 €</td>
+    <td>1.326 €</td>
+    <td>1.411 €</td>
   </tr>
   <tr>
     <td align='left'>14 noches</td>
-    <td>1.239 €</td>
-    <td>1.444 €</td>
+    <td>1.428 €</td>
+    <td>1.520 €</td>
   </tr>
 </tbody>
 </table>
@@ -91,7 +91,7 @@ vuelos (ii), seguro de viaje (iii), comidas, cenas y otros gastos personales.
 </p>
 
 <p>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a Todo Riesgo para daños y hurto. </p>
-<p>(ii) No tramitamos vuelos porque la mayoría de compañías que vuelan a Creta son de bajo coste y entendemos que es más económico si los compráis online vosotros mismos. </p>
+<p>(ii) No tramitamos vuelos porque la mayoría de compañías que vuelan a Malta son de bajo coste y entendemos que es más económico si los compráis online vosotros mismos. </p>
 <p>(iii) Bajo petición Tramitamos Seguros de Anulación y de Asistencia sanitaria. Nuestro proveedor de seguros habitual es AXA.</p>
               <p>&nbsp;</p>
 </small>
