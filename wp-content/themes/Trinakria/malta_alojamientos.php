@@ -64,7 +64,6 @@ get_header();
 
 		<ul class="widget">
 		<li class="linkable"><a href="<?php echo site_url();?>/malta/rutas/malta-a-tu-aire">Malta a tu aire</a></li>
-		<li class="linkable"><a href="<?php echo site_url();?>/malta/rutas/malta-rural">Malta Rural</a></li>
 		<li class="linkable"><a href="<?php echo site_url();?>/malta/rutas/malta-con-encanto">Malta con Encanto</a></li>
 		</ul>
           </div>
