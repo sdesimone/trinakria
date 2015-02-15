@@ -19,12 +19,14 @@ else {$parent = get_post( $post )->post_name;}
         <li><a href="<?php echo site_url(); ?>/oficinas/">Oficinas</a></li>
       </ul>
     </li>
-    <li class="dropdown"> <a href="<?php echo site_url(); ?>/sicilia/"  data-toggle="dropdown" class="dropdown-toggle disabled <?php if ($parent=='sicilia') echo 'active'; ?>">Sicilia <b class="caret"></b></a>
+    <li class="dropdown"> <a href="<?php echo site_url(); ?>/sicilia/"  data-toggle="dropdown" class="dropdown-toggle disabled <?php if ($parent=='sicilia') echo 'active'; ?>">Sicilia </b></a>
+<!--
       <ul class="dropdown-menu">
         <li><a href="<?php echo site_url(); ?>/sicilia/rutas/">Rutas por Sicilia</a></li>
         <li><a href="<?php echo site_url(); ?>/sicilia/alojamientos/">Alojamientos en Sicilia</a></li>
         <li><a href="<?php echo site_url(); ?>/sicilia/guia/">Guia de Sicilia</a></li>
       </ul>
+-->
     </li>
     <li class="dropdown">
     <a href="<?php echo site_url(); ?>/cerdena/"  data-toggle="dropdown" class="dropdown-toggle disabled <?php if ($parent=='cerdena') echo 'active'; ?>">Cerdeña <b class="caret"></b></a>
