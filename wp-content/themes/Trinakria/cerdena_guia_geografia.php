@@ -18,14 +18,14 @@ $destino="Cerdeña";
 <p>Cerdeña tiene forma de huella de pie y por eso, los griegos antes y los romanos después, la llamaron "Ichnusa" que significa "forma de pie".</p>
 
 <p>La capital de Cerdeña es Cagliari. La región tiene ocho provincias: 
-<a href="http://es.wikipedia.org/wiki/Provincia_de_Cagliari">Cagliari</a>, 
-<a href="http://es.wikipedia.org/wiki/Provincia_de_Sassari">Sassari</a>, 
-<a href="http://es.wikipedia.org/wiki/Provincia_de_Nuoro">Nuoro</a>, 
-<a href="http://www.google.com/url?q=http%3A%2F%2Fes.wikipedia.org%2Fwiki%2FProvincia_de_Orist%25C3%25A1n&sa=D&sntz=1&usg=AFQjCNEfkBwHBFvGrkyAU5jxLJldZytuog">Oristano</a>, 
-<a href="http://es.wikipedia.org/wiki/Provincia_de_Olbia-Tempio">Olbia-Tempio</a>, 
-<a href="http://es.wikipedia.org/wiki/Provincia_de_Ogliastra">Ogliastra</a>, 
-<a href="http://es.wikipedia.org/wiki/Provincia_de_Carbonia-Iglesias">Carbonia-Iglesias</a> y 
-<a href="http://es.wikipedia.org/wiki/Provincia_de_Medio_Campidano">Medio Campidano</a>. </p> 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Cagliari" target="blank">Cagliari</a>, 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Sassari" target="blank">Sassari</a>, 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Nuoro" target="blank">Nuoro</a>, 
+<a href="http://www.google.com/url?q=http%3A%2F%2Fes.wikipedia.org%2Fwiki%2FProvincia_de_Orist%25C3%25A1n&sa=D&sntz=1&usg=AFQjCNEfkBwHBFvGrkyAU5jxLJldZytuog" target="blank">Oristano</a>, 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Olbia-Tempio" target="blank">Olbia-Tempio</a>, 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Ogliastra" target="blank">Ogliastra</a>, 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Carbonia-Iglesias" target="blank">Carbonia-Iglesias</a> y 
+<a href="http://es.wikipedia.org/wiki/Provincia_de_Medio_Campidano" target="blank">Medio Campidano</a>. </p> 
 
 <p>Cerdeña es, por su extensión, la segunda isla más grande del Mediterráneo después de Sicilia.</p>
 

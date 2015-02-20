@@ -178,9 +178,9 @@ $faq_answers=array(
         <h3>¿Alguna pregunta más?</h3>
         <p>Si no encuentras la respuestas a tus dudas aquí puedes usar nuestros contactos de atención al cliente y encantados te atenderemos.</p>
         <p><strong>Twitter</strong>:<br>
-	<a href="#"><strong>@trinakriatours</strong></a></p>
+	<a href="http://twitter.com/trinakriatours" target="blank"><strong>@trinakriatours</strong></a></p>
         <p><strong>Teléfono Fijo</strong>: <br>
-          <em>De Lun a Vie te contestamos al</em> <strong><a href="tel:/trinakria/quienes-somos/">93 514 78 31</a></strong> (10-18h)</p>
+          <em>De Lun a Vie te contestamos al</em> <strong><a href="tel:+34 935147831">93 514 78 31</a></strong> (10-18h)</p>
         <p><strong>E mail</strong>:</strong><br>
 	<em>Escribenos a nuestros correos-e:</em><br/>
 	<a href="mailto:info@zagaratravel.com" target="_blank"><strong>info@zagaratravel.com</strong></a><br/>

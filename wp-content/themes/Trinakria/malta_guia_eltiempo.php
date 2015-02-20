@@ -29,15 +29,15 @@ $destino="Malta";
 
 <h1>El Tiempo en Malta</h1>
 
-<p>En la zona sur del Mediterráneo el tiempo es muy estable y muy agradable, perfecto para unas vacaciones en casi cualquier época del año. Malta posee <a href="#"><em>un clima seco casi todo el año</em></a>, únicamente en los meses centrales del invierno (diciembre, enero y febrero) se nota humedad y llueve algo.</p>
+<p>En la zona sur del Mediterráneo el tiempo es muy estable y muy agradable, perfecto para unas vacaciones en casi cualquier época del año. Malta posee <font color="#FF7F00"><em>un clima seco casi todo el año</em></font>, únicamente en los meses centrales del invierno (diciembre, enero y febrero) se nota humedad y llueve algo.</p>
 
 <p>El viento añade sequedad al ambiente reduciendo en la práctica las estaciones a dos, el corto invierno, con temperaturas que, sin embargo, no suelen bajar de 15 grados de media (en invierno algunos días se llega a 5º) y el largo verano donde incluso en octubre podemos tener 25º de media.</p>
  
 <p>En pleno verano, (junio, julio y agosto) las medias se acercan a los 30º. Llueve muy poco y sobre todo en invierno, poco más de cincuenta días al año.</p>
  
-<p>Para saber más sobre el clima y las temperaturas en Malta se puede consultar la  web de: <a href="http://www.accuweather.com/es/mt/valletta/233779/weather-forecast/233779">AccuWeather</a></p>
+<p>Para saber más sobre el clima y las temperaturas en Malta se puede consultar la  web de: <a href="http://www.accuweather.com/es/mt/valletta/233779/weather-forecast/233779" target="blank">AccuWeather</a></p>
  
-<p>Malta posee un clima perfecto para unas vacaciones desde marzo a octubre. Ambos extremos del periodo (<a href="#"><em>abril</em></a>, <a href="#"><em>mayo</em></a>, <a href="#"><em>septiembre</em></a> y <a href="#"><em>octubre</em></a> son ideales ya que las temperaturas son muy agradables y cálidas y el tiempo estable. En julio y agosto, además de ser la temporada alta y de mayor afluencia, es la época del año con mayor calor. Por eso, si no aguantas bien las altas temperaturas es mejor que planees tu viaje un poco antes o un poco después.</p>
+<p>Malta posee un clima perfecto para unas vacaciones desde marzo a octubre. Ambos extremos del periodo (<font color="#FF7F00"><em>abril</em></font>, <font color="#FF7F00"><em>mayo</em></font>, <font color="#FF7F00"><em>septiembre</em></font> y <font color="#FF7F00"><em>octubre</em></font> son ideales ya que las temperaturas son muy agradables y cálidas y el tiempo estable. En julio y agosto, además de ser la temporada alta y de mayor afluencia, es la época del año con mayor calor. Por eso, si no aguantas bien las altas temperaturas es mejor que planees tu viaje un poco antes o un poco después.</p>
 	<center><img src="<?php bloginfo('template_directory'); ?>/img/malta/guia/eltiempo/0-promedio de temperaturas en Malta.png" class="img-rounded img-responsive"/></center>
 
       </main>

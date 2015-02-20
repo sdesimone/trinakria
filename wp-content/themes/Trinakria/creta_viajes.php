@@ -23,7 +23,7 @@ $destino='Creta';
 
 <p>Con nosotros tendrás una experiencia de viaje a Creta diferente: playas vírgenes, pueblos hermosos y encontrarás a cretenses que delante de un buen raki te contarán las historias más peculiares de la isla.</p> 
 
-<p>En nuestra página encontrarás entre las mejores ofertas de <strong>turismo sostenible y viajes de autor</strong> para conocer la isla de Creta, elige entre una <a href="#">ruta a tu aire con coche de alquiler</a> o una estancia en uno de <a href="#">nuestros alojamientos</a> a lo largo de toda la isla.</p>
+<p>En nuestra página encontrarás entre las mejores ofertas de <strong>turismo sostenible y viajes de autor</strong> para conocer la isla de Creta, elige entre una <a href="<?php echo site_url();?>/creta/rutas">ruta a tu aire con coche de alquiler</a> o una estancia en uno de <a href="<?php echo site_url();?>/creta/alojamientos">nuestros alojamientos</a> a lo largo de toda la isla.</p>
 
 <p>Nos movemos fuera de los circuitos del turismo de masa y estamos especializados en servicios de viaje alternativos y de alta calidad en Creta.</p>
 

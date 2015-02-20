@@ -23,7 +23,7 @@ $destino='Malta';
  
 <p>Nuestra agencia ofrece un viaje diferente, una experiencia que incluye fortalezas amuralladas; ciudades y pueblos con regusto árabe y británico; playas de aguas turquesas; museos llenos de historia; mucha fiesta y mucha tranquilidad junto a  los aromas de una gastronomía rica y variada.</p>
  
-<p>Trinakria Tours presenta siempre las mejores ofertas de <strong>un turismo preocupado por la sostenibilidad y la ecología</strong>, así como viajes personalizados para conocer la isla de Malta. Podrás <a href="#">elegir tu propia ruta con coche de alquiler</a>, descubriendo los lugares menos transitados y <a href="#">alojarte en alguno de nuestros B&amp;B con encanto</a> repartidos por Malta y Gozo.</p>
+<p>Trinakria Tours presenta siempre las mejores ofertas de <strong>un turismo preocupado por la sostenibilidad y la ecología</strong>, así como viajes personalizados para conocer la isla de Malta. Podrás <a href="<?php echo site_url();?>/malta/rutas">elegir tu propia ruta con coche de alquiler</a>, descubriendo los lugares menos transitados y <a href="<?php echo site_url();?>/malta/alojamientos">alojarte en alguno de nuestros B&amp;B con encanto</a> repartidos por Malta y Gozo.</p>
  
 <p>Nuestra filosofía se aleja de los circuitos del turismo masivo, por ello nos hemos especializado en un turismo y en viajes distintos, de alta calidad y adaptados a cada persona en Malta.</p>
  

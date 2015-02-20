@@ -19,7 +19,7 @@ else {$parent = get_post( $post )->post_name;}
         <li><a href="<?php echo site_url(); ?>/oficinas/">Oficinas</a></li>
       </ul>
     </li>
-    <li class="dropdown"> <a href="<?php echo site_url(); ?>/sicilia/"  data-toggle="dropdown" class="dropdown-toggle disabled <?php if ($parent=='sicilia') echo 'active'; ?>">Sicilia </b></a>
+    <li class="dropdown"> <a href="<?php echo site_url();?>/sicilia" target="blank" data-toggle="dropdown" class="dropdown-toggle disabled <?php if ($parent=='sicilia') echo 'active'; ?>">Sicilia </b></a>
 <!--
       <ul class="dropdown-menu">
         <li><a href="<?php echo site_url(); ?>/sicilia/rutas/">Rutas por Sicilia</a></li>

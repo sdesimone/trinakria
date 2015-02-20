@@ -23,7 +23,7 @@ El Sur de Italia y Puglia sobre todo conserva lugares todavía vírgenes y una h
 
 <p>Todos los alojamientos de nuestro catálogo han sido seleccionados personalmente por nosotros siguiendo parámetros de familiaridad del lugar, limpieza y encanto.</p>
 
-<p>Aquí encontrarás los mejores tours e itinerarios de <strong>turismo sostenible y de autor</strong> para visitar Puglia (Apulia), puedes elegir entre una <a href="#">ruta a tu aire</a> o una estancia en uno de <a href="#">nuestros alojamientos</a>, esparcidos por toda Puglia.</p>
+<p>Aquí encontrarás los mejores tours e itinerarios de <strong>turismo sostenible y de autor</strong> para visitar Puglia (Apulia), puedes elegir entre una <a href="<?php echo site_url();?>/puglia/rutas">ruta a tu aire</a> o una estancia en uno de <a href="<?php echo site_url();?>/puglia/alojamientos">nuestros alojamientos</a>, esparcidos por toda Puglia.</p>
 
 <p>Somos los especialistas en tours por libres y hechos a medida en Puglia y en el Mediterráneo, una vez te hayas hecho una idea de los que ofrecemos, <strong><a href="<?php echo site_url();?>/contactar">contacta con nosotros</a></strong> y te prepararemos un tour totalmente personalizado y en base a tus deseos.</p>
 

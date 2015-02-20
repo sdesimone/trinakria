@@ -46,7 +46,7 @@ get_header();
   <h3>Descubre nuestros tours<small class="pull-right hidden-xs">Ofertas de viajes en Sicilia, Cerdeña, Puglia y Creta</small></h3>
   <div class="row">
     <div class="col-md-3 col-sm-3 col-xs-6">
-      <div class="thumbnail shadow link"> <a href="<?php echo site_url();?>/sicilia"><img src="<?php bloginfo('template_directory'); ?>/img/f-s1.jpg" class="img-rounded img-responsive"></a>
+      <div class="thumbnail shadow link"> <a href="http://www.shinesicily.com/Rutas-por-Sicilia.asp?lang=esp" target="blank"><img src="<?php bloginfo('template_directory'); ?>/img/f-s1.jpg" class="img-rounded img-responsive"></a>
         <div class="caption">Viajes Sicilia</div>
         <p>Rutas e itinerarios culturales en Sicilia. ¡Descubre la perla del Mediterráneo!</p>
       </div>
@@ -97,7 +97,7 @@ get_header();
 
 <img src="<?php bloginfo('template_directory'); ?>/img/f-mapa.jpg" class="img-responsive">
 
-	<p>Conoce más a fondo nuestros destinos leyendo las <strong>guías de viaje</strong> que hemos elaborado. Estas te permitirán sumergirte en cada maravilloso lugar que tenemos en nuestro catálogo de viajes. Descubre historia, cultura, eventos y mira la manera más rápida de llegar a <a href="<?php echo site_url(); ?>/sicilia/">Sicilia</a>, <a href="<?php echo site_url(); ?>/cerdeña/">Cerdeña</a>, <a href="<?php echo site_url(); ?>/puglia/">Puglia</a>, <a href="<?php echo site_url(); ?>/creta/">Creta</a> y <a href="<?php echo site_url(); ?>/malta/">Malta</a> desde los aeropuertos españoles. Disfruta y elige el viaje a tu medida y que más se ajusta a tus deseos. Viajar en el Mediterráneo es pasión!</p>
+	<p>Conoce más a fondo nuestros destinos leyendo las <strong>guías de viaje</strong> que hemos elaborado. Estas te permitirán sumergirte en cada maravilloso lugar que tenemos en nuestro catálogo de viajes. Descubre historia, cultura, eventos y mira la manera más rápida de llegar a <a href="http://www.shinesicily.com/Historia.asp?lang=esp" target="blank">Sicilia</a>, <a href="<?php echo site_url(); ?>/cerdena/guia">Cerdeña</a>, <a href="<?php echo site_url(); ?>/puglia/guia">Puglia</a>, <a href="<?php echo site_url(); ?>/creta/guia">Creta</a> y <a href="<?php echo site_url(); ?>/malta/guia">Malta</a> desde los aeropuertos españoles. Disfruta y elige el viaje a tu medida y que más se ajusta a tus deseos. Viajar en el Mediterráneo es pasión!</p>
     </div>
   </div>
 </div>

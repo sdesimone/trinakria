@@ -22,17 +22,17 @@ $destino="Puglia";
 <p>Las compañías principales que vuelan a Puglia desde España son:</p>
 
 <ul>
-<li><a href="http://www.ryanair.com/">Ryanair</a>: ofrece los vuelos directos <strong>Girona-Brindisi</strong> y <strong>Valencia-Bari</strong></li>
-<li><a href="http://www.vueling.com/">Vueling</a>: con esta compañía hay el directo <strong>Barcelona-Bari</strong> o sino, haciendo escala en Barcelona, se puede volar a Puglia desde muchos aeropuertos españoles. Otra posibilidad de vuelo directo es coger el <strong>Barcelona-Nápoles</strong> y luego alquilar un coche (unas 2h de autopista)</li>
-<li><a href="http://www.volotea.com/">Volotea</a>: Solo durante el verano tiene el <strong>Mallorca-Bari</strong> e <strong>Ibiza-Bari</strong></li>
-<li><a href="http://www.alitalia.com/">Alitalia</a>: ofrece buenas conexiones pero siempre haciendo una escala en Roma o Milán (si se decidiera de volar directo a Roma, desde aquí hasta el primer pueblo de Puglia donde tenemos un alojamiento hay unas 4h de autopista)</li>
-<li><a href="http://www.easyjet.com/">EasyJet</a>: ofrece conexiones a Bari o Brindisi vía Milán Malpensa (a lo mejor habrá que dormir una noche allí) desde Madrid, Barcelona, Málaga y Baleares</li>
+<li><a href="http://www.ryanair.com/" target="blank">Ryanair</a>: ofrece los vuelos directos <strong>Girona-Brindisi</strong> y <strong>Valencia-Bari</strong></li>
+<li><a href="http://www.vueling.com/" target="blank">Vueling</a>: con esta compañía hay el directo <strong>Barcelona-Bari</strong> o sino, haciendo escala en Barcelona, se puede volar a Puglia desde muchos aeropuertos españoles. Otra posibilidad de vuelo directo es coger el <strong>Barcelona-Nápoles</strong> y luego alquilar un coche (unas 2h de autopista)</li>
+<li><a href="http://www.volotea.com/" target="blank">Volotea</a>: Solo durante el verano tiene el <strong>Mallorca-Bari</strong> e <strong>Ibiza-Bari</strong></li>
+<li><a href="http://www.alitalia.com/" target="blank">Alitalia</a>: ofrece buenas conexiones pero siempre haciendo una escala en Roma o Milán (si se decidiera de volar directo a Roma, desde aquí hasta el primer pueblo de Puglia donde tenemos un alojamiento hay unas 4h de autopista)</li>
+<li><a href="http://www.easyjet.com/" target="blank">EasyJet</a>: ofrece conexiones a Bari o Brindisi vía Milán Malpensa (a lo mejor habrá que dormir una noche allí) desde Madrid, Barcelona, Málaga y Baleares</li>
 </ul>
 
 <p>Esta es la página web oficial de los aeropuertos de Puglia: </p>
 
 <ul>
-<li><a href="http://www.aeroportidipuglia.it/">Aeroporti di Puglia</a></li>
+<li><a href="http://www.aeroportidipuglia.it/" target="blank">Aeroporti di Puglia</a></li>
 </ul>
 
 <p>Puglia cuenta con 4 aeropuertos pero de hecho sólo los de Bari ("Karol Wojtila") y de Brindisi ("Aeropuerto del Salento") tienen conexiones todo el año y vuelos de línea. </p>
@@ -41,7 +41,7 @@ $destino="Puglia";
 
 <p>CÓMO LLEGAR EN BARCO </p>
  
-<p>La mejor conexión es la BARCELONA-CIVITAVECCHIA con <a href="http://www.grimaldi-lines.com/es/">GRIMALDI</a>. Una vez llegado a Civitavecchia habrá unas 4 horas y media de coche hasta el primer pueblo de Puglia donde tenemos alojamientos.</p>
+<p>La mejor conexión es la BARCELONA-CIVITAVECCHIA con <a href="http://www.grimaldi-lines.com/es/" target="blank">GRIMALDI</a>. Una vez llegado a Civitavecchia habrá unas 4 horas y media de coche hasta el primer pueblo de Puglia donde tenemos alojamientos.</p>
 <br/>
 	
 

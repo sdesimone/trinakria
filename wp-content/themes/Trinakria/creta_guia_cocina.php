@@ -16,7 +16,7 @@ $destino="Creta";
 
 <p>La Gastronomía de Creta es sin duda alguna unas de las razones para viajar a esta maravillosa isla del Mediterráneo. Es una cocina muy sana, rica en verduras y basada en el aceite de oliva, esto también porque Creta es el lugar con más olivares de toda Grecia (la isla produce hasta el 70% de todo el aceite griego!).</p>
 
-<p>Toda la mejor gastronomía de Creta la podréis probar en los tradicionales <a href="#">Kafenion</a> y en las famosas <a href="#">Tabernas</a>, los restaurantes griegos, donde es típico pedir varios platos, ponerlos en el medio de la mesa y comerlos todos entre todos, el tapeo en los restaurantes griegos es muy importante. Para los Griegos compartir una comida con otros es una costumbre profundamente arraigada. La atmósfera que se respira en las tabernas de Creta es muy relajada, simple, sin formalismos y a menudo hay músicos tocando la música tradicional cretense con el laúd; </p>
+<p>Toda la mejor gastronomía de Creta la podréis probar en los tradicionales <font color="#FF7F00">Kafenion</font> y en las famosas <font color="#FF7F00">Tabernas</font>, los restaurantes griegos, donde es típico pedir varios platos, ponerlos en el medio de la mesa y comerlos todos entre todos, el tapeo en los restaurantes griegos es muy importante. Para los Griegos compartir una comida con otros es una costumbre profundamente arraigada. La atmósfera que se respira en las tabernas de Creta es muy relajada, simple, sin formalismos y a menudo hay músicos tocando la música tradicional cretense con el laúd; </p>
 
 <p>Durante vuestro viaje a Creta algunos de los platos que, sin duda, estarán presentes en vuestra mesa son:</p>
 

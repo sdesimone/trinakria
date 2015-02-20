@@ -14,19 +14,19 @@ $destino="Malta";
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
 <h1>La Cocina en Malta</h1>
 
-<p>La gastronomía maltesa es un compendio de todos los aportes que las gentes que han llegado a Malta han traído con ellos. <a href="#">Gastronomía muy mediterránea</a> por la influencia del clima, del mar, las recetas e ingredientes griegos, árabes, españoles, italianos, magrebíes y orientales han pasado por el tamiz de 150 años de presencia británica, lo que da como resultado una gastronomía intensa, variada y curiosa.</p>
+<p>La gastronomía maltesa es un compendio de todos los aportes que las gentes que han llegado a Malta han traído con ellos. <font color="#FF7F00">Gastronomía muy mediterránea</font> por la influencia del clima, del mar, las recetas e ingredientes griegos, árabes, españoles, italianos, magrebíes y orientales han pasado por el tamiz de 150 años de presencia británica, lo que da como resultado una gastronomía intensa, variada y curiosa.</p>
 
-<p>Quienes hayáis viajado con nosotros a <a href="#">Creta o Sicilia</a>, veréis que la  cocina maltesa se parece a la de aquellas, pero con toques distintos ya sea en las influencias más diversas o en ingredientes venidos del índico o de África.</p>
+<p>Quienes hayáis viajado con nosotros a <font color="#FF7F00">Creta o Sicilia</font>, veréis que la  cocina maltesa se parece a la de aquellas, pero con toques distintos ya sea en las influencias más diversas o en ingredientes venidos del índico o de África.</p>
 
-<p>Malta ofrece una gastronomía variada, con <a href="#">mucho pescado, verdura y frutas, carne</a>, -sobre todo el conejo-, <a href="#">junto a la pasta de influencia italiana y los dulces y postres, ahí de claro origen árabomagrebí</a>.</p>
+<p>Malta ofrece una gastronomía variada, con <font color="#FF7F00">mucho pescado, verdura y frutas, carne</font>, -sobre todo el conejo-, <font color="#FF7F00">junto a la pasta de influencia italiana y los dulces y postres, ahí de claro origen árabomagrebí</font>.</p>
 
 <p>Aceite de oliva, pan, quesos, los indispensables pastizzi, helados, vino y cerveza completan una carta sabrosa y sorprendente.</p>
 
-<p><a href="#">Los pastizzi</a> son pastelillos de sabroso hojaldre rellenos de queso o ricota. Ideales para comer a todas horas. El único problema es la competencia que le hace los sabrosos y variados dulces y pastas, de ricota (konnoli’ta l-irkotta), de dátiles (imqaret) el <a href="#">"honey ring"</a>, pasta circular rellena de una pasta hecha con miel (Qaghag ta’ l’ghasel). Todos riquísimos y todos han sido probados por nuestros colaboradores, ¡garantizado!</p>
+<p><font color="#FF7F00">Los pastizzi</font> son pastelillos de sabroso hojaldre rellenos de queso o ricota. Ideales para comer a todas horas. El único problema es la competencia que le hace los sabrosos y variados dulces y pastas, de ricota (konnoli’ta l-irkotta), de dátiles (imqaret) el <font color="#FF7F00">"honey ring"</font>, pasta circular rellena de una pasta hecha con miel (Qaghag ta’ l’ghasel). Todos riquísimos y todos han sido probados por nuestros colaboradores, ¡garantizado!</p>
 
 <p>Aunque los malteses suelen preferir comer en casa que en los restaurantes, los turistas y viajes no tendrán problema para elegir entre una gran variedad. Además de los restaurantes con comida maltesa, generalmente fuera de los lugares más turísticos, abundan también los restaurantes italianos, pero no es difícil poder degustar también platos hindúes, de Mauricio o la Reunión, cocina asiática o libia.</p>
 
-<p>Por último destacar <a href="#">la cerveza Cisk</a>, fresca e indispensable, y <a href="#">los vinos</a>, que han mejorado mucho en calidad y variedad en los últimos años. Único problema elegir entre los tintos y los blancos.</p>
+<p>Por último destacar <font color="#FF7F00">la cerveza Cisk</font>, fresca e indispensable, y <font color="#FF7F00">los vinos</font>, que han mejorado mucho en calidad y variedad en los últimos años. Único problema elegir entre los tintos y los blancos.</p>
 
 <p>A continuación algunos platos y productos que hay que probar durante el viaje por Malta.</p>
 

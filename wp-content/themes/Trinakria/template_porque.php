@@ -20,7 +20,7 @@ Un día de primavera paseando por las calles y plazas del barrio de Gracia de Ba
 Era <strong>el olor del Azahar</strong> (hay árboles decorativos de naranjos en algunas plazas de este barrio) y entonces lo tuve muy claro, el nombre tenía que ser el de <strong>una flor que existiera en cualquier parte del Mediterráneo</strong>, cuya olor indica primavera y pureza y cuyo fruto sea uno de los ingredientes fundamentales de las cocinas de muchos países e islas bañados por este mar."</em> <br/>
 <strong>(Boris, Trinakria Tours)</strong></p>
 
-<p>Así nació <strong>Zágara</strong>: hemos elegido la versión italiana del nombre, primero por nuestras orígenes pero también porque nos parece un nombre muy bonito y que se recuerda con facilidad. La Zágara es una flor que veréis mucho en <a href="#">Sicilia</a>, <a href="#">Cerdeña</a>, <a href="#">Puglia</a>, <a href="#">Malta</a> y <a href="#">Creta</a>, sobre todo si viajáis en primavera.</p>
+<p>Así nació <strong>Zágara</strong>: hemos elegido la versión italiana del nombre, primero por nuestras orígenes pero también porque nos parece un nombre muy bonito y que se recuerda con facilidad. La Zágara es una flor que veréis mucho en <a href="http://shinesicily.com" target="blank">Sicilia</a>, <a href="<?php echo site_url();?>/cerdena">Cerdeña</a>, <a href="<?php echo site_url();?>/puglia">Puglia</a>, <a href="<?php echo site_url();?>/malta">Malta</a> y <a href="<?php echo site_url();?>/creta">Creta</a>, sobre todo si viajáis en primavera.</p>
 
 <p><strong>Buen Viaje en las tierras de la Zágara!!!</strong></p>
 

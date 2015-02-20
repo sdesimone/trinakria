@@ -14,11 +14,11 @@ $destino="Creta";
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
         <h1>Geografía de Creta</h1>
 
-<p>Creta está dividida en cuatro prefecturas o nomoi: <a href="#"><em>Chania</em></a>, <a href="#"><em>Rethymnon</em></a>, <a href="#"><em>Heraklion</em></a> y <a href="#"><em>Lasithi</em></a>.</p>
+<p>Creta está dividida en cuatro prefecturas o nomoi: <font color="#FF7F00"><em>Chania</em></font>, <font color="#FF7F00"><em>Rethymnon</em></font>, <font color="#FF7F00"><em>Heraklion</em></font> y <font color="#FF7F00"><em>Lasithi</em></font>.</p>
 
-<p>Es una isla muy montañosa y con algunos picos como los 2.460 metros del <a href="#"><em>Monte Ida</em></a> y los 2.452 metros del <a href="#"><em>Levká Óri</em></a> y una altitud media de más de 200 metros en gran parte de la superficie de la isla. Su relieve está configurado en gran medida por la actividad sísmica, responsable de sus 1.040 kilómetros de recortadas costas y de sus llanuras fragmentadas.</p>
+<p>Es una isla muy montañosa y con algunos picos como los 2.460 metros del <font color="#FF7F00"><em>Monte Ida</em></font> y los 2.452 metros del <font color="#FF7F00"><em>Levká Óri</em></font> y una altitud media de más de 200 metros en gran parte de la superficie de la isla. Su relieve está configurado en gran medida por la actividad sísmica, responsable de sus 1.040 kilómetros de recortadas costas y de sus llanuras fragmentadas.</p>
 
-<p>Su río más importante es el <a href="#"><em>Mesara</em></a>. Entre sus golfos sobresalen el de <a href="#"><em>Mira bello (Mirampéllou)</em></a>, el <a href="#"><em>Chanión (Khanión)</em></a>, y las <a href="#"><em>bahías de Mesara</em></a> y de <a href="#"><em>Almyroú</em></a>. Sus cabos más importantes son el <a href="#"><em>Spátha (Ákra Spánta)</em></a>, el <a href="#"><em>Líthinon (Ákra Lithino)</em></a>, el <a href="#"><em>Stavros</em></a> y el <a href="#"><em>Sideros (Ákra Sideros)</em></a>.</p>
+<p>Su río más importante es el <font color="#FF7F00"><em>Mesara</em></font>. Entre sus golfos sobresalen el de <font color="#FF7F00"><em>Mira bello (Mirampéllou)</em></font>, el <font color="#FF7F00"><em>Chanión (Khanión)</em></font>, y las <font color="#FF7F00"><em>bahías de Mesara</em></font> y de <font color="#FF7F00"><em>Almyroú</em></font>. Sus cabos más importantes son el <font color="#FF7F00"><em>Spátha (Ákra Spánta)</em></font>, el <font color="#FF7F00"><em>Líthinon (Ákra Lithino)</em></font>, el <font color="#FF7F00"><em>Stavros</em></font> y el <font color="#FF7F00"><em>Sideros (Ákra Sideros)</em></font>.</p>
 
 <p>Debido a su geografía montañosa y a sus carreteras, viajar a Creta, resulta muy lento. Es aconsejable intentar ver pocas cosas pero bien ya que el promedio de velocidad que se puede alcanzar en las carreteras de Creta es de unos 40 km/h.
 </p>

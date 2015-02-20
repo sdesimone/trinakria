@@ -29,7 +29,7 @@
 <header>
   <nav class="top" role="navigation">
     <div class="container shadow"> <a href="#" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".bs-navbar-collapse"><img src="<?php bloginfo('template_directory'); ?>/img/favicon.png"  height="24"> MENÚ <b class="caret"></b></a>
-      <div class="pull-left hidden-xs"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/favicon.png" height="24"> ZágaraTravel</a> es un proyecto <a href="#">Trinakria Tours</a> especialista en viajes mediterraneos y artesanos. </div>
+    <div class="pull-left hidden-xs"><a href="<?php echo site_url();?>"><img src="<?php bloginfo('template_directory'); ?>/img/favicon.png" height="24"> ZágaraTravel</a> es un proyecto <a href="<?php echo site_url();?>/quienes-somos">Trinakria Tours</a> especialista en viajes mediterraneos y artesanos. </div>
       <ul class="list-inline pull-right">
         <li class="hidden-xs"><a href="<?php echo site_url(); ?>/faqs/"><span class="visible-sm">FAQs</span><span class="hidden-sm">Preguntas frecuentes</span></a> </li>
         <li class="visible-xs"><a href="<?php echo site_url(); ?>/contactar/">Contactar</a></li>

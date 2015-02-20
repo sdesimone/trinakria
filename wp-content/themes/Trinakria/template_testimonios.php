@@ -17,7 +17,7 @@ get_header();
 <center>
 <p><u>Reseñas sobre Trinakria Tours en otros lugares de la web: </u><br/>
 Encontraréis muchas opiniones sobre nosotros tambièn en <br/>
-<a href="#">Google</a> - <a href="#">Trip Advisor</a> - <a href="#">Facebook</a> - <a href="#">ShineSicily.com</a></p>
+<a href="https://www.google.es/?gws_rd=ssl#q=Trinakria+Tours+opiniones" target="blank">Google</a> - <a href="http://www.tripadvisor.es/ShowTopic-g1-i11062-k6972189-Trinakria_tours_agencia_espanola_viaje_a_sicilia-Package_Holidays.html" target="blank">Trip Advisor</a> - <a href="https://www.facebook.com/trinakriatours/reviews?ref=page_internal" target="blank">Facebook</a> - <a href="http://www.shinesicily.com/Nuestros-Clientes-dicen.asp?lang=esp" target="blank">ShineSicily.com</a></p>
 </center>
 
 <p>

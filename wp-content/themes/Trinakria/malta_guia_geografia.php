@@ -14,19 +14,19 @@ $destino="Malta";
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
         <h1>Geografía de Malta</h1>
 
-<p>Malta se compone de tres islas, <a href="#"><em>Malta</em></a> la mayor, al noroeste se encuentra <a href="#"><em>Gozo</em></a>, separada por un pequeño estrecho que los ferries recorren en 20 minutos de travesía. Entre ambas, <a href="#"><em>Comino</em></a>, rocosa y bella con la preciosa Blue Lagoon.</p>
+<p>Malta se compone de tres islas, <font color="#FF7F00"><em>Malta</em></font> la mayor, al noroeste se encuentra <font color="#FF7F00"><em>Gozo</em></font>, separada por un pequeño estrecho que los ferries recorren en 20 minutos de travesía. Entre ambas, <font color="#FF7F00"><em>Comino</em></font>, rocosa y bella con la preciosa Blue Lagoon.</p>
 
-<p>Las islas no poseen montañas pero si colinas y acantilados sobre todo en la parte oeste. Pequeñas mesas se alzan entre las llanuras que a veces acaban en los acantilados. El relieve es rocoso y ausente de ríos o lagos permanentes. <a href="#"><em>El clima es típicamente mediterráneo</em></a> con veranos muy secos y cálidos e invierno templados donde se concentran las lluvias aunque las temperaturas medias no suelan bajar de 15º. Esto hace que la primavera y el otoño sean veranos suaves ideales para viajar a Malta. El número de días lluviosos al año nunca supera los 60.</p>
+<p>Las islas no poseen montañas pero si colinas y acantilados sobre todo en la parte oeste. Pequeñas mesas se alzan entre las llanuras que a veces acaban en los acantilados. El relieve es rocoso y ausente de ríos o lagos permanentes. <font color="#FF7F00"><em>El clima es típicamente mediterráneo</em></font> con veranos muy secos y cálidos e invierno templados donde se concentran las lluvias aunque las temperaturas medias no suelan bajar de 15º. Esto hace que la primavera y el otoño sean veranos suaves ideales para viajar a Malta. El número de días lluviosos al año nunca supera los 60.</p>
 
-<p>La costa este es más recortada y posee bahías donde se asientan las ciudades y pueblos (<a href="#"><em>La Valletta</em></a>, <a href="#"><em>Sliema</em></a>, <a href="#"><em>St Julian's</em></a>, <a href="#"><em>Bormla</em></a>, <a href="#"><em>Birgu</em></a>, <a href="#"><em>L'Isla</em></a>, <a href="#"><em>Marsaxlokk</em></a>, <a href="#"><em>Mgarr</em></a>) y las principales playas (las bahías de <a href="#"><em>Mellieha</em></a>, <a href="#"><em>Bubbiba</em></a>, <a href="#"><em>St Paul</em></a>, <a href="#"><em>Ramla</em></a>)</p>
+<p>La costa este es más recortada y posee bahías donde se asientan las ciudades y pueblos (<font color="#FF7F00"><em>La Valletta</em></font>, <font color="#FF7F00"><em>Sliema</em></font>, <font color="#FF7F00"><em>St Julian's</em></font>, <font color="#FF7F00"><em>Bormla</em></font>, <font color="#FF7F00"><em>Birgu</em></font>, <font color="#FF7F00"><em>L'Isla</em></font>, <font color="#FF7F00"><em>Marsaxlokk</em></font>, <font color="#FF7F00"><em>Mgarr</em></font>) y las principales playas (las bahías de <font color="#FF7F00"><em>Mellieha</em></font>, <font color="#FF7F00"><em>Bubbiba</em></font>, <font color="#FF7F00"><em>St Paul</em></font>, <font color="#FF7F00"><em>Ramla</em></font>)</p>
 
 <p>El interior es más seco y llano. Sin embargo, el paisaje cambia mucho durante el invierno y la primavera donde los tonos ocres y amarillos se ven substituidos por un verde deslumbrante. </p>
 
-<p>Al oeste <a href="#"><em>los acantilados de Dingli</em></a> son un balcón inmenso hacia el Mediterráneo. Ideal para ver bellas puestas de sol.</p>
+<p>Al oeste <font color="#FF7F00"><em>los acantilados de Dingli</em></font> son un balcón inmenso hacia el Mediterráneo. Ideal para ver bellas puestas de sol.</p>
 
-<p>La isla de Gozo está también rodeada de acantilados. El interior es una meseta con algunas colinas, como la de la capital Victoria. Al oeste de Gozo se encuentra el arco natural de <a href="#"><em>Azure Window</em></a>, una bella estampa donde rompen las olas y el sol se va cada día.</p>
+<p>La isla de Gozo está también rodeada de acantilados. El interior es una meseta con algunas colinas, como la de la capital Victoria. Al oeste de Gozo se encuentra el arco natural de <font color="#FF7F00"><em>Azure Window</em></font>, una bella estampa donde rompen las olas y el sol se va cada día.</p>
 
-<p>En Comino se encuentra la famosa <a href="#"><em>playa de Blue Lagoon</em></a>.</p>
+<p>En Comino se encuentra la famosa <font color="#FF7F00"><em>playa de Blue Lagoon</em></font>.</p>
 
 <p>Las distancias son cortas y se puede recorrer la isla de Malta de norte a sur en media hora.</p>
 

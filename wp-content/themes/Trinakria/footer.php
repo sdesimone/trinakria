@@ -6,7 +6,7 @@
       <div class="col-md-4 col-sm-4">
         <h3>Nuestros Tours</h3>
         <ul class="widget">
-          <li><a href="<?php echo site_url(); ?>/sicilia/">Sicilia</a> </li>
+	<li><a href="<?php echo site_url();?>/sicilia/" target="blank">Sicilia</a> </li>
           <li><a href="<?php echo site_url(); ?>/cerdena/">Cerdeña</a> </li>
           <li><a href="<?php echo site_url(); ?>/puglia/">Puglia</a></li>
           <li><a href="<?php echo site_url(); ?>/creta/">Creta</a></li>

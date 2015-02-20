@@ -34,7 +34,7 @@ $destino="Creta";
 
 <p>Las temperaturas varían a lo largo del año aunque en la costa se mantienen bastante suaves todo el invierno y más bien cálidas en primavera, verano (con picos de 40º) y otoño.</p>
 
-<p>Para ver el clima de Creta consultar la web: <a href="http://www.accuweather.com/es/us/crete-ne/68333/weather-forecast/334404">AccuWeather</a></p>
+<p>Para ver el clima de Creta consultar la web: <a href="http://www.accuweather.com/es/us/crete-ne/68333/weather-forecast/334404" target="blank">AccuWeather</a></p>
 
 <p>Creta, gracias a su clima agradable y típicamente mediterráneo, es un lugar ideal para organizar viajes durante todo el año.</p> 
 
