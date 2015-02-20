@@ -246,4 +246,21 @@ function datos_alojamiento($id){
         
     } 
 }
+
+function filter($a, $b, $t){
+	if( strcmp($t, "todas") == 0 )
+		return $a;
+	$r = array();
+	$size=count($a);
+	$j = 0;
+	for ($i = 0; $i < $size; $i++) { 
+		if(strstr($b[$i], $t) != FALSE){
+			$r[$j] = $a[$i];
+			$j++;
+		}
+	}
+
+	return $r;
+}
+
 ?>
