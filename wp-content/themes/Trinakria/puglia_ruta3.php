@@ -1,4 +1,5 @@
 <?php include_once (TEMPLATEPATH . '/inc/_data.php' );?>
+<?php include_once (TEMPLATEPATH . '/utils.php' );?>
 <?php 
 /* Template Name: Ruta Puglia 3 */
 get_header();
@@ -45,17 +46,26 @@ Los itinerarios aquí propuestos son ejemplos de <em>Tours de Puglia de 15 días
 	</ol>
 	<p class="spacer"> <small>*Este tour está estudiado considerando que llegáis y salís desde los aeropuertos de BRINDISI o BARI. Es posible invertir el sentido del tour en caso de llegada y salida a o desde otros aeropuertos.</small></p>
                 
-                <?php  $nn=0; foreach ($data[$destino]['fichas'] as $value) { $nn++; ?>
-                <span class="anchor" id="b<?php echo $nn; ?>"></span>
-                <div class="row list linkable">
-                  <div class="col-md-2 col-sm-2 col-xs-4 offset-0"> <a href="/trinakria/ficha/?ruta=<?php echo $ruta; ?>&ficha=<?php echo $value; ?>"><img src="http://gnaziu.shinesicily.com/Media/Agenzia_2/Strutture/Struttura_178/Images/Normal/80.jpg"  class="img-rounded img-responsive"></a> </div>
-                  <div class="col-md-10 col-sm-10 col-xs-8 description">
-                    <h2><a href="/trinakria/ficha/?ruta=<?php echo $ruta; ?>&ficha=<?php echo $value; ?>"><?php echo $value; ?></a></h2>
-                    <span class="text-muted">Sant’Agata Militello, Messina</span>
-                    <p class="hidden-xs">Este Bed &amp; Breakfast Rural ofrece una atmósfera tradicional y al mismo tiempo original.</p>
-                  </div>
-                </div>
-                 <?php } ?>
+	<?php 
+		$names = array("Masseria Cervarolo", "BioMasseria Santa Lucia");
+		$fichas = lista_alojamientos_rutas($names);
+		 
+		$site_root = site_url();
+		foreach ($fichas as $ficha) {  ?>
+
+        <div class="row list linkable">
+	<div class="col-md-2 col-sm-2 col-xs-4 offset-0"> <a href="<?php echo $site_root?>/ficha?page=<?php echo $ficha['id']; ?>"><img src="<?php echo $ficha['photo']?>"  class="img-rounded img-responsive"></a> </div>
+          <div class="col-md-8 col-sm-8 col-xs-8 description">
+	    <h2><a href="<?php echo $site_root?>/ficha?page=<?php echo $ficha['id']; ?>"><?php echo $ficha['name']; ?></a></h2>
+	    <span class="text-muted"><?php echo $ficha['locality']?></span>
+	    <p class="hidden-xs"><?php echo $ficha['description']?></p>
+          </div>
+	  <div class="col-md-2 col-sm-2 hidden-xs offset-0"> <a href="#"><img src="http://maps.google.com/maps/api/staticmap?center=<?php echo $ficha['lat']?>,<?php echo $ficha['lon']?>&zoom=6&size=120x90&markers=color:orange|<?php echo $ficha['lat']?>,<?php echo $ficha['lon']?>&sensor=false&key=ABQIAAAAMODomaaa8tP-qfkUyBEOJRQ3scZ6SVrhgLe-YKthzIvFUUaJMBQeYrU5KKfF8g70UdAii8s6bupyBQ" class="img-rounded img-responsive"></a> </div>
+        </div>
+        <?php } ?>
+	<br/>
+
+
               </div>
             </div>
 

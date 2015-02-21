@@ -13,6 +13,70 @@ function DSMtoDEC($dsm){
 	return $deg+((($min*60)+($sec))/3600);
 }    
 
+function lista_alojamientos_rutas($names){
+    $file = (TEMPLATEPATH . '/inc/listaAlojamientos.xml' );
+
+    $data = array(array());
+    if (file_exists($file)) {
+        $xml = simplexml_load_file($file);
+            
+        $srutturas = array();
+        $i = 0;
+        foreach($names as $name){
+            $srutturas[$i] = $xml->xpath('//Sruttura[Anagrafica/Nome="'.$name.'"]');
+            if( $srutturas[$i] == NULL) 
+                continue;
+            $i++;
+        }
+ 
+        $indx = 0;     
+        foreach($srutturas as $s){
+            $sruttura = $s[0];
+	                 
+	                         
+            $id = $sruttura->Identificativo;
+            $name = $sruttura->Anagrafica->Nome;
+            $locality = $sruttura->Anagrafica->Localita;
+
+            $photo = $sruttura->Immagini->Immagine[0];
+            if( $photo == null ){
+		$photo = "";
+            } else {
+		$photo = $sruttura->Immagini->Immagine[0]->Url->Thumb;
+	    }                        
+
+    	    $full_description = explode(" ", $sruttura->Descrizioni->Descrizione->Espagnol->p);
+    	    $i = 0;
+	    $max_words = 30;
+	    //$total_words = count($full_description);
+	    //$max_words = ($total_words > $max_words)? $max_words: $total_words);
+	    $description="";
+	    for($i = 0; $i < $max_words; $i++){
+	        $description = $description.$full_description[$i]." ";
+	    }
+	    if( count($full_description) > 1 )
+	        $description = $description."...";
+
+	    $lat = $sruttura->Anagrafica->Latitudine;
+	    $lat = DSMtoDEC($lat);
+
+	    $lon = $sruttura->Anagrafica->Longitudine;
+	    $lon = DSMtoDEC($lon);
+
+	    $data[$indx++] = array('id'=>$id, 
+	        'name' => $name, 
+	        'locality' => $locality, 
+	        'photo' => $photo, 
+	        'description' => $description, 
+	        'lat' => $lat, 
+	        'lon' => $lon);
+        }
+    } else {
+        echo 'Failed to open alojamientos.xml.';
+    }   
+
+    return $data;
+}
 
 /* Reads the XML list of available locations and returns a list with:
  * id
