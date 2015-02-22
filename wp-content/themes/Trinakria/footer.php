@@ -50,7 +50,7 @@
     <div class="container text-muted">
       <p class="pull-right">Designed by <a href="http://www.xarop.com" target="_blank">xarop.com</a></p>
       <p>&copy; <?php echo date('Y'); ?> Zagaratravel.com 
-| <a href="<?php bloginfo('template_directory'); ?>/inc/condiciones.php" onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/condiciones.php','popup','width=500,height=500,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"> Condiciones de Contratación</a>
+| <a href="<?php bloginfo('template_directory'); ?>/inc/condiciones.php" onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/condiciones.php','popup','width=700,height=700,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"> Condiciones de Contratación</a>
 
 | <a href="<?php echo site_url(); ?>/contactar/">Contacta con nosotros</a> | <a href="<?php echo site_url(); ?>/sitemap/">Mapa Web</a> | <a href="mailto:info@zagaratravel.com">info@zagaratravel.com</a></p>     
     </div>
