@@ -13,6 +13,16 @@ function DSMtoDEC($dsm){
 	return $deg+((($min*60)+($sec))/3600);
 }    
 
+function array_to_lower($arr){
+	$r = array();
+	for($i = 0; $i < count($arr); $i++){
+		$r[$i] = strtolower($arr[$i]);
+	}
+
+	return $r;
+}
+
+
 function lista_alojamientos_rutas($names){
     $file = (TEMPLATEPATH . '/inc/listaAlojamientos.xml' );
 
@@ -86,18 +96,22 @@ function lista_alojamientos_rutas($names){
  * coordinates
  * thmubnail image
 */
-function lista_alojamientos_zona($zona){
+function lista_alojamientos_zona($zona, $filtrado){
 	$file = (TEMPLATEPATH . '/inc/listaAlojamientos.xml' );
 
 	$data = array(array());
+	$filtro = array_to_lower($filtrado);
 	if (file_exists($file)) {
 		$xml = simplexml_load_file($file);
 		$srutturas = $xml->xpath('//Sruttura[Anagrafica/Zona="'.$zona.'"]');
 
 		$indx = 0;     
 		foreach($srutturas as $sruttura){
-			$id = $sruttura->Identificativo;
 			$name = $sruttura->Anagrafica->Nome;
+			if( !in_array(strtolower($name), $filtro ) ) {
+				continue;
+			}
+			$id = $sruttura->Identificativo;
 			$locality = $sruttura->Anagrafica->Localita;
 
 			$photo = $sruttura->Immagini->Immagine[0];

@@ -23,7 +23,8 @@ $xml_zona='Zona Gozo'; // String de zona, como aparece en el XML del Backoffice
 Gozo es una isla más tranquila y menos agitada, pero igualmente atractiva. Cultura, monumentos, playas y calas espectaculares. Nuestros alojamientos en <strong>Victoria (Rabat), Qala o Nadur</strong> se sitúan a 10 minutos en coche de cualquier parte de la isla. Playas, acantilados, fortaleza y salinas, buceo y gastronomía en una isla para descubrir y disfrutar..  </p>
 
 	<?php 
-		$fichas = lista_alojamientos_zona($xml_zona);
+		$filtrado = $filtrados[$xml_zona];
+		$fichas = lista_alojamientos_zona($xml_zona, $filtrado);
 		$site_root = site_url();
 		foreach ($fichas as $ficha) {  ?>
 

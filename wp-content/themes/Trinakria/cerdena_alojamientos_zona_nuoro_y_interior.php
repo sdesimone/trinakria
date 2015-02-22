@@ -22,7 +22,8 @@ $xml_zona='Zona Orosei'; // String de zona, como aparece en el XML del Backoffic
 	<p class="spacer">El Golfo de Orosei está en el centro este de Cerdeña. Es famoso por las aguas azul intenso de playas como Cala Luna y Cala Goloritzé. La zona es espectacular también en su montañoso interior con lugares como Gola Gorroppu, el Tiscali o los pueblos auténticos de la Barbagia: Orgosolo, Mamoiada o Galtellí. Esta es la Cerdeña más virgen y salvaje! Nuestros Alojamiento en la zona de Orosei son por lo general casas rurales y agroturismos, lugares donde saborear la más auténtica gastronomía de Cerdeña.</p>
 
 	<?php 
-		$fichas = lista_alojamientos_zona($xml_zona);
+		$filtrado = $filtrados[$xml_zona];
+		$fichas = lista_alojamientos_zona($xml_zona, $filtrado);
 		$site_root = site_url();
 		foreach ($fichas as $ficha) {  ?>
 

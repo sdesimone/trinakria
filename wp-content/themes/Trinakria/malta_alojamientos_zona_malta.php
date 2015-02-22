@@ -22,7 +22,8 @@ $xml_zona='Zona Malta'; // String de zona, como aparece en el XML del Backoffice
 	<p class="spacer"><strong>La Valletta</strong> y las localidades que la rodean concentran buena parte de la oferta hotelera. Por esa razón, nuestros B&amp;B y alojamientos en la zona de la capital y de las <strong>Tres Ciudades de Cottonera (Bornla, L’Isla y Birgu)</strong> son especiales, para distinguirse de los alojamientos típicos. Siempre con encanto y bien comunicados. Fuera de la zona de La Valletta nuestra oferta es diversa para adecuarse a las peticiones de los clientes. Más animación, entonces <strong>Sliema, St Julian’s, Paceville</strong>; o más tranquilidad <strong>Mdina, Mosta, Rabat</strong>.</p>
 
 	<?php 
-		$fichas = lista_alojamientos_zona($xml_zona);
+		$filtrado = $filtrados[$xml_zona];
+		$fichas = lista_alojamientos_zona($xml_zona, $filtrado);
 		$site_root = site_url();
 		foreach ($fichas as $ficha) {  ?>
 

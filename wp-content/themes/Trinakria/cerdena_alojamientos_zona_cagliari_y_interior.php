@@ -22,7 +22,8 @@ $xml_zona='Zona Cagliari'; // String de zona, como aparece en el XML del Backoff
 	<p class="spacer"> Cagliari se encuentra al sur de la isla de Cerdeña y es su capital administrativa y cultural. Alojandose en Cagliari es posible visitar todo el sur de Cerdeña que va desde la isla de Sant’Antioco, las playas de Chia y el sitio arqueológico de Pula hasta las maravillosas playas de Villa Simius. Nuestro abanico de alojamientos en Cagliari es comprensivo de pequeños B&amp;B en la misma ciudad y agroturismos en el campo, todos sugestivos y de calidad.</p>
 
 	<?php 
-		$fichas = lista_alojamientos_zona($xml_zona);
+		$filtrado = $filtrados[$xml_zona];
+		$fichas = lista_alojamientos_zona($xml_zona, $filtrado);
 		$site_root = site_url();
 		foreach ($fichas as $ficha) {  ?>
 

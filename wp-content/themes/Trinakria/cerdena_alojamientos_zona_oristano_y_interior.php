@@ -22,7 +22,8 @@ $xml_zona='Zona Oristano'; // String de zona, como aparece en el XML del Backoff
 
 
 	<?php 
-		$fichas = lista_alojamientos_zona($xml_zona);
+		$filtrado = $filtrados[$xml_zona];
+		$fichas = lista_alojamientos_zona($xml_zona, $filtrado);
 		$site_root = site_url();
 		foreach ($fichas as $ficha) {  ?>
 

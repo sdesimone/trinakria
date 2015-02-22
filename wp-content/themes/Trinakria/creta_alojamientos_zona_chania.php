@@ -22,7 +22,8 @@ $xml_zona='Zona Chania y Oeste'; // String de zona, como aparece en el XML del B
 	<p class="spacer">Oeste de la isla, la ciudad de <strong>Chania</strong> (La Canea) y su precioso casco antiguo con baños turcos, minaretes, iglesias y palacetes venecianos. En el sur del distrito de Chania podréis descubrir la famosa playa de <strong>Elafonisi</strong> o las gargantas de <strong>Samaria</strong>. También muy cerca de la ciudad hay varias playas, no tan famosas como Elafonisi pero igual de bonitas. En la zona de chania hemos seleccionado hoteles con encanto sea en su casco antiguo e a los alrededores.</p>
 
 	<?php 
-		$fichas = lista_alojamientos_zona($xml_zona);
+		$filtrado = $filtrados[$xml_zona];
+		$fichas = lista_alojamientos_zona($xml_zona, $filtrado);
 		$site_root = site_url();
 		foreach ($fichas as $ficha) {  ?>
 

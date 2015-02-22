@@ -21,7 +21,8 @@ $xml_zona='Zona Gallura y Costa Esmeralda';
 	<p class="spacer">La Gallura y la Costa Esmeralda se encuentran en el noreste de Cerdeña. El Glamour de la Costa Esmeralda viene equilibrado por los paisajes, a veces lunares, de la Gallura, su parte interior. Es una zona a visitar sobretodo en primavera para gozar de sus grandes paisajes, playas y una gastronomía que es la más refinada de toda la isla. Aquí veréis las mejores masias de toda Cerdeña, los famosos ‘stazzi’ y muchos de nuestros alojamientos son de este estilo.</p>
 
 	<?php 
-		$fichas = lista_alojamientos_zona($xml_zona);
+		$filtrado = $filtrados[$xml_zona];
+		$fichas = lista_alojamientos_zona($xml_zona, $filtrado);
 		$site_root = site_url();
 		foreach ($fichas as $ficha) {  ?>
 

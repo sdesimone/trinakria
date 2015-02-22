@@ -22,7 +22,8 @@ $xml_zona='Zona Sulcis-Iglesiente'; // String de zona, como aparece en el XML de
 	<p class="spacer">El Sulcis-Iglesiente está en el suroeste de Cerdeña y es la zona más desconocida de la isla pero no por esto no es digna de nota. Su característica son los acantilados y la enorme playa de Piscinas con las dunas de arena más altas de Europa. También hay muchos ejemplos de arqueología industrial en las antiguas zonas mineras. Aquí hemos seleccionado pocos alojamientos pero ideales para vivir esta zona de Cerdeña y gozar de sus panoramas.</p>
 
 	<?php 
-		$fichas = lista_alojamientos_zona($xml_zona);
+		$filtrado = $filtrados[$xml_zona];
+		$fichas = lista_alojamientos_zona($xml_zona, $filtrado);
 		$site_root = site_url();
 		foreach ($fichas as $ficha) {  ?>
 

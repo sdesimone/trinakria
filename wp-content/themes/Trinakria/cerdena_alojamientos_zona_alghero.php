@@ -21,7 +21,8 @@ $xml_zona='Zona Alghero'; // String de zona, como aparece en el XML del Backoffi
 	<p class="spacer"> Alghero se encuentra en el noroeste de Cerdeña y es famosa por su cultura, arquitectura y lengua catalana. La llaman la "barceloneta" y es una zona hermosa de Cerdeña llena de atractivos culturales y playas con arena blanca. Nuestra oferta de alojamientos en Alghero es extensa y de calidad.  </p>
 
 	<?php 
-		$fichas = lista_alojamientos_zona($xml_zona);
+		$filtrado = $filtrados[$xml_zona];
+		$fichas = lista_alojamientos_zona($xml_zona, $filtrado);
 		$site_root = site_url();
 		foreach ($fichas as $ficha) {  ?>
 
@@ -37,7 +38,6 @@ $xml_zona='Zona Alghero'; // String de zona, como aparece en el XML del Backoffi
         <?php } ?>
 	<br/>
 
-<div>
       </main>
 
 	<?php include_once (TEMPLATEPATH . '/inc/menu-right-alojamientos-cerdena.php' );?>

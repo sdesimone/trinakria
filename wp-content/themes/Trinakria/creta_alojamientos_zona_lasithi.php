@@ -22,7 +22,8 @@ $xml_zona='Zona Lasithi (Este)'; // String de zona, como aparece en el XML del B
 	<p class="spacer">Este es el poco conocido Este de Creta: los pueblos del interior, como <strong>Ano Zakros</strong>, ideales para tomar un café o un raki y ver la típica vida rural de la isla. Cerca de Kato Zakros se encuentran las ruinas de un palacio minoico y la <strong>garganta de Faragi ton Nekron</strong>. También en la zona se encuentra la famosa (aunque muy turística) playa de <strong>Vai</strong>. Aquí hemos escogido unos apartamentos turisticos muy bien cuidados en Kato Zakros: pequeña aldea delante del mar!</p>
 
 	<?php 
-		$fichas = lista_alojamientos_zona($xml_zona);
+		$filtrado = $filtrados[$xml_zona];
+		$fichas = lista_alojamientos_zona($xml_zona, $filtrado);
 		$site_root = site_url();
 		foreach ($fichas as $ficha) {  ?>
 
