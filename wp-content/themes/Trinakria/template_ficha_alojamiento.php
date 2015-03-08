@@ -120,15 +120,14 @@ get_header();
 	<?php foreach($aloj['photos'] as $photo) { ?>
 		<img src="<?php echo $photo?>" data-caption=""> 
 	<?php } ?>
-		<img src="http://maps.google.com/maps/api/staticmap?&zoom=7&size=595x400&markers=color:orange|<?php echo $aloj['lat'].",".$aloj['lon']; ?>&sensor=false&key=ABQIAAAAMODomaaa8tP-qfkUyBEOJRQ3scZ6SVrhgLe-YKthzIvFUUaJMBQeYrU5KKfF8g70UdAii8s6bupyBQ" data-caption=""> 
 	</div>
         <!-- /.slider -->
         
-<!--
         <div class="map">
-<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=ca&amp;geocode=&amp;q=<?php echo $aloj[name]?>+<?php echo $aloj['isla']?>&amp;aq=&amp;z=12&amp;output=embed"></iframe>
+	<br/>
+		<img height="350" width="100%" src="http://maps.google.com/maps/api/staticmap?&zoom=7&size=595x400&markers=color:orange|<?php echo $aloj['lat'].",".$aloj['lon']; ?>&sensor=false&key=ABQIAAAAMODomaaa8tP-qfkUyBEOJRQ3scZ6SVrhgLe-YKthzIvFUUaJMBQeYrU5KKfF8g70UdAii8s6bupyBQ" data-caption=""> 
+<!--<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=ca&amp;geocode=&amp;q=<?php echo $aloj[name]?>+<?php echo $aloj['isla']?>&amp;aq=&amp;z=12&amp;output=embed"></iframe>-->
         </div>
--->
         <div class="sidebar">
           <!--<h3>Otros alojamientos en la zona</h3>
           <?php for ($i = 1; $i <= 4; $i++) { ?>

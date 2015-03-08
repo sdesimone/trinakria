@@ -11,7 +11,8 @@ get_header();
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
 	<h1>Oficinas de Trinakria Tours</h1>
 
-<div class="main container bgcolor">
+<div class="main container">
+
   <div class="row">
 	<div class="col-md-4 col-sm-4">
           <img src="<?php bloginfo('template_directory'); ?>/img/oficinas/Oficina1.JPG" class="img-rounded img-responsive">
@@ -20,6 +21,7 @@ get_header();
           <img src="<?php bloginfo('template_directory'); ?>/img/oficinas/Oficina2.JPG" class="img-rounded img-responsive">
 	</div>
   </div>
+
 	<br/>
   <div class="row">
 	<div class="col-md-4 col-sm-4">
@@ -30,6 +32,7 @@ get_header();
 	</div>
   </div>
 </div>
+
 <p/>
 <p>Nuestras oficinas se encuentran en pleno corazón de Barcelona, en el barrio gótico de la ciudad, en el <em>Carrer de Bertrellans 4 Ppal 2ª.</em></p>
 
@@ -46,24 +49,26 @@ get_header();
       </main>
 
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar" >
-<!--
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> <img src="<?php bloginfo('template_directory'); ?>/img/oficinas/Oficina1.JPG" class="img-rounded img-responsive"> </div>
-          <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> <img src="<?php bloginfo('template_directory'); ?>/img/oficinas/Oficina2.JPG" class="img-rounded img-responsive"> </div>
-          <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> <img src="<?php bloginfo('template_directory'); ?>/img/oficinas/Oficina3.JPG" class="img-rounded img-responsive"> </div>
-          <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> <img src="<?php bloginfo('template_directory'); ?>/img/oficinas/Oficina4.JPG" class="img-rounded img-responsive"> </div>
-          <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs"> <p/> </div>
-        </div>
--->
+	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs text-muted"> 
+		<h3>Secciones destacadas</h3>
+		<ul class="widget">
+		<li class="linkable"><a href="<?php echo site_url();?>/quienes-somos/">Conoce a Trinakria Tours</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/nuestro-equipo/">Nuestro Equipo</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/faq/">Preguntas Frecuentes</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/testimonios/">Nuestros Clientes dicen…</a></li>
+		</ul>
+	   </div>
+          <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs text-muted">
+		<h3>Nuestros Destinos</h3>
+		<ul class="widget">
+		<li><a href="http://shinesicily.com/" target="_blank">Sicilia</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/">Cerdeña</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/puglia/">Puglia</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/creta/">Creta</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/malta/">Malta</a></li>
+		</ul>
+          </div>
+
       </div>
     </div>
   </div>

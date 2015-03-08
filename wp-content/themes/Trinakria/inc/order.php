@@ -29,23 +29,25 @@ mail($emailTo, $subject, $body, $headers);
       <select name="Tipo-de-Viaje" id="Tipo-de-Viaje" class="form-control">
         <option value="">Elige una opción...</option>
         <option disabled="" value="">&nbsp;</option>
-        <option value="CERDENA AUTENTICA">CERDEÑA AUTENTICA</option>
         <option value="CERDENA A TU AIRE">CERDEÑA A TU AIRE</option>
-        <option value="CERDENA DELUXE">CERDEÑA DELUXE</option>
-        <option value="EL NORTE DE CERDENA">EL NORTE DE CERDEÑA</option>
-        <option value="LA COSTA OESTE">LA COSTA OESTE</option>
+        <option value="CERDENA RURAL">CERDEÑA RURAL</option>
+        <option value="CERDENA CON ENCANTO">CERDEÑA CON ENCANTO</option>
         <option disabled="" value="">&nbsp;</option>
-        <option value="PUGLIA AUTENTICA">PUGLIA AUTENTICA</option>
+        <option value="PUGLIA A TU AIRE">PUGLIA A TU AIRE</option>
         <option value="PUGLIA RURAL">PUGLIA RURAL</option>
-        <option value="PUGLIA DELUXE">PUGLIA DELUXE</option>
+        <option value="PUGLIA CON ENCANTO">PUGLIA CON ENCANTO</option>
         <option disabled="" value="">&nbsp;</option>
         <option value="CRETA A TU AIRE">CRETA A TU AIRE</option>
         <option value="CRETA RURAL">CRETA RURAL</option>
-        <option value="CRETA DELUXE">CRETA DELUXE</option>
+        <option value="CRETA CON ENCANTO">CRETA CON ENCANTO</option>
         <option disabled="" value="">&nbsp;</option>
-        <option value="INFO SARDEGNA" selected="">Infos alojamientos Cerdeña</option>
-        <option value="INFO PUGLIA">Infos alojamientos Puglia</option>
-        <option value="INFO CRETA">Infos alojamientos Creta</option>
+        <option value="MALTA A TU AIRE">MALTA A TU AIRE</option>
+        <option value="MALTA CON ENCANTO">MALTA CON ENCANTO</option>
+        <option disabled="" value="">&nbsp;</option>
+        <option value="Alojamienstos Cerdena">Alojamientos Cerdeña</option>
+        <option value="Alojamienstos Puglia">Alojamientos Puglia</option>
+        <option value="Alojamienstos Creta">Alojamientos Creta</option>
+        <option value="Alojamienstos Malta">Alojamientos Malta</option>
       </select>
     </fieldset>
   </div>
@@ -182,12 +184,20 @@ mail($emailTo, $subject, $body, $headers);
       <div class="form-group">
         <label for="condiciones" class="control-label">
           <input type="checkbox" id="condiciones" name="condiciones" value="checkbox">
-          *He leído y acepto las <a href="#"  data-toggle="modal" data-target="#Condiciones">condiciones de contratación</a></label>
+	  *He leído y acepto las 
+<a href="<?php bloginfo('template_directory'); ?>/inc/condiciones.php" onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/condiciones.php','popup','width=700,height=700,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"> Condiciones de Contratación</a>
+</label>
       </div>
+
+
       <div class="form-group">
         <input type="submit" name="send" id="send" value="Enviar"  class="btn btn-warning .btn-lg">
       </div>
-      <div id="proteccion  class="form-group""> <a href="#"  data-toggle="modal" data-target="#Politica" class="text-muted"><small>Política de protección de los datos personales</small></a></div>
+      <div id="proteccion  class="form-group""> 
+<a href="#"  data-toggle="modal" data-target="#Politica" class="text-muted">
+<a class="text-muted" href="<?php bloginfo('template_directory'); ?>/inc/politica.php" onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/politica.php','popup','width=700,height=700,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><small>Política de protección de los datos personales</small>
+</a>
+</div>
     </fieldset>
   </div>
 </form>

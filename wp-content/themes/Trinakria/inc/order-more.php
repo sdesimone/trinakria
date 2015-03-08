@@ -15,7 +15,7 @@
       <!-- Sezione a scomparsa visualizzata quando si seleziona "si tiene vuelo" -->
       <div id="tiene_vuelo" style="display:none;">
         <div class="form-group">
-          <label for="CiudadIda">¿De qué ciudad sales?</label>
+          <label for="CiudadIda">¿De qué aeropuertoi sales?</label>
           <select name="CiudadIda" id="CiudadIda"  class="form-control">
             <option value="-1" selected="">Elige un aeropuerto...</option>
             <option value="Alicante">Alicante</option>
@@ -102,18 +102,16 @@
             <option value="Otro">Otro</option>
           </select>
         </div>
-        <div class="alert alert-info form-group"> Estos son los mejores vuelos para llegar a Cerdeña (los podeis encontrar en <a href="http://www.ryanair.com" target="_blank">Ryan Air</a>): <br>
-          <ul>
-            <strong>
-            <li>Madrid-Alghero</li>
-            <li>Madrid-Cagliari</li>
-            <li>Barcelona-Cagliari</li>
-            <li>Girona-Alghero</li>
-            <li>Valencia-Cagliari </li>
-            <li>Sevilla-Cagliari</li>
-            </strong>
-          </ul>
-          Para llegar a Creta de momento NO hay vuelos directos, siempre debereis enlazar vuestra ciudad de salida con Athenas primero y después coger otro vuelo para las ciudades de Heraklion o Chania (la mejor compañía es <a href="http://es.aegeanair.com/default.aspx" target="_blank">Aegean Airlines</a>). </div>
+	<div class="alert alert-info form-group">
+Mira la manera más fácil de llegar a:
+<ul>
+<li><a href="<?php echo site_url();?>/cerdena" target="_blank">Cerdeña</a></li>
+<li><a href="<?php echo site_url();?>/puglia" target="_blank">Puglia</a></li>
+<li><a href="<?php echo site_url();?>/creta" target="_blank">Creta</a></li>
+<li><a href="<?php echo site_url();?>/malta" target="_blank">Malta</a></li>
+<ul>
+
+	</div>
       </div>
     </div>
   </fieldset>
@@ -137,11 +135,10 @@
       <div class="form-group">
         <label for="seguro_minimo" class="control-label">
           <input type="radio" name="tipo_seguro" value="minimo" id="seguro_minimo">
-          Sólo anulación (22 € por persona) <a target="_blank" href="/Download/Anulacion-AXA.pdf">ver detalles</a> </label>
+          Sólo anulación (32 € por persona) <a target="_blank" href="http://www.winsartorio.com/w_10aplicativos/ap3_formularios/w_acav/docs/extacavexclusivoplus1500.pdf">ver detalles</a> </label>
         <label for="seguro_completo" class="control-label">
           <input type="radio" name="tipo_seguro" value="completo" id="seguro_completo">
-          Anulación y asistencia “Vacacional Completo” 
-          (28 € por persona) <a target="_blank" href="/Download/VACACIONAL-COMPLET.pdf">ver detalles</a> </label>
+          Anulación + Asistencia en viaje (32 + 6 € por persona) <a target="_blank" href="http://www.winsartorio.com/w_10aplicativos/ap3_formularios/w_acav/docs/extacavbasicplus.pdf">ver detalles</a> </label>
       </div>
     </div>
   </fieldset>

@@ -54,7 +54,7 @@ $destino="Cerdeña";
 <p>Si quieres ir a Cerdeña con tu propio coche, te aconsejamos ir en Barco desde Barcelona (BARCELONA-PORTO TORRES) con <a href="http://www.grimaldi-lines.com/spain/index.jsp?lan=ES&gclid=CN3vv7LOrZ4CFYmY2AodsUiblA">Grimaldi Lines</a></p>
 
 <br/>
-<div class="main container bgcolor">
+<div class="main container">
   <div class="row">
 	<div class="col-md-4 col-sm-4">
 <img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/comollegar/bicicleta_galtelli_cerdeña.jpg" class="img-rounded img-responsive"/>

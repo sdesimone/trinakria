@@ -10,10 +10,9 @@ get_header();
   <div class="container shadow">
     <div class="row">
       <main class="main main-left col-md-9 col-sm-9 col-xs-12">
-<h1>El Equipo de Trinakria Tours</h1>
-<h3>Las caras que hay detrás de esta web :-)</h3>
+<h1>El Equipo de Trinakria Tours <small><small>Las caras que hay detrás de esta web :-)</small></small></h1>
 <br/>
-<div class="main container bgcolor">
+<div class="main container">
   <div class="row">
 	<div class="col-md-4 col-sm-4">
 		<div class="fotorama dots" data-max-width="100%" data-allowfullscreen="true" data-loop="true"> 
@@ -72,44 +71,54 @@ get_header();
 <p>Trinakria Tours es mucho más que el equipo de la oficina. <em>Trinakria Tours es gente, propietarios de hoteles en el Mediterráneo y colaboradores de todo tipo. </em><br/>
 Somos <strong>una grande familia</strong> y nuestros tours funcionan sobre todo gracias a toda esta gente y mucha mucha más:</p>
 
-<p>La Familia de <a href="http://tururi.org/en/sicily/" target="blank">Tururi Tours</a><br/>
-Aitor del <a href="http://elgiroscopo.es/viajeros-de-viaje-cronicas/aitor-pedrueza/" target="blank">Giróscopo Viajero</a> y de <a href="http://www.lasicilia.es/" target="blank">La Sicilia</a><br/>
-Cesare de La Casa di Pippinitto<br/>
-Enric del <a href="http://www.viajablog.com/editores" target="blank">ViajaBlog</a><br/>
-Piero de Val di Kam<br/>
-Carmelo de <a href="http://www.etnatao.com/espanol/" target="blank">EtnaTao</a><br/>
-Giacomo de <a href="http://it.linkedin.com/in/bgiac" target="blank">NablaStudio</a><br/>
-Antonio y Giovanna de Al Sakali<br/>
-</p>
-
 
 <div class="container bgcolor">
   <div class="row">
+
 	<div class="col-md-4 col-sm-4">
-          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Aitor.png"  class="img-rounded img-responsive"/></div>
+	  <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Aitor.png"  class="img-rounded img-responsive"/>
+	  Aitor del <a href="http://elgiroscopo.es/viajeros-de-viaje-cronicas/aitor-pedrueza/" target="blank">Giróscopo Viajero</a> y de <a href="http://www.lasicilia.es/" target="blank">La Sicilia</a><br/>
+	</div>
+
 	<div class="col-md-4 col-sm-4">
-          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Antonio e Giovanna_Al Sakali.JPG"  class="img-rounded img-responsive"/></div>
+	  <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Antonio e Giovanna_Al Sakali.JPG"  class="img-rounded img-responsive"/>
+	  <p aling="center">Antonio y Giovanna de Al Sakali<p/>
+	</div>
+  </div>
+  <br/>
+
+  <div class="row">
+	<div class="col-md-4 col-sm-4">
+	  <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Carmelo.JPG"  class="img-rounded img-responsive"/>
+	  Carmelo de <a href="http://www.etnatao.com/espanol/" target="blank">EtnaTao</a><br/>
+	</div>
+
+	<div class="col-md-4 col-sm-4">
+	  <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Cesare.png"  class="img-rounded img-responsive"/>
+	  Cesare de La Casa di Pippinitto<br/>
+	</div>
   </div>
   <br/>
   <div class="row">
 	<div class="col-md-4 col-sm-4">
-          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Carmelo.JPG"  class="img-rounded img-responsive"/></div>
+	  <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Enric.jpg"  class="img-rounded img-responsive"/>
+	Enric del <a href="http://www.viajablog.com/editores" target="blank">ViajaBlog</a><br/>
+</div>
 	<div class="col-md-4 col-sm-4">
-          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Cesare.png"  class="img-rounded img-responsive"/></div>
+	  <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Giacomo.JPG"  class="img-rounded img-responsive"/>
+Giacomo de <a href="http://it.linkedin.com/in/bgiac" target="blank">NablaStudio</a><br/>
+</div>
   </div>
   <br/>
   <div class="row">
 	<div class="col-md-4 col-sm-4">
-          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Enric.jpg"  class="img-rounded img-responsive"/></div>
+	  <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Mario y Marian.JPG"  class="img-rounded img-responsive"/>
+La Familia de <a href="http://tururi.org/en/sicily/" target="blank">Tururi Tours</a><br/>
+</div>
 	<div class="col-md-4 col-sm-4">
-          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Giacomo.JPG"  class="img-rounded img-responsive"/></div>
-  </div>
-  <br/>
-  <div class="row">
-	<div class="col-md-4 col-sm-4">
-          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Mario y Marian.JPG"  class="img-rounded img-responsive"/></div>
-	<div class="col-md-4 col-sm-4">
-          <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Piero.JPG"  class="img-rounded img-responsive"/></div>
+	  <img src="<?php bloginfo('template_directory'); ?>/img/nuestroEquipo/Piero.JPG"  class="img-rounded img-responsive"/>
+Piero de Val di Kam<br/>
+</div>
   </div>
 </div>
   <br/>
@@ -120,11 +129,25 @@ Antonio y Giovanna de Al Sakali<br/>
 
       </main>
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar" >
-        <div class="row">
-	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs"> 
-		<a href="#">Descubre Trinakria Tours</a>
-	  </div>
-        </div>
+	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs text-muted"> 
+		<h3>Secciones destacadas</h3>
+		<ul class="widget">
+		<li class="linkable"><a href="<?php echo site_url();?>/quienes-somos/">Conoce a Trinakria Tours</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/nuestro-equipo/">Nuestro Equipo</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/faq/">Preguntas Frecuentes</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/testimonios/">Nuestros Clientes dicen…</a></li>
+		</ul>
+	   </div>
+          <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs text-muted">
+		<h3>Nuestros Destinos</h3>
+		<ul class="widget">
+		<li><a href="http://shinesicily.com/" target="_blank">Sicilia</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/">Cerdeña</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/puglia/">Puglia</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/creta/">Creta</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/malta/">Malta</a></li>
+		</ul>
+          </div>
       </div>
     </div>
   </div>

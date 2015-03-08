@@ -30,7 +30,7 @@
           <li><a href="<?php echo site_url(); ?>/oficinas/">Oficinas</a> </li>
           <li><a href="http://www.facebook.com/trinakriatours/" target="_blank">Facebook</a></li>
           <li><a href="https://plus.google.com/+TrinakriaToursBarcelona"  target="_blank">Google+</a></li>
-          <li><a href="https://twitter.com/hashtag/Pasi%C3%B3nMediterr%C3%A1nea" target="_blank">#passiónmediterránea</a></li>
+          <li><a href="https://twitter.com/hashtag/Pasi%C3%B3nMediterr%C3%A1nea" target="_blank">#PasiónMediterránea</a></li>
           <!--<li><a href="mailto:info@zagaratravel.com">info@zagaratravel.com</a></li> -->
         </ul>
       </div>

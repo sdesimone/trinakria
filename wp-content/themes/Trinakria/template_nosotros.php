@@ -17,7 +17,7 @@ get_header();
 	      </div>
 	    </div>
 <p/>
-<p>Zágara Travel es la web y el proyecto de la Agencia de Viajes <strong><a href="<?php echo site_url();?>/quienes-somos">Trinakria Tours</a></strong> que desde 2006 organiza <strong>viajes mediterráneos</strong>; nuestro primer destino fue la maravillosa isla de <a href="http://shinesicily.com" target="blank">Sicilia</a> por el cual tenemos una web dedicada totalmente (<a href="http://shinesicily.com" target="blank">ShineSicily.com</a>) y luego hemos desembarcado en <a href="<?php echo site_url();?>/cerdena">Cerdeña</a>, <a href="<?php echo site_url();?>/creta">Creta</a>, <a href="<?php echo site_url();?>/malta">Malta</a> y <a href="<?php echo site_url();?>/puglia">Puglia</a> (Apulia, el tacón de Italia).</p>
+<p>Zágara Travel es la web y el proyecto de la Agencia de Viajes <strong><a href="<?php echo site_url();?>/quienes-somos">Trinakria Tours</a></strong> que desde 2006 organiza <strong>viajes mediterráneos</strong>; nuestro primer destino fue la maravillosa isla de <a href="http://shinesicily.com" target="_blank">Sicilia</a> por el cual tenemos una web dedicada totalmente (<a href="http://shinesicily.com" target="_blank">ShineSicily.com</a>) y luego hemos desembarcado en <a href="<?php echo site_url();?>/cerdena">Cerdeña</a>, <a href="<?php echo site_url();?>/creta">Creta</a>, <a href="<?php echo site_url();?>/malta">Malta</a> y <a href="<?php echo site_url();?>/puglia">Puglia</a> (Apulia, el tacón de Italia).</p>
 
 <p>Trinakria Tours es una agencia de viajes que promociona la <strong>cultura</strong>, el <strong>arte</strong>, la <strong>gastronomía</strong> y el <strong>turismo del Mediterráneo</strong> ofreciendo una visión global pero sin olvidar sus peculiaridades locales.</p>
 
@@ -40,7 +40,7 @@ En Trinakria Tours elaboramos <strong>rutas a medida</strong>, tours y excursion
 <p>Mira nuestra ficha en la página de la <a target="_blank" href="http://www14.gencat.cat/rtcwebguies/AppJava/agencies.jsp?pg=0&lg=&marcaR=totes&comarcaR=totes&municipiR=totes&foficina=on&fsucursal=on&retol=Trinakria+Tours&fidreg=&fmarques=">Generalitat de Catalunya</a> </p>
 <p>Estamos inscritos a 
 <a href="http://www.acave.travel/es/node/8120" target="_blank">ACAVE</a>: Asociación Corporativa de Agencias de Viajes Especializadas</p>
-<p>Visita nuestro perfil empresarial en <a href="https://www.linkedin.com/company/trinakria-tours?trk=mini-profile" target="blank">LinkedIn</a></p>
+<p>Visita nuestro perfil empresarial en <a href="https://www.linkedin.com/company/trinakria-tours?trk=mini-profile" target="_blank">LinkedIn</a></p>
 
 	  <div class="row">
 	    <div class="col-md-14 col-sm-14 col-xs-14">
@@ -51,16 +51,28 @@ En Trinakria Tours elaboramos <strong>rutas a medida</strong>, tours y excursion
 
       </main>
       <div class="col-md-3 col-sm-3 col-xs-12 sidebar" >
-        <div class="row">
-      <div class="col-md-3 col-sm-3 col-xs-12 sidebar" >
-        <h3>Links</h3>
-        <ul class="widget">
-          <li class="active">Quienes somos</li>
-          <li class="linkable"><a href="<?php echo site_url();?>/nuestro-equipo">Nuestro Equipo</a></li>
-        </ul>
+	  <div class="col-md-12 col-sm-12 col-xs-4  offset-0  offset-xs text-muted"> 
+		<h3>Secciones destacadas</h3>
+		<ul class="widget">
+		<li class="linkable"><a href="<?php echo site_url();?>/quienes-somos/">Conoce a Trinakria Tours</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/nuestro-equipo/">Nuestro Equipo</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/faq/">Preguntas Frecuentes</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/testimonios/">Nuestros Clientes dicen…</a></li>
+		</ul>
+	   </div>
+          <div class="col-md-12 col-sm-12 col-xs-8 offset-0 offset-xs text-muted">
+		<h3>Nuestros Destinos</h3>
+		<ul class="widget">
+		<li><a href="http://shinesicily.com/" target="_blank">Sicilia</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/cerdena/">Cerdeña</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/puglia/">Puglia</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/creta/">Creta</a></li>
+		<li class="linkable"><a href="<?php echo site_url();?>/malta/">Malta</a></li>
+		</ul>
+          </div>
+        </div>
+
       </div>
-    </div>
-  </div>
 </div>
 <?php include_once (TEMPLATEPATH . '/inc/teaser.php' );?>
 <?php get_footer(); ?>

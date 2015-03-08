@@ -45,7 +45,7 @@ Negroamaro del Salento<br/>
 Moscato di Trani<br/>
 </p>
 
-<div class="main container bgcolor">
+<div class="main container">
   <div class="row">
 	<div class="col-md-4 col-sm-4">
 <img src="<?php bloginfo('template_directory'); ?>/img/puglia/guia/cocina/Focaccia en Puglia.png" class="img-rounded img-responsive"/>

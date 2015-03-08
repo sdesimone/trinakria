@@ -48,7 +48,7 @@ $destino="Malta";
 
 <center>
 
-<div class="main container bgcolor">
+<div class="main container">
   <div class="row">
 	<div class="col-md-4 col-sm-4">
 <img src="<?php bloginfo('template_directory'); ?>/img/malta/guia/cocina/cervezas tipicas malteses2.JPG" class="img-rounded img-responsive"/>

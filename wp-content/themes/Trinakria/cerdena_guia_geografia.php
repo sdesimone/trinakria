@@ -38,7 +38,7 @@ $destino="Cerdeña";
 <p>La isla de Cerdeña está rodeada por muchas islas e islotes. Merece la pena visitar por lo menos una de estas: Asinara, San Pietro, Sant’Antioco, Tavolara, y el archipiélago de la Magdalena, con Caprera.</p>
 <br/>
 
-<div class="main container bgcolor">
+<div class="main container">
   <div class="row">
 	<div class="col-md-4 col-sm-4">
 <img src="<?php bloginfo('template_directory'); ?>/img/cerdena/guia/geografia/Nuraghe_ovejas_Cerdeña.jpg" class="img-rounded img-responsive"/>
