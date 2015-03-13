@@ -72,7 +72,7 @@ get_header();
 Somos <strong>una grande familia</strong> y nuestros tours funcionan sobre todo gracias a toda esta gente y mucha mucha más:</p>
 
 
-<div class="container bgcolor">
+<div class="container">
   <div class="row">
 
 	<div class="col-md-4 col-sm-4">

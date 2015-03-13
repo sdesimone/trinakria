@@ -53,7 +53,7 @@ $destino='Cerdeña';
 <br/><br/>
 <!-- /.main-->
       </main>
-      <div class="col-md-3 col-sm-3 col-xs-12 sidebar" >
+      <div class="col-md-3 col-sm-3 col-xs-12 sidebar text-muted" >
         <h3>Nuestros Tours de Sicilia</h3>
         <ul class="widget">
 

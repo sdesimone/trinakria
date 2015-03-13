@@ -48,6 +48,8 @@ mail($emailTo, $subject, $body, $headers);
         <option value="Alojamienstos Puglia">Alojamientos Puglia</option>
         <option value="Alojamienstos Creta">Alojamientos Creta</option>
         <option value="Alojamienstos Malta">Alojamientos Malta</option>
+        <option disabled="" value="">&nbsp;</option>
+        <option value="Tours en Sicilia">Tours en Sicilia</option>
       </select>
     </fieldset>
   </div>
