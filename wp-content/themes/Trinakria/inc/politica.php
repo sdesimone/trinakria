@@ -5,7 +5,8 @@
 <style>
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: Verdana, Geneva, sans-serif;
-	font-weight: 300;
+font-weight: 300;
+margin:30px;
 }
 p {font-size:14px;}
 a, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -18,7 +19,7 @@ ul, ol {font-size:14px;}
 h1 {font-size:16px; font-weight:bold;}
 
 </style>
-<img src="../img/logo.jpg"/>
+<img src="../img/logo.png" width=550px />
 <div> 
 <h3>Política de protección de los datos personales</h3>
 

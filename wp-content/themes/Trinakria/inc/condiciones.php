@@ -1,11 +1,15 @@
+<html>
 <head>
 <title>Zágara Travel: Condiciónes</title>
 <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
 </head>
+
+<body>
 <style>
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: Verdana, Geneva, sans-serif;
-	font-weight: 300;
+font-weight: 300;
+margin:20px;
 }
 p {font-size:14px;}
 a, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -15,10 +19,10 @@ a:hover {
 	color: #FF7F00;
 }
 ul, ol {font-size:14px;}
-h1 {font-size:16px; font-weight:bold;}
+h1 { font-size:16px; font-weight:bold;}
 
 </style>
-<img src="../img/logo.jpg"/>
+<img src="../img/logo.png" />
 <div> 
 	<p><a href="http://shinesicily.com" target="blank">Shinesicily.com</a> y <a href="http://zagaratravel.com" target="blank">Zagaratravel.com</a> son las páginas Web y marcas registradas por <strong>TRINAKRIA TOURS, S.L.</strong>, C.I.F. B-64429947, con domicilio social en la calle Diluvi 8, 2º 2ª 08012 Barcelona e inscrita en el Registro Mercantil de Barcelona, Tomo 39243, Folio 0106, Hoja/Dup 342825.</p>
 
@@ -347,3 +351,6 @@ No hay acompañante del grupo ni representante local.
 <p>La no aceptación de lo anterior supondrá que no se podrán efectuar los servicios esperados por parte de la agencia.”</p>
 
 </div>
+
+</body>
+</html>

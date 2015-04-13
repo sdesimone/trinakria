@@ -14,7 +14,7 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="<?php bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
 <link href="<?php bloginfo('template_directory'); ?>/css/glyphicons.css" rel="stylesheet">
-<link href="<?php bloginfo('template_directory'); ?>/css/glyphicons-boot-strap.css" rel="stylesheet">
+<link href="<?php bloginfo('template_directory'); ?>/css/glyphicons-bootstrap.css" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -28,8 +28,18 @@
 <!-- Header-->
 <header>
   <nav class="top" role="navigation">
-    <div class="container shadow"> <a href="#" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".bs-navbar-collapse"><img src="<?php bloginfo('template_directory'); ?>/img/favicon.png"  height="24"> MENÚ <b class="caret"></b></a>
-    <div class="pull-left hidden-xs"><a href="<?php echo site_url();?>"><img src="<?php bloginfo('template_directory'); ?>/img/favicon.png" height="24"> ZágaraTravel</a> es un proyecto <a href="<?php echo site_url();?>/quienes-somos">Trinakria Tours</a> especialista en viajes mediterraneos y artesanos. </div>
+    <div class="container shadow">
+			<a href="#" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".bs-navbar-collapse">
+				<img src="<?php bloginfo('template_directory');	?>/img/favicon.png"  height="24" />
+				MENÚ <b class="caret"></b>
+			</a>
+			<div class="pull-left hidden-xs">
+				<a href="<?php echo site_url();?>">
+					<img src="<?php bloginfo('template_directory');	?>/img/favicon.png" height="24">
+					ZágaraTravel</a> es un proyecto <a href="<?php echo
+					site_url();?>/quienes-somos">Trinakria Tours</a>
+				especialista en viajes mediterraneos y artesanos.
+			</div>
       <ul class="list-inline pull-right">
         <li class="hidden-xs"><a href="<?php echo site_url(); ?>/faqs/"><span class="visible-sm">FAQs</span><span class="hidden-sm">Preguntas frecuentes</span></a> </li>
         <li class="visible-xs"><a href="<?php echo site_url(); ?>/contactar/">Contactar</a></li>

@@ -47,7 +47,8 @@ mail($emailTo, $subject, $body, $headers);
   <div class="form-group">
     <input type="submit" name="send" id="send" value="Enviar"  class="btn btn-warning .btn-lg">
   </div>
-<div id="proteccion  class="form-group""> <a href="#"  data-toggle="modal" data-target="#Politica" class="text-muted"><small>Política de protección de los datos personales</small></a></div>
+<div id="proteccion  class="form-group""> <a href="<?php bloginfo('template_directory'); ?>/inc/politica.php" rel="shadowbox;player=iframe;width=640;height=480;"><small>Política de protección de los datos personales</small></a>
+</div>
   </fieldset>
   
 </form>

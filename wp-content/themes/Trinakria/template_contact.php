@@ -45,8 +45,14 @@ get_header();
         <p><strong>Reuniones:</strong><br>
           Estaremos encantados de recibiros para hablar de vuestro viaje (ofrecemos asesoramiento personal a todos aquellos que ya han contratado el viaje a través nuestra página Web) y os recordamos que para citas en nuestras oficinas <strong>se ruega concertarlas previamente</strong> llamando al 667 798 227 o escribiéndonos un email a <a href="mailto:info@zagaratravel.com" target="_blank"><strong>info@zagaratravel.com</strong></a>. </p>
         <p><strong>Oficinas TRINAKRIA TOURS</strong>: <br>
-          C) de Santa Anna 28 1º 2ª (centro DESPAIS)<br>
-          08002 BARCELONA</p>
+          C/ de Bertrellans 4 Ppal 2ª<br>
+(Espacio Trafalgar 13)<br>
+					08002 BARCELONA</p>
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11973.959065820127!2d2.172097!3d41.385169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe65860a70006dd03!2sTrinakria+Tours!5e0!3m2!1sen!2s!4v1428530651049"
+				width="300" height="225" frameborder="0"
+								style="border:0"></iframe>
+				
         <p><a href="/trinakria/quienes-somos/"><strong>Sobre Nosotros</strong></a></p>
       </div>
     </div>

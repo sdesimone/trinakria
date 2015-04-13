@@ -33,7 +33,7 @@ $destino='Cerdeña';
 <p>Todos los pequeños hoteles de esta ruta han sido escogido personalmente por <strong>Trinakria Tours</strong> para saborear Cerdeña y al mismo tiempo gozar de las comodidades de alojamientos de un nivel alto.</p>
 
 <p><strong><a href="<?php bloginfo('template_directory'); ?>/inc/precios/cerdena-con-encanto.php" 
-onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/precios/cerdena-con-encanto.php','popup','width=500,height=500,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">
+rel="shadowbox;player=iframe;width=640;height=480;">
 Ver los precios de la ruta</a></strong></p>
 
 <p><strong>Importante:</strong> Esta ruta con encanto por Cerdeña está estudiada para una <em>estancia de 15 días</em>, si vais a viajar menos o más días podemos confeccionaros <strong>un viaje hecho a medida</strong> para vosotros</p>
@@ -78,7 +78,7 @@ Ver los precios de la ruta</a></strong></p>
 <h3>Precios de la ruta:</h3>
 <p class="text-muted"><strong>Desde 740,00 € por persona </strong></p>
 <strong><a href="<?php bloginfo('template_directory'); ?>/inc/precios/cerdena-con-encanto.php" 
-onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/precios/cerdena-con-encanto.php','popup','width=500,height=500,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">
+rel="shadowbox;player=iframe;width=640;height=480;">
 Ver los precios de la ruta</a></strong>
 
 <h3>Número de días:</h3>
@@ -96,7 +96,7 @@ Ver los precios de la ruta</a></strong>
 <p>vuelos (ii), seguro de viaje (iii), comidas, cenas y otros gastos personales.</p>
 
 <ol>
-<li>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a Todo Riesgo para daños y hurto. (<a href="#">Condiciones de alquiler de coche</a>)</li>
+<li>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a Todo Riesgo para daños y hurto. (<a href="<?php bloginfo('template_directory'); ?>/inc/condiciones_maggiore.pdf" rel="shadowbox;player=iframe;width=640;height=480;">Condiciones de alquiler de coche</a>).</li>
 <li>(ii) No tramitamos vuelos porque la mayoría de compañías que vuelan a Cerdeña son de bajo coste y entendemos que es más económico si los compráis online vosotros mismos. Aquí aconsejamos sobre <a href="#">como llegar a Cerdeña</a>.</li>
 <li>(iii) Bajo petición Tramitamos Seguros de Anulación y de Asistencia sanitaria. Nuestro proveedor de seguros habitual es AXA.</li>
 </ol>

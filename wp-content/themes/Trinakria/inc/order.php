@@ -1,21 +1,88 @@
 <?php
+
 if(isset($_POST['Mail'])) {
-$emailTo = 'ajl@xarop.com';
+
+$emailTo = 'sdesimone@gmx.net';
 $name = $_POST['Nombre'].' '.$_POST['Apellidos'];
 $email = $_POST['Mail'];
 $subject = 'Contacto Web '.$name;
-$message = $_POST['Mensaje'];
+		  $a = "info@zagaratravel.com";
+		  $sender = $_POST["Mail"];
+
+		  $domande = "Ha gia' il volo: ";
+		  $domande .= $_POST["vuelo"];
+      if ($_POST["vuelo"] == "SI")
+		  $domande.="\n(dall'aeroporto di: " . $_POST["CiudadIda"] . " con " . $_POST["CompanyaIda"] . "\nDettaglio orari: ".$_POST["HorarioVuelos"].")<br>\n";
+      if ($_POST["vuelo"] == "NO")
+		  $domande.="\n(dall'aeroporto di: " . $_POST["aeropuerto"] . ")<br>\n";
+
+		  $domande.="Assicurazione: ";
+		  $domande.=$_POST["seguro"];
+      if ($_POST["seguro"] == "SI")
+      $domande.= " (" . $_POST["tipo_seguro"] . ")<br>\n";
+		  $domande.="<br>";
+		  $domande.="Sei venuto a sapere di noi: ";
+		  $domande.=$_POST["encontrado"];
+		  $domande.="<br>";
+		  $domande.="Fascia d'eta': ";
+		  $domande.=$_POST["edad"];
+			
+			$TestoMail="Riferimenti: ";
+		  $TestoMail.="<br><br>";
+		  $TestoMail.=$_POST["Nombre"];
+		  $TestoMail.=" ";
+		  $TestoMail.=$_POST["Apellidos"];
+		  $TestoMail.=" (";
+		  $TestoMail.=$_POST["Mail"];
+		  $TestoMail.=") - ";
+		  $TestoMail.=$_POST["_Telefono"];
+		  $TestoMail.="<br><br>";
+		  $TestoMail.="Messaggio (in spagnolo probabilmente): ";
+		  $TestoMail.="<br><br>";
+		  $TestoMail.=$_POST["Mensaje"];
+		  $TestoMail.="<br><br>";
+		  $TestoMail.="Dettagli: ";
+		  $TestoMail.= "<br><br>";
+		  $TestoMail.="Adulti:";
+		  $TestoMail.=$_POST["Adultos"];
+		  $TestoMail.=" - ";
+		  $TestoMail.="Bambini:";
+		  $TestoMail.=$_POST["Ninos"];
+		  $TestoMail.=" - ";
+		  $TestoMail.=" Bebe': ";
+		  $TestoMail.=$_POST["Bebes"];
+		  $TestoMail.="<br>";
+		  $TestoMail.="Da: ";
+		  $TestoMail.=$_POST["start"];
+		  $TestoMail.=" A: ";
+		  $TestoMail.=$_POST["end"];
+		  $TestoMail.="<br><br>";
+		  $TestoMail.="Viaggio: ";
+		  $TestoMail.=$_POST["Tipo-de-Viaje"];
+		  $TestoMail.="<br><br>";
+		  $TestoMail.=$domande;
+		  $TestoMail.="<br><br>";
+		  $TestoMail.="Il cliente ha accettato le condizioni di contratto";
 		
 $body="
-$name
+$name -
 $email
-
-Mensaje:
-$message
+<br>
+<br>
+<b>Preguntas:</b>
+$domande
+<br>
+<b>Mensaje:</b>
+$TestoMail
 
 ";
 $headers = 'From: '.$name.' <'.$emailTo.'>' . '\r\n' . 'Reply-To: ' . $email;
-mail($emailTo, $subject, $body, $headers);
+
+//echo $body;
+//echo $headers;
+
+mail($a, $subject, $body, $headers);
+
 ?>
 
 <h2>Formulario enviado</h2>
@@ -187,20 +254,25 @@ mail($emailTo, $subject, $body, $headers);
         <label for="condiciones" class="control-label">
           <input type="checkbox" id="condiciones" name="condiciones" value="checkbox">
 	  *He leído y acepto las 
-<a href="<?php bloginfo('template_directory'); ?>/inc/condiciones.php" onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/condiciones.php','popup','width=700,height=700,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"> Condiciones de Contratación</a>
-</label>
-      </div>
+<a href="<?php bloginfo('template_directory'); ?>/inc/condiciones.php" rel="shadowbox;player=iframe;width=640;height=480;"> Condiciones de Contratación</a>
 
+<!-- <a href="<?php bloginfo('template_directory'); ?>/inc/condiciones.php" onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/condiciones.php','popup','width=700,height=700,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"> Condiciones de Contratación</a> -->
+
+				</label>
+      </div>
 
       <div class="form-group">
         <input type="submit" name="send" id="send" value="Enviar"  class="btn btn-warning .btn-lg">
       </div>
       <div id="proteccion  class="form-group""> 
 <a href="#"  data-toggle="modal" data-target="#Politica" class="text-muted">
-<a class="text-muted" href="<?php bloginfo('template_directory'); ?>/inc/politica.php" onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/politica.php','popup','width=700,height=700,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><small>Política de protección de los datos personales</small>
-</a>
-</div>
+<!-- <a class="text-muted" href="<?php bloginfo('template_directory'); ?>/inc/politica.php" onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/politica.php','popup','width=700,height=700,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><small>Política de protección de los datos personales</small> -->
+
+<a href="<?php bloginfo('template_directory'); ?>/inc/politica.php" rel="shadowbox;player=iframe;width=640;height=480;"><small>Política de protección de los datos personales</small></a>
+
+			</div>
     </fieldset>
+
   </div>
 </form>
 <?php } ?>

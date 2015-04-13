@@ -1,6 +1,8 @@
 <?php	
-	
-	// Remove <p>
+
+	require_once(TEMPLATEPATH .'/mailer.php');
+
+	 // Remove <p>
 	remove_filter( 'the_content', 'wpautop' );
 	remove_filter( 'the_excerpt', 'wpautop' );
 	
@@ -20,6 +22,9 @@
 	
 	// jQuery
 	wp_enqueue_script('jquery');
+	wp_enqueue_script('jquery.mobile');
+
+
 	
 	// Clean up the <head>
 	function removeHeadLinks() {

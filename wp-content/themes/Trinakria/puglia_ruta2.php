@@ -35,7 +35,7 @@ $destino='Puglia';
 <p>Las Casas Rurales de este circuito de Puglia han sido escogidas una a una por el team de <strong>Trinakria Tours</strong> para aproximarte a la vida rural de la isla. El ambiente familiar y cálido te permitirá sumergirte en un entorno ideal para descansar y reflexionar.</p>
 
 
-<p><strong><a  ref="<?php bloginfo('template_directory'); ?>/inc/precios/puglia-rural.php" onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/precios/puglia-rural.php','popup','width=500,height=500,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">
+<p><strong><a  ref="<?php bloginfo('template_directory'); ?>/inc/precios/puglia-rural.php" rel="shadowbox;player=iframe;width=640;height=480;">
 Ver los precios de la ruta</a></strong></p>
 
 
@@ -79,7 +79,7 @@ Ver los precios de la ruta</a></strong></p>
 <h3>Precios de la ruta:</h3>
 <p class="text-muted"><strong>Desde 570,00 € por persona </strong></p>
 <strong><a href="<?php bloginfo('template_directory'); ?>/inc/precios/puglia-a-tu-aire.php" 
-onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/precios/puglia-a-tu-aire.php','popup','width=500,height=500,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">
+rel="shadowbox;player=iframe;width=640;height=480;">
 Ver los precios de la ruta</a></strong>
 
 <h3>Número de días:</h3>
@@ -97,7 +97,7 @@ Ver los precios de la ruta</a></strong>
 <p>vuelos (ii), seguro de viaje (iii), comidas, cenas y otros gastos personales.</p>
 
 <ol>
-<li>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a Todo Riesgo para daños y hurto. (<a href="#">Condiciones de alquiler de coche</a>)</li>
+<li>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a Todo Riesgo para daños y hurto. (<a href="<?php bloginfo('template_directory'); ?>/inc/condiciones_maggiore.pdf" rel="shadowbox;player=iframe;width=640;height=480;">Condiciones de alquiler de coche</a>).</li>
 <li>(ii) No tramitamos vuelos porque la mayoría de compañías que vuelan a Puglia son de bajo coste y entendemos que es más económico si los compráis online vosotros mismos. Aquí aconsejamos sobre <a href="#">como llegar a Puglia</a>.</li>
 <li>(iii) Bajo petición Tramitamos Seguros de Anulación y de Asistencia sanitaria. Nuestro proveedor de seguros habitual es AXA.</li>
 </ol>

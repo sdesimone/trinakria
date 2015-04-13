@@ -96,13 +96,6 @@ vuelos (ii), seguro de viaje (iii), comidas, cenas y otros gastos personales.
               <p>&nbsp;</p>
 </small>
             </div>
-
-            <div class="tab-pane fade in" id="reserva">
-              <?php include_once (TEMPLATEPATH . '/inc/order.php' );?>
-            </div>
-            <div class="tab-pane fade in" id="amigo">
-              <?php include_once (TEMPLATEPATH . '/inc/amigo.php' );?>
-            </div>
           </div>
 
 </body>

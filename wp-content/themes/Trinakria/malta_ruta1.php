@@ -35,7 +35,7 @@ $destino='Malta';
 <p><strong>Trinakria Tours</strong> ha buscado y visitado todos los alojamientos para poder disfrutar de un viaje auténtico y distinto de Malta. Los mejores servicios y la amabilidad de los malteses a tu disposición en un viaje único, sencillo y agradable.</p>
 
 <p><strong><a href="<?php bloginfo('template_directory'); ?>/inc/precios/malta-a-tu-aire.php" 
-onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/precios/malta-a-tu-aire.php','popup','width=500,height=500,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">
+rel="shadowbox;player=iframe;width=640;height=480;">
 Ver los precios de la ruta</a></strong></p>
 
 <p><strong>Importante:</strong>Los circuitos que mostramos aquí son únicamente ejemplos de <u>Rutas por Malta en 15 días</u> por eso no se preocupe si su idea es diferente. ¡Podemos organizar el viaje totalmente a tu medida, tanto en la duración como en la ruta!
@@ -79,7 +79,7 @@ Ver los precios de la ruta</a></strong></p>
 <h3>Precios de la ruta:</h3>
 <p class="text-muted"><strong>Desde 466,00 € por persona </strong></p>
 <strong><a href="<?php bloginfo('template_directory'); ?>/inc/precios/malta-a-tu-aire.php" 
-onclick="window.open('<?php bloginfo('template_directory'); ?>/inc/precios/malta-a-tu-aire.php','popup','width=500,height=500,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">
+rel="shadowbox;player=iframe;width=640;height=480;">
 Ver los precios de la ruta</a></strong>
 
 <h3>Número de días:</h3>
@@ -97,7 +97,8 @@ Ver los precios de la ruta</a></strong>
 <p>vuelos (ii), seguro de viaje (iii), comidas, cenas y otros gastos personales.</p>
 
 <ol>
-<li>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a Todo Riesgo para daños y hurto. (<a href="#">Condiciones de alquiler de coche</a>)</li>
+<li>(i) El contrato del coche incluye: kilometraje ilimitado, seguro a terceros, cdw, cobertura contra robo, tasas de aeropuerto y todos los impuestos locales. El precio también incluye un Seguro a
+	Reembolso Franquicia Total para daños y hurto. (<a href="<?php bloginfo('template_directory'); ?>/inc/condiciones_flexible.pdf" rel="shadowbox;player=iframe;width=640;height=480;">Condiciones FLEXIBLE de alquiler de coche</a>).</li>
 <li>(ii) No tramitamos vuelos porque la mayoría de compañías que vuelan a Malta son de bajo coste y entendemos que es más económico si los compráis online vosotros mismos. Aquí aconsejamos sobre <a href="#">como llegar a Malta</a>.</li>
 <li>(iii) Bajo petición Tramitamos Seguros de Anulación y de Asistencia sanitaria. Nuestro proveedor de seguros habitual es AXA.</li>
 </ol>

@@ -76,21 +76,15 @@ get_header();
     <div class="col-md-6 col-sm-6">
       <h3>Pasión por el Mediterráneo</h3>
       
-      <!-- Slider Fotorama -->
-      <div class="fotorama thumbnail" data-max-width="100%" data-nav="thumbs" data-allowfullscreen="true" data-loop="true"> 
-      <img src="<?php bloginfo('template_directory'); ?>/img/f-s1.jpg" data-caption="Foto 1 descripcion">
-      <img src="<?php bloginfo('template_directory'); ?>/img/f-s2.jpg" data-caption="Foto 2 descripcion"> 
-      <img src="<?php bloginfo('template_directory'); ?>/img/f-s3.jpg" data-caption="Foto 3 descripcion"> 
-      <img src="<?php bloginfo('template_directory'); ?>/img/f-s4.jpg" data-caption="Foto 4 descripcion"> 
-      <img src="<?php bloginfo('template_directory'); ?>/img/f-s5.jpg" data-caption="Foto 5 descripcion"> 
-      <img src="<?php bloginfo('template_directory'); ?>/img/f-s1.jpg" data-caption="Foto 6 descripcion"> 
-      <img src="<?php bloginfo('template_directory'); ?>/img/f-s2.jpg" data-caption="Foto 7 descripcion"> 
-      <img src="<?php bloginfo('template_directory'); ?>/img/f-s3.jpg" data-caption="Foto 8 descripcion"> 
-      <img src="<?php bloginfo('template_directory'); ?>/img/f-s4.jpg" data-caption="Foto 9 descripcion"> 
-      <img src="<?php bloginfo('template_directory'); ?>/img/f-s5.jpg" data-caption="Foto 10 descripcion"> 
-      </div>
-      <!-- /.slider --> 
-      
+			<div class="videoWrapper">
+      <iframe width="560" height="349" 
+      src="https://www.youtube.com/embed/kNKI4CeaH2o" frameborder="0"
+			allowfullscreen></iframe>
+			</div>
+			
+<p>Pasión por los viajes de autor, descubrir lugares únicos, conocer a personas entrañables y vivir experiencias mediterráneas inolvidables! Así son nuestros viajes en nuestros destinos, pensamos que son ideales para personas con <strong>espíritu viajero</strong>, que quieren de verdad conocer el lugar que visitan desde el punto de vista del lugareño más que del turista. ¿Te atreves a probar?</p>
+
+			
     </div>
     <div class="col-md-6 col-sm-6">
       <h3>Guías de Viaje</h3>

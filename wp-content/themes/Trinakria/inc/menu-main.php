@@ -6,7 +6,8 @@ else {$parent = get_post( $post )->post_name;}
 //echo $parent;
 ?>
 <!--<nav class="collapse navbar-collapse bs-navbar-collapse main shadowin" role="navigation"> -->
-<nav class="collapse navbar-collapse bs-navbar-collapse main shadowin"  role="navigation" data-spy="affix" data-offset-top="60">
+<!-- nav class="collapse navbar-collapse bs-navbar-collapse main shadowin"  role="navigation" data-spy="affix" data-offset-top="60"-->
+<nav class="collapse navbar-collapse bs-navbar-collapse main shadowin"  role="navigation" data-spy="affix" data-offset-top="158">
   <ul class="nav navbar-nav">
     <li class="<?php if (is_home()){ echo 'active'; }?>"><a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/favicon.png"  height="24" class="visible-affix"> Inicio</a> </li>
     <li class="dropdown"> <a href="<?php echo site_url(); ?>/quienes-somos/" class="dropdown-toggle disabled" data-toggle="dropdown">Quienes somos <b class="caret"></b></a>

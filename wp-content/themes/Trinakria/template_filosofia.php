@@ -26,7 +26,12 @@ get_header();
 </li>
 <li>Siendo una <strong>agencia online</strong> no tenemos límites geográficos y nuestros clientes son de toda España y buena parte de Latinoamérica, pero si los clientes de Barcelona (o alguien que se encuentre en la ciudad) quiere venir a conocernos personalmente podemos concertar una cita en <a href="<?php echo site_url();?>/oficinas">nuestra oficina</a> y encantados os recibiremos y aprovecharemos para charlar del viaje.
 </li>
-<li>Cuando el viaje propuesto gusta al cliente, procedemos con las reservas de los alojamientos y del coche y en cuanto el cliente pague el viaje enviamos por email el dossier del viaje (Factura, Bonos de Reserva, Consejos de rutas, etc…). <a href="<?php echo site_url();?>/condiciones">Ver nuestras condiciones de contrato</a>
+<li>Cuando el viaje propuesto gusta al cliente, procedemos con las
+	reservas de los alojamientos y del coche y en cuanto el cliente
+	pague el viaje enviamos por email el dossier del viaje (Factura,
+	Bonos de Reserva, Consejos de rutas, etc…).
+	<a href="<?php bloginfo('template_directory'); ?>/inc/condiciones.php"
+																								  rel="shadowbox;player=iframe;width=640;height=480;">Ver nuestras condiciones de contrato</a>
 </li>
 <li>Para pagar te proponemos siempre por transferencia bancaria a la cuenta de la Agencia de Viajes TRINAKRIA TOURS. También puedes pagar por tarjeta de crédito en una área de la web protegida con protocolo de seguridad online (verified by visa y mastercard securecode) pero esto supone unos gastos añadido (el 0,90% de precio total) impuestos por nuestra entidad bancaria. 
 </li>
